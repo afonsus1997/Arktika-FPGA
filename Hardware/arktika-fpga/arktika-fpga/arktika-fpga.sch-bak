@@ -1,0 +1,186 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Arktika FPGA"
+Date "2020-07-25"
+Rev ""
+Comp "Author: Afonso Muralha"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Regulator_Linear:MCP1812AT U?
+U 1 1 5F1CE4B0
+P 3600 1700
+F 0 "U?" H 3600 1942 50  0000 C CNN
+F 1 "MCP1812AT" H 3600 1851 50  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 3500 1850 50  0001 C CNN
+F 3 "https://pt.mouser.com/datasheet/2/268/MCP1811A-11B-12A-12B-Family-Data-Sheet-DS20006088A-1488740.pdf" H 3600 1950 50  0001 C CNN
+	1    3600 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Regulator_Linear:AMS1117-3.3 U?
+U 1 1 5F1CEE87
+P 3600 2450
+F 0 "U?" H 3600 2692 50  0000 C CNN
+F 1 "AMS1117-3.3" H 3600 2601 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 3600 2650 50  0001 C CNN
+F 3 "http://www.advanced-monolithic.com/pdf/ds1117.pdf" H 3700 2200 50  0001 C CNN
+	1    3600 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L FPGA_Lattice:ICE40HX4K-TQ144 U?
+U 1 1 5F1D1844
+P 6150 3350
+F 0 "U?" H 6499 3578 50  0000 L CNN
+F 1 "ICE40HX4K-TQ144" H 6499 3487 50  0000 L CNN
+F 2 "Package_QFP:TQFP-144_20x20mm_P0.5mm" H 7150 1450 50  0001 R CNN
+F 3 "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40" H 5150 5850 50  0001 C CNN
+	1    6150 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L FPGA_Lattice:ICE40HX4K-TQ144 U?
+U 2 1 5F1D412B
+P 7800 3350
+F 0 "U?" H 8149 3578 50  0000 L CNN
+F 1 "ICE40HX4K-TQ144" H 8149 3487 50  0000 L CNN
+F 2 "Package_QFP:TQFP-144_20x20mm_P0.5mm" H 8800 1450 50  0001 R CNN
+F 3 "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40" H 6800 5850 50  0001 C CNN
+	2    7800 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L FPGA_Lattice:ICE40HX4K-TQ144 U?
+U 3 1 5F1D7E9E
+P 8900 2850
+F 0 "U?" H 9299 3078 50  0000 L CNN
+F 1 "ICE40HX4K-TQ144" H 9299 2987 50  0000 L CNN
+F 2 "Package_QFP:TQFP-144_20x20mm_P0.5mm" H 9900 950 50  0001 R CNN
+F 3 "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40" H 7900 5350 50  0001 C CNN
+	3    8900 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L FPGA_Lattice:ICE40HX4K-TQ144 U?
+U 4 1 5F1DC6C8
+P 10350 3300
+F 0 "U?" H 10699 3478 50  0000 L CNN
+F 1 "ICE40HX4K-TQ144" H 10699 3387 50  0000 L CNN
+F 2 "Package_QFP:TQFP-144_20x20mm_P0.5mm" H 11350 1400 50  0001 R CNN
+F 3 "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40" H 9350 5800 50  0001 C CNN
+	4    10350 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L FPGA_Lattice:ICE40HX4K-TQ144 U?
+U 5 1 5F1E0801
+P 8900 4750
+F 0 "U?" H 9644 4796 50  0000 L CNN
+F 1 "ICE40HX4K-TQ144" H 9644 4705 50  0000 L CNN
+F 2 "Package_QFP:TQFP-144_20x20mm_P0.5mm" H 9900 2850 50  0001 R CNN
+F 3 "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40" H 7900 7250 50  0001 C CNN
+	5    8900 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Memory_Flash:W25Q128JVS U?
+U 1 1 5F1E5019
+P 2950 5950
+F 0 "U?" H 2950 6531 50  0000 C CNN
+F 1 "W25Q128JVS" H 2950 6440 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_5.23x5.23mm_P1.27mm" H 2950 5950 50  0001 C CNN
+F 3 "http://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf" H 2950 5950 50  0001 C CNN
+	1    2950 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:USB_B_Micro J?
+U 1 1 5F1EAD4B
+P 1300 1850
+F 0 "J?" H 1357 2317 50  0000 C CNN
+F 1 "USB_B_Micro" H 1357 2226 50  0000 C CNN
+F 2 "" H 1450 1800 50  0001 C CNN
+F 3 "~" H 1450 1800 50  0001 C CNN
+	1    1300 1850
+	1    0    0    -1  
+$EndComp
+Text Label 2150 1650 0    50   ~ 0
+Vbus
+Text Label 1900 1850 0    50   ~ 0
+D+
+Text Label 1900 1950 0    50   ~ 0
+D-
+$Comp
+L power:GND #PWR?
+U 1 1 5F1EDABF
+P 1250 2700
+F 0 "#PWR?" H 1250 2450 50  0001 C CNN
+F 1 "GND" H 1250 2550 50  0000 C CNN
+F 2 "" H 1250 2700 50  0001 C CNN
+F 3 "" H 1250 2700 50  0001 C CNN
+	1    1250 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1200 2250 1250 2250
+Connection ~ 1250 2250
+Wire Wire Line
+	1250 2250 1300 2250
+Wire Wire Line
+	1600 1650 1700 1650
+$Comp
+L Device:Fuse F?
+U 1 1 5F1EFFD9
+P 1850 1650
+F 0 "F?" V 1653 1650 50  0000 C CNN
+F 1 "Fuse" V 1744 1650 50  0000 C CNN
+F 2 "" V 1780 1650 50  0001 C CNN
+F 3 "~" H 1850 1650 50  0001 C CNN
+	1    1850 1650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2000 1650 2150 1650
+Wire Wire Line
+	1600 1850 2150 1850
+Wire Wire Line
+	1600 1950 2150 1950
+$Comp
+L Power_Protection:SP0503BAHT D?
+U 1 1 5F1F714C
+P 1950 2450
+F 0 "D?" H 2155 2496 50  0000 L CNN
+F 1 "SP0503BAHT" H 2155 2405 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-143" H 2175 2400 50  0001 L CNN
+F 3 "http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf" H 2075 2575 50  0001 C CNN
+	1    1950 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1250 2250 1250 2650
+Wire Wire Line
+	1950 2650 1250 2650
+Connection ~ 1250 2650
+Wire Wire Line
+	1250 2650 1250 2700
+Text Label 1850 2200 1    50   ~ 0
+Vbus
+Text Label 1950 2200 1    50   ~ 0
+D+
+Text Label 2050 2200 1    50   ~ 0
+D-
+Wire Wire Line
+	2050 2200 2050 2250
+Wire Wire Line
+	1950 2200 1950 2250
+Wire Wire Line
+	1850 2200 1850 2250
+$EndSCHEMATC
