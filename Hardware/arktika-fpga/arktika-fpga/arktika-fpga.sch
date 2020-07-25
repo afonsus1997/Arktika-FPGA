@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 1
+Sheet 1 2
 Title "Arktika FPGA"
 Date "2020-07-25"
 Rev ""
@@ -14,371 +14,64 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Regulator_Linear:MCP1812AT U?
-U 1 1 5F1CE4B0
-P 3400 2850
-F 0 "U?" H 3400 3092 50  0000 C CNN
-F 1 "MCP1812AT" H 3400 3001 50  0000 C CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23" H 3300 3000 50  0001 C CNN
-F 3 "https://pt.mouser.com/datasheet/2/268/MCP1811A-11B-12A-12B-Family-Data-Sheet-DS20006088A-1488740.pdf" H 3400 3100 50  0001 C CNN
-	1    3400 2850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Regulator_Linear:AMS1117-3.3 U?
-U 1 1 5F1CEE87
-P 3400 1650
-F 0 "U?" H 3400 1892 50  0000 C CNN
-F 1 "AMS1117-3.3" H 3400 1801 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 3400 1850 50  0001 C CNN
-F 3 "http://www.advanced-monolithic.com/pdf/ds1117.pdf" H 3500 1400 50  0001 C CNN
-	1    3400 1650
-	1    0    0    -1  
-$EndComp
-$Comp
 L FPGA_Lattice:ICE40HX4K-TQ144 U?
 U 1 1 5F1D1844
-P 5600 5500
-F 0 "U?" H 5949 5728 50  0000 L CNN
-F 1 "ICE40HX4K-TQ144" H 5949 5637 50  0000 L CNN
-F 2 "Package_QFP:TQFP-144_20x20mm_P0.5mm" H 6600 3600 50  0001 R CNN
-F 3 "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40" H 4600 8000 50  0001 C CNN
-	1    5600 5500
+P 4300 11350
+F 0 "U?" H 4649 11578 50  0000 L CNN
+F 1 "ICE40HX4K-TQ144" H 4649 11487 50  0000 L CNN
+F 2 "Package_QFP:TQFP-144_20x20mm_P0.5mm" H 5300 9450 50  0001 R CNN
+F 3 "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40" H 3300 13850 50  0001 C CNN
+	1    4300 11350
 	1    0    0    -1  
 $EndComp
 $Comp
 L FPGA_Lattice:ICE40HX4K-TQ144 U?
 U 2 1 5F1D412B
-P 7250 5500
-F 0 "U?" H 7599 5728 50  0000 L CNN
-F 1 "ICE40HX4K-TQ144" H 7599 5637 50  0000 L CNN
-F 2 "Package_QFP:TQFP-144_20x20mm_P0.5mm" H 8250 3600 50  0001 R CNN
-F 3 "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40" H 6250 8000 50  0001 C CNN
-	2    7250 5500
+P 6550 11650
+F 0 "U?" H 6899 11878 50  0000 L CNN
+F 1 "ICE40HX4K-TQ144" H 6899 11787 50  0000 L CNN
+F 2 "Package_QFP:TQFP-144_20x20mm_P0.5mm" H 7550 9750 50  0001 R CNN
+F 3 "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40" H 5550 14150 50  0001 C CNN
+	2    6550 11650
 	1    0    0    -1  
 $EndComp
 $Comp
 L FPGA_Lattice:ICE40HX4K-TQ144 U?
 U 3 1 5F1D7E9E
-P 8350 5000
-F 0 "U?" H 8749 5228 50  0000 L CNN
-F 1 "ICE40HX4K-TQ144" H 8749 5137 50  0000 L CNN
-F 2 "Package_QFP:TQFP-144_20x20mm_P0.5mm" H 9350 3100 50  0001 R CNN
-F 3 "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40" H 7350 7500 50  0001 C CNN
-	3    8350 5000
+P 8500 11950
+F 0 "U?" H 8899 12178 50  0000 L CNN
+F 1 "ICE40HX4K-TQ144" H 8899 12087 50  0000 L CNN
+F 2 "Package_QFP:TQFP-144_20x20mm_P0.5mm" H 9500 10050 50  0001 R CNN
+F 3 "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40" H 7500 14450 50  0001 C CNN
+	3    8500 11950
 	1    0    0    -1  
 $EndComp
 $Comp
 L FPGA_Lattice:ICE40HX4K-TQ144 U?
 U 4 1 5F1DC6C8
-P 9800 5450
-F 0 "U?" H 10149 5628 50  0000 L CNN
-F 1 "ICE40HX4K-TQ144" H 10149 5537 50  0000 L CNN
-F 2 "Package_QFP:TQFP-144_20x20mm_P0.5mm" H 10800 3550 50  0001 R CNN
-F 3 "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40" H 8800 7950 50  0001 C CNN
-	4    9800 5450
-	1    0    0    -1  
-$EndComp
-$Comp
-L FPGA_Lattice:ICE40HX4K-TQ144 U?
-U 5 1 5F1E0801
-P 6900 2300
-F 0 "U?" H 7644 2346 50  0000 L CNN
-F 1 "ICE40HX4K-TQ144" H 7644 2255 50  0000 L CNN
-F 2 "Package_QFP:TQFP-144_20x20mm_P0.5mm" H 7900 400 50  0001 R CNN
-F 3 "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40" H 5900 4800 50  0001 C CNN
-	5    6900 2300
+P 10650 12350
+F 0 "U?" H 10999 12528 50  0000 L CNN
+F 1 "ICE40HX4K-TQ144" H 10999 12437 50  0000 L CNN
+F 2 "Package_QFP:TQFP-144_20x20mm_P0.5mm" H 11650 10450 50  0001 R CNN
+F 3 "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40" H 9650 14850 50  0001 C CNN
+	4    10650 12350
 	1    0    0    -1  
 $EndComp
 $Comp
 L Memory_Flash:W25Q128JVS U?
 U 1 1 5F1E5019
-P 2950 5950
-F 0 "U?" H 2950 6531 50  0000 C CNN
-F 1 "W25Q128JVS" H 2950 6440 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_5.23x5.23mm_P1.27mm" H 2950 5950 50  0001 C CNN
-F 3 "http://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf" H 2950 5950 50  0001 C CNN
-	1    2950 5950
+P 2150 6500
+F 0 "U?" H 2150 7081 50  0000 C CNN
+F 1 "W25Q128JVS" H 2150 6990 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_5.23x5.23mm_P1.27mm" H 2150 6500 50  0001 C CNN
+F 3 "http://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf" H 2150 6500 50  0001 C CNN
+	1    2150 6500
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector:USB_B_Micro J?
-U 1 1 5F1EAD4B
-P 1300 1850
-F 0 "J?" H 1357 2317 50  0000 C CNN
-F 1 "USB_B_Micro" H 1357 2226 50  0000 C CNN
-F 2 "" H 1450 1800 50  0001 C CNN
-F 3 "~" H 1450 1800 50  0001 C CNN
-	1    1300 1850
-	1    0    0    -1  
-$EndComp
-Text Label 2150 1650 0    50   ~ 0
-Vbus
-Text Label 1900 1850 0    50   ~ 0
-D+
-Text Label 1900 1950 0    50   ~ 0
-D-
-$Comp
-L power:GND #PWR?
-U 1 1 5F1EDABF
-P 1250 2350
-F 0 "#PWR?" H 1250 2100 50  0001 C CNN
-F 1 "GND" H 1250 2200 50  0000 C CNN
-F 2 "" H 1250 2350 50  0001 C CNN
-F 3 "" H 1250 2350 50  0001 C CNN
-	1    1250 2350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1200 2250 1250 2250
-Connection ~ 1250 2250
-Wire Wire Line
-	1250 2250 1300 2250
-Wire Wire Line
-	1600 1650 1700 1650
-$Comp
-L Device:Fuse F?
-U 1 1 5F1EFFD9
-P 1850 1650
-F 0 "F?" V 1653 1650 50  0000 C CNN
-F 1 "Fuse" V 1744 1650 50  0000 C CNN
-F 2 "" V 1780 1650 50  0001 C CNN
-F 3 "~" H 1850 1650 50  0001 C CNN
-	1    1850 1650
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	1600 1850 2150 1850
-Wire Wire Line
-	1600 1950 2150 1950
-$Comp
-L Power_Protection:SP0503BAHT D?
-U 1 1 5F1F714C
-P 1250 3000
-F 0 "D?" H 1455 3046 50  0000 L CNN
-F 1 "SP0503BAHT" H 1455 2955 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-143" H 1475 2950 50  0001 L CNN
-F 3 "http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf" H 1375 3125 50  0001 C CNN
-	1    1250 3000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1250 2250 1250 2350
-Text Label 1150 2750 1    50   ~ 0
-Vbus
-Text Label 1250 2750 1    50   ~ 0
-D+
-Text Label 1350 2750 1    50   ~ 0
-D-
-Wire Wire Line
-	1350 2750 1350 2800
-Wire Wire Line
-	1250 2750 1250 2800
-Wire Wire Line
-	1150 2750 1150 2800
-Wire Wire Line
-	2000 1650 2500 1650
-$Comp
-L power:GND #PWR?
-U 1 1 5F206C8E
-P 3400 2050
-F 0 "#PWR?" H 3400 1800 50  0001 C CNN
-F 1 "GND" H 3400 1900 50  0000 C CNN
-F 2 "" H 3400 2050 50  0001 C CNN
-F 3 "" H 3400 2050 50  0001 C CNN
-	1    3400 2050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3400 1950 3400 2000
-$Comp
-L Device:C C?
-U 1 1 5F20B13F
-P 2500 1800
-F 0 "C?" H 2615 1846 50  0000 L CNN
-F 1 "10u" H 2615 1755 50  0000 L CNN
-F 2 "" H 2538 1650 50  0001 C CNN
-F 3 "~" H 2500 1800 50  0001 C CNN
-	1    2500 1800
-	1    0    0    -1  
-$EndComp
-Connection ~ 2500 1650
-Wire Wire Line
-	2500 1650 2850 1650
-$Comp
-L Device:C C?
-U 1 1 5F20C232
-P 2850 1800
-F 0 "C?" H 2965 1846 50  0000 L CNN
-F 1 "100n" H 2965 1755 50  0000 L CNN
-F 2 "" H 2888 1650 50  0001 C CNN
-F 3 "~" H 2850 1800 50  0001 C CNN
-	1    2850 1800
-	1    0    0    -1  
-$EndComp
-Connection ~ 2850 1650
-$Comp
-L Device:C C?
-U 1 1 5F20C5C2
-P 3850 1800
-F 0 "C?" H 3965 1846 50  0000 L CNN
-F 1 "10u" H 3965 1755 50  0000 L CNN
-F 2 "" H 3888 1650 50  0001 C CNN
-F 3 "~" H 3850 1800 50  0001 C CNN
-	1    3850 1800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 5F20CD24
-P 4200 1800
-F 0 "C?" H 4315 1846 50  0000 L CNN
-F 1 "100n" H 4315 1755 50  0000 L CNN
-F 2 "" H 4238 1650 50  0001 C CNN
-F 3 "~" H 4200 1800 50  0001 C CNN
-	1    4200 1800
-	1    0    0    -1  
-$EndComp
-Connection ~ 3850 1650
-Wire Wire Line
-	3850 1650 4200 1650
-Connection ~ 4200 1650
-Wire Wire Line
-	4200 1650 4500 1650
-Wire Wire Line
-	3700 1650 3850 1650
-Wire Wire Line
-	2850 1650 3100 1650
-Wire Wire Line
-	2500 1950 2500 2000
-Wire Wire Line
-	2500 2000 2850 2000
-Connection ~ 3400 2000
-Wire Wire Line
-	3400 2000 3400 2050
-Wire Wire Line
-	2850 1950 2850 2000
-Connection ~ 2850 2000
-Wire Wire Line
-	2850 2000 3400 2000
-Wire Wire Line
-	4200 1950 4200 2000
-Wire Wire Line
-	4200 2000 3850 2000
-Wire Wire Line
-	3850 1950 3850 2000
-Connection ~ 3850 2000
-Wire Wire Line
-	3850 2000 3400 2000
-Text Label 4500 1650 0    50   ~ 0
-VCC3V3
-$Comp
-L Device:C C?
-U 1 1 5F21F658
-P 3850 3000
-F 0 "C?" H 3965 3046 50  0000 L CNN
-F 1 "10u" H 3965 2955 50  0000 L CNN
-F 2 "" H 3888 2850 50  0001 C CNN
-F 3 "~" H 3850 3000 50  0001 C CNN
-	1    3850 3000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 5F21F65E
-P 4200 3000
-F 0 "C?" H 4315 3046 50  0000 L CNN
-F 1 "100n" H 4315 2955 50  0000 L CNN
-F 2 "" H 4238 2850 50  0001 C CNN
-F 3 "~" H 4200 3000 50  0001 C CNN
-	1    4200 3000
-	1    0    0    -1  
-$EndComp
-Connection ~ 3850 2850
-Wire Wire Line
-	3850 2850 4200 2850
-Connection ~ 4200 2850
-Wire Wire Line
-	4200 2850 4500 2850
-Wire Wire Line
-	3700 2850 3850 2850
-Wire Wire Line
-	4200 3150 4200 3200
-Wire Wire Line
-	4200 3200 3850 3200
-Wire Wire Line
-	3850 3150 3850 3200
-Connection ~ 3850 3200
-Text Label 4500 2850 0    50   ~ 0
-VCC1.2
-$Comp
-L Device:C C?
-U 1 1 5F2274F5
-P 2500 3000
-F 0 "C?" H 2615 3046 50  0000 L CNN
-F 1 "10u" H 2615 2955 50  0000 L CNN
-F 2 "" H 2538 2850 50  0001 C CNN
-F 3 "~" H 2500 3000 50  0001 C CNN
-	1    2500 3000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 5F2274FD
-P 2850 3000
-F 0 "C?" H 2965 3046 50  0000 L CNN
-F 1 "100n" H 2965 2955 50  0000 L CNN
-F 2 "" H 2888 2850 50  0001 C CNN
-F 3 "~" H 2850 3000 50  0001 C CNN
-	1    2850 3000
-	1    0    0    -1  
-$EndComp
-Connection ~ 2850 2850
-Wire Wire Line
-	2850 2850 3100 2850
-Wire Wire Line
-	2500 3150 2500 3200
-Wire Wire Line
-	2500 3200 2850 3200
-Wire Wire Line
-	2850 3150 2850 3200
-Connection ~ 2850 3200
-Wire Wire Line
-	2850 3200 3400 3200
-$Comp
-L power:GND #PWR?
-U 1 1 5F227C0B
-P 3400 3200
-F 0 "#PWR?" H 3400 2950 50  0001 C CNN
-F 1 "GND" H 3400 3050 50  0000 C CNN
-F 2 "" H 3400 3200 50  0001 C CNN
-F 3 "" H 3400 3200 50  0001 C CNN
-	1    3400 3200
-	1    0    0    -1  
-$EndComp
-Connection ~ 3400 3200
-Wire Wire Line
-	3400 3200 3850 3200
-Wire Wire Line
-	3400 3150 3400 3200
-Text Label 2150 2850 0    50   ~ 0
-VCC3V3
-Wire Wire Line
-	2150 2850 2500 2850
-Connection ~ 2500 2850
-Wire Wire Line
-	2500 2850 2850 2850
-$Comp
-L power:GND #PWR?
-U 1 1 5F234D8A
-P 1250 3250
-F 0 "#PWR?" H 1250 3000 50  0001 C CNN
-F 1 "GND" H 1250 3100 50  0000 C CNN
-F 2 "" H 1250 3250 50  0001 C CNN
-F 3 "" H 1250 3250 50  0001 C CNN
-	1    1250 3250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1250 3200 1250 3250
+$Sheet
+S 2550 3300 1300 1000
+U 5F3E98C5
+F0 "Power" 50
+F1 "Power.sch" 50
+$EndSheet
 $EndSCHEMATC

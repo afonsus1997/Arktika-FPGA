@@ -10,7 +10,11 @@ This project is sponsored by pcbway.
 
 [ICE40 Family datasheet](https://static6.arrow.com/aropdfconversion/5a93cb52911751cf0d102889c061f1e82d924150/3ice40lphxfamilydatasheet.pdf)
 
+[ICE40 Hardware checklist](http://www.latticesemi.com/~/media/LatticeSemi/Documents/ApplicationNotes/IK/iCE40HardwareChecklist.pdf?document_id=47779)
 
+[ICE40 Decoupling information](https://www.latticesemi.com/-/media/LatticeSemi/Documents/ApplicationNotes/PT/PowerDecouplingandBypassFilteringforProgrammableDevices.ashx?document_id=8374)
+
+[ICE40 Programming information](http://www.latticesemi.com/dynamic/view_document.cfm?document_id=46502)
 
 ###### Bonus
 
