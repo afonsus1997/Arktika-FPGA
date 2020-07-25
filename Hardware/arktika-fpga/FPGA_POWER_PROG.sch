@@ -1,0 +1,139 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 6
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L FPGA_Lattice:ICE40HX4K-TQ144 U?
+U 5 1 5F201DE5
+P 2350 6300
+AR Path="/5F1B7693/5F201DE5" Ref="U?"  Part="5" 
+AR Path="/5F1B7CCA/5F1F6016/5F201DE5" Ref="U?"  Part="5" 
+AR Path="/5F1B7CCA/5F201DE5" Ref="U?"  Part="5" 
+F 0 "U?" H 3094 6346 50  0000 L CNN
+F 1 "ICE40HX4K-TQ144" H 3094 6255 50  0000 L CNN
+F 2 "Package_QFP:TQFP-144_20x20mm_P0.5mm" H 3350 4400 50  0001 R CNN
+F 3 "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40" H 1350 8800 50  0001 C CNN
+	5    2350 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Regulator_Linear:AMS1117-3.3 UP1
+U 1 1 5F248AF6
+P 8450 1400
+F 0 "UP1" H 8450 1642 50  0000 C CNN
+F 1 "AMS1117-3.3" H 8450 1551 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 8450 1600 50  0001 C CNN
+F 3 "http://www.advanced-monolithic.com/pdf/ds1117.pdf" H 8550 1150 50  0001 C CNN
+	1    8450 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Regulator_Linear:AMS1117-2.5 UP2
+U 1 1 5F24A843
+P 8450 2450
+F 0 "UP2" H 8450 2692 50  0000 C CNN
+F 1 "AMS1117-2.5" H 8450 2601 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 8450 2650 50  0001 C CNN
+F 3 "http://www.advanced-monolithic.com/pdf/ds1117.pdf" H 8550 2200 50  0001 C CNN
+	1    8450 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Regulator_Linear:AMS1117-1.5 UP3
+U 1 1 5F24D367
+P 8450 3450
+F 0 "UP3" H 8450 3692 50  0000 C CNN
+F 1 "AMS1117-1.5" H 8450 3601 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 8450 3650 50  0001 C CNN
+F 3 "http://www.advanced-monolithic.com/pdf/ds1117.pdf" H 8550 3200 50  0001 C CNN
+	1    8450 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F24E728
+P 8450 1700
+F 0 "#PWR?" H 8450 1450 50  0001 C CNN
+F 1 "GND" H 8455 1527 50  0000 C CNN
+F 2 "" H 8450 1700 50  0001 C CNN
+F 3 "" H 8450 1700 50  0001 C CNN
+	1    8450 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F250999
+P 8450 2750
+F 0 "#PWR?" H 8450 2500 50  0001 C CNN
+F 1 "GND" H 8455 2577 50  0000 C CNN
+F 2 "" H 8450 2750 50  0001 C CNN
+F 3 "" H 8450 2750 50  0001 C CNN
+	1    8450 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F250ECE
+P 8450 3750
+F 0 "#PWR?" H 8450 3500 50  0001 C CNN
+F 1 "GND" H 8455 3577 50  0000 C CNN
+F 2 "" H 8450 3750 50  0001 C CNN
+F 3 "" H 8450 3750 50  0001 C CNN
+	1    8450 3750
+	1    0    0    -1  
+$EndComp
+Text Label 9000 1400 0    50   ~ 0
+VCC3V3
+Text Label 9000 2450 0    50   ~ 0
+VCC2V5
+Text Label 9000 3450 0    50   ~ 0
+VCC1V5
+Wire Wire Line
+	8750 2450 9000 2450
+Wire Wire Line
+	8750 3450 9000 3450
+Text HLabel 10000 1400 2    50   Input ~ 0
+VCC3V3
+Wire Wire Line
+	8750 1400 10000 1400
+$Comp
+L Connector:USB_B_Micro J1
+U 1 1 5F25DF28
+P 1700 1800
+F 0 "J1" H 1757 2267 50  0000 C CNN
+F 1 "USB_B_Micro" H 1757 2176 50  0000 C CNN
+F 2 "" H 1850 1750 50  0001 C CNN
+F 3 "~" H 1850 1750 50  0001 C CNN
+	1    1700 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F25FC26
+P 1650 2250
+F 0 "#PWR?" H 1650 2000 50  0001 C CNN
+F 1 "GND" H 1655 2077 50  0000 C CNN
+F 2 "" H 1650 2250 50  0001 C CNN
+F 3 "" H 1650 2250 50  0001 C CNN
+	1    1650 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 2200 1650 2200
+Wire Wire Line
+	1650 2200 1650 2250
+Connection ~ 1650 2200
+Wire Wire Line
+	1650 2200 1700 2200
+$EndSCHEMATC
