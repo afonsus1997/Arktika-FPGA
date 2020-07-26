@@ -57,17 +57,6 @@ F 3 "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40" H 9650 14850 50  000
 	4    10650 12350
 	1    0    0    -1  
 $EndComp
-$Comp
-L Memory_Flash:W25Q128JVS U?
-U 1 1 5F1E5019
-P 2150 6500
-F 0 "U?" H 2150 7081 50  0000 C CNN
-F 1 "W25Q128JVS" H 2150 6990 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_5.23x5.23mm_P1.27mm" H 2150 6500 50  0001 C CNN
-F 3 "http://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf" H 2150 6500 50  0001 C CNN
-	1    2150 6500
-	1    0    0    -1  
-$EndComp
 $Sheet
 S 2550 3100 1300 1000
 U 5F3E98C5
