@@ -1,0 +1,641 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 5
+Title "Arktika FPGA"
+Date "2020-07-28"
+Rev ""
+Comp "Author: Afonso Muralha"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L FPGA_Lattice:ICE40HX4K-TQ144 U?
+U 1 1 5F51FF1D
+P 2200 4850
+AR Path="/5F51FF1D" Ref="U?"  Part="1" 
+AR Path="/5F516611/5F51FF1D" Ref="UUP3"  Part="1" 
+F 0 "UUP3" H 2549 5078 50  0000 L CNN
+F 1 "ICE40HX4K-TQ144" H 2549 4987 50  0000 L CNN
+F 2 "Package_QFP:TQFP-144_20x20mm_P0.5mm" H 3200 2950 50  0001 R CNN
+F 3 "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40" H 1200 7350 50  0001 C CNN
+	1    2200 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L FPGA_Lattice:ICE40HX4K-TQ144 U?
+U 2 1 5F51FF23
+P 4350 4650
+AR Path="/5F51FF23" Ref="U?"  Part="2" 
+AR Path="/5F516611/5F51FF23" Ref="UUP3"  Part="2" 
+F 0 "UUP3" H 4699 4878 50  0000 L CNN
+F 1 "ICE40HX4K-TQ144" H 4699 4787 50  0000 L CNN
+F 2 "Package_QFP:TQFP-144_20x20mm_P0.5mm" H 5350 2750 50  0001 R CNN
+F 3 "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40" H 3350 7150 50  0001 C CNN
+	2    4350 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L FPGA_Lattice:ICE40HX4K-TQ144 U?
+U 3 1 5F51FF29
+P 10100 4900
+AR Path="/5F51FF29" Ref="U?"  Part="3" 
+AR Path="/5F516611/5F51FF29" Ref="UUP3"  Part="3" 
+F 0 "UUP3" H 10499 5128 50  0000 L CNN
+F 1 "ICE40HX4K-TQ144" H 10499 5037 50  0000 L CNN
+F 2 "Package_QFP:TQFP-144_20x20mm_P0.5mm" H 11100 3000 50  0001 R CNN
+F 3 "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40" H 9100 7400 50  0001 C CNN
+	3    10100 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L FPGA_Lattice:ICE40HX4K-TQ144 U?
+U 4 1 5F51FF2F
+P 7200 4550
+AR Path="/5F51FF2F" Ref="U?"  Part="4" 
+AR Path="/5F516611/5F51FF2F" Ref="UUP3"  Part="4" 
+F 0 "UUP3" H 7549 4728 50  0000 L CNN
+F 1 "ICE40HX4K-TQ144" H 7549 4637 50  0000 L CNN
+F 2 "Package_QFP:TQFP-144_20x20mm_P0.5mm" H 8200 2650 50  0001 R CNN
+F 3 "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40" H 6200 7050 50  0001 C CNN
+	4    7200 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x06_Top_Bottom PMOD1_A
+U 1 1 5F5824E2
+P 1800 1000
+F 0 "PMOD1_A" H 1850 1417 50  0000 C CNN
+F 1 "Conn_02x06_Top_Bottom" H 1850 1326 50  0000 C CNN
+F 2 "" H 1800 1000 50  0001 C CNN
+F 3 "~" H 1800 1000 50  0001 C CNN
+	1    1800 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x06_Top_Bottom PMOD1_B
+U 1 1 5F5844DB
+P 1800 1900
+F 0 "PMOD1_B" H 1850 2317 50  0000 C CNN
+F 1 "Conn_02x06_Top_Bottom" H 1850 2226 50  0000 C CNN
+F 2 "" H 1800 1900 50  0001 C CNN
+F 3 "~" H 1800 1900 50  0001 C CNN
+	1    1800 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x04_Odd_Even PMOD2_A
+U 1 1 5F586835
+P 4550 1100
+F 0 "PMOD2_A" H 4600 1417 50  0000 C CNN
+F 1 "Conn_02x04_Odd_Even" H 4600 1326 50  0000 C CNN
+F 2 "" H 4550 1100 50  0001 C CNN
+F 3 "~" H 4550 1100 50  0001 C CNN
+	1    4550 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x04_Odd_Even PMOD2_B
+U 1 1 5F5882E5
+P 4550 2000
+F 0 "PMOD2_B" H 4600 2317 50  0000 C CNN
+F 1 "Conn_02x04_Odd_Even" H 4600 2226 50  0000 C CNN
+F 2 "" H 4550 2000 50  0001 C CNN
+F 3 "~" H 4550 2000 50  0001 C CNN
+	1    4550 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x06 PMOD3_A
+U 1 1 5F58A547
+P 6600 950
+F 0 "PMOD3_A" H 6680 942 50  0000 L CNN
+F 1 "Conn_01x06" H 6680 851 50  0000 L CNN
+F 2 "" H 6600 950 50  0001 C CNN
+F 3 "~" H 6600 950 50  0001 C CNN
+	1    6600 950 
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x06 PMOD3_B
+U 1 1 5F58B5B0
+P 6600 1900
+F 0 "PMOD3_B" H 6680 1892 50  0000 L CNN
+F 1 "Conn_01x06" H 6680 1801 50  0000 L CNN
+F 2 "" H 6600 1900 50  0001 C CNN
+F 3 "~" H 6600 1900 50  0001 C CNN
+	1    6600 1900
+	-1   0    0    -1  
+$EndComp
+Text Label 1050 800  0    50   ~ 0
+PMOD1_A_1
+Text Label 1050 900  0    50   ~ 0
+PMOD1_A_2
+Text Label 1050 1000 0    50   ~ 0
+PMOD1_A_3
+Text Label 1050 1100 0    50   ~ 0
+PMOD1_A_4
+Text Label 1050 1200 0    50   ~ 0
+PMOD1_A_5
+Text Label 1050 1300 0    50   ~ 0
+PMOD1_A_6
+Text Label 2650 1100 2    50   ~ 0
+PMOD1_A_10
+Text Label 2650 1300 2    50   ~ 0
+PMOD1_A_12
+Text Label 2600 800  2    50   ~ 0
+PMOD1_A_7
+Text Label 2600 900  2    50   ~ 0
+PMOD1_A_8
+Text Label 2600 1000 2    50   ~ 0
+PMOD1_A_9
+Text Label 2650 1200 2    50   ~ 0
+PMOD1_A_11
+Wire Wire Line
+	2650 1100 2100 1100
+Wire Wire Line
+	2100 1000 2600 1000
+Wire Wire Line
+	2600 900  2100 900 
+Wire Wire Line
+	2100 800  2600 800 
+Wire Wire Line
+	1600 800  1050 800 
+Wire Wire Line
+	1050 900  1600 900 
+Wire Wire Line
+	1600 1000 1050 1000
+Wire Wire Line
+	1050 1100 1600 1100
+Text Label 1050 1700 0    50   ~ 0
+PMOD1_B_1
+Text Label 1050 1800 0    50   ~ 0
+PMOD1_B_2
+Text Label 1050 1900 0    50   ~ 0
+PMOD1_B_3
+Text Label 1050 2000 0    50   ~ 0
+PMOD1_B_4
+Text Label 1050 2100 0    50   ~ 0
+PMOD1_B_5
+Text Label 1050 2200 0    50   ~ 0
+PMOD1_B_6
+Text Label 2650 1700 2    50   ~ 0
+PMOD1_B_7
+Text Label 2650 1800 2    50   ~ 0
+PMOD1_B_8
+Text Label 2650 1900 2    50   ~ 0
+PMOD1_B_9
+Text Label 2700 2000 2    50   ~ 0
+PMOD1_B_10
+Text Label 2700 2100 2    50   ~ 0
+PMOD1_B_11
+Text Label 2700 2200 2    50   ~ 0
+PMOD1_B_12
+Wire Wire Line
+	1050 1700 1600 1700
+Wire Wire Line
+	1600 1800 1050 1800
+Wire Wire Line
+	1050 1900 1600 1900
+Wire Wire Line
+	1600 2000 1050 2000
+Wire Wire Line
+	2100 2000 2700 2000
+Wire Wire Line
+	2700 1900 2100 1900
+Wire Wire Line
+	2100 1800 2700 1800
+Wire Wire Line
+	2700 1700 2100 1700
+Text Label 3850 1000 0    50   ~ 0
+PMOD2_A_1
+Text Label 3850 1100 0    50   ~ 0
+PMOD2_A_3
+Text Label 3850 1200 0    50   ~ 0
+PMOD2_A_5
+Text Label 3850 1300 0    50   ~ 0
+PMOD2_A_7
+Text Label 5350 1000 2    50   ~ 0
+PMOD2_A_2
+Text Label 5350 1100 2    50   ~ 0
+PMOD2_A_4
+Text Label 5350 1200 2    50   ~ 0
+PMOD2_A_6
+Text Label 5350 1300 2    50   ~ 0
+PMOD2_A_8
+Wire Wire Line
+	5350 1000 4850 1000
+Wire Wire Line
+	4850 1100 5350 1100
+Wire Wire Line
+	3850 1100 4350 1100
+Wire Wire Line
+	3850 1000 4350 1000
+Text Label 3850 1900 0    50   ~ 0
+PMOD2_A_1
+Text Label 3850 2000 0    50   ~ 0
+PMOD2_B_3
+Text Label 3850 2100 0    50   ~ 0
+PMOD2_B_5
+Text Label 3850 2200 0    50   ~ 0
+PMOD2_B_7
+Text Label 5350 1900 2    50   ~ 0
+PMOD2_B_2
+Text Label 5350 2000 2    50   ~ 0
+PMOD2_B_4
+Text Label 5350 2100 2    50   ~ 0
+PMOD2_B_6
+Text Label 5350 2200 2    50   ~ 0
+PMOD2_B_7
+Wire Wire Line
+	5350 1900 4850 1900
+Wire Wire Line
+	3850 2000 4350 2000
+Wire Wire Line
+	3850 1900 4350 1900
+Wire Wire Line
+	4850 2000 5350 2000
+Text Label 7400 750  2    50   ~ 0
+PMOD3_A_1
+Text Label 7400 850  2    50   ~ 0
+PMOD3_A_2
+Text Label 7400 950  2    50   ~ 0
+PMOD3_A_3
+Text Label 7400 1050 2    50   ~ 0
+PMOD3_A_4
+Text Label 7400 1150 2    50   ~ 0
+PMOD3_A_5
+Text Label 7400 1250 2    50   ~ 0
+PMOD3_A_6
+Text Label 7400 1700 2    50   ~ 0
+PMOD3_B_1
+Text Label 7400 1800 2    50   ~ 0
+PMOD3_B_2
+Text Label 7400 1900 2    50   ~ 0
+PMOD3_B_3
+Text Label 7400 2000 2    50   ~ 0
+PMOD3_B_4
+Text Label 7400 2100 2    50   ~ 0
+PMOD3_B_5
+Text Label 7400 2200 2    50   ~ 0
+PMOD3_B_6
+Wire Wire Line
+	7400 750  6800 750 
+Wire Wire Line
+	6800 850  7400 850 
+Wire Wire Line
+	7400 950  6800 950 
+Wire Wire Line
+	6800 1050 7400 1050
+Wire Wire Line
+	7400 1700 6800 1700
+Wire Wire Line
+	6800 1800 7400 1800
+Wire Wire Line
+	7400 1900 6800 1900
+Wire Wire Line
+	6800 2000 7400 2000
+$Comp
+L MCU_Module:Arduino_UNO_R3 A?
+U 1 1 5F6046D5
+P 9550 1800
+F 0 "A?" H 8550 3000 50  0000 C CNN
+F 1 "Arduino_UNO_R3" H 8850 2900 50  0000 C CNN
+F 2 "Module:Arduino_UNO_R3" H 9550 1800 50  0001 C CIN
+F 3 "https://www.arduino.cc/en/Main/arduinoBoardUno" H 9550 1800 50  0001 C CNN
+	1    9550 1800
+	1    0    0    -1  
+$EndComp
+Text Label 8400 1200 0    50   ~ 0
+ARDUINO_D0
+Text Label 8400 1300 0    50   ~ 0
+ARDUINO_D1
+Text Label 8400 1400 0    50   ~ 0
+ARDUINO_D2
+Text Label 8400 1500 0    50   ~ 0
+ARDUINO_D3
+Text Label 8400 1600 0    50   ~ 0
+ARDUINO_D4
+Text Label 8400 1700 0    50   ~ 0
+ARDUINO_D5
+Text Label 8400 1800 0    50   ~ 0
+ARDUINO_D6
+Text Label 8400 1900 0    50   ~ 0
+ARDUINO_D7
+Text Label 8400 2000 0    50   ~ 0
+ARDUINO_D8
+Text Label 8400 2100 0    50   ~ 0
+ARDUINO_D9
+Text Label 8400 2200 0    50   ~ 0
+ARDUINO_D10
+Text Label 8400 2300 0    50   ~ 0
+ARDUINO_D11
+Text Label 8400 2400 0    50   ~ 0
+ARDUINO_D12
+Text Label 8400 2500 0    50   ~ 0
+ARDUINO_D13
+Text Label 10800 1800 2    50   ~ 0
+ARDUINO_A0
+Text Label 10800 1900 2    50   ~ 0
+ARDUINO_A1
+Text Label 10800 2000 2    50   ~ 0
+ARDUINO_A2
+Text Label 10800 2100 2    50   ~ 0
+ARDUINO_A3
+Text Label 10800 2200 2    50   ~ 0
+ARDUINO_A4
+Text Label 10800 2300 2    50   ~ 0
+ARDUINO_A5
+Text Label 10800 2500 2    50   ~ 0
+ARDUINO_A4
+Text Label 10800 2600 2    50   ~ 0
+ARDUINO_A5
+Text Label 10800 1400 2    50   ~ 0
+ARDUINO_EXTRA_1
+Text Label 10800 1600 2    50   ~ 0
+ARDUINO_EXTRA_2
+Wire Wire Line
+	9450 2900 9450 2950
+Wire Wire Line
+	9450 2950 9550 2950
+Wire Wire Line
+	9650 2950 9650 2900
+Wire Wire Line
+	9550 2900 9550 2950
+Connection ~ 9550 2950
+Wire Wire Line
+	9550 2950 9650 2950
+Wire Wire Line
+	8400 1200 9050 1200
+Wire Wire Line
+	9050 1300 8400 1300
+Wire Wire Line
+	8400 1400 9050 1400
+Wire Wire Line
+	9050 1500 8400 1500
+Wire Wire Line
+	8400 1600 9050 1600
+Wire Wire Line
+	9050 1700 8400 1700
+Wire Wire Line
+	8400 1800 9050 1800
+Wire Wire Line
+	8400 1900 9050 1900
+Wire Wire Line
+	8400 2000 9050 2000
+Wire Wire Line
+	9050 2100 8400 2100
+Wire Wire Line
+	8400 2200 9050 2200
+Wire Wire Line
+	9050 2300 8400 2300
+Wire Wire Line
+	8400 2400 9050 2400
+Wire Wire Line
+	9050 2500 8400 2500
+Wire Wire Line
+	10800 1400 10050 1400
+Wire Wire Line
+	10050 1600 10800 1600
+Wire Wire Line
+	10800 1800 10050 1800
+Wire Wire Line
+	10050 1900 10800 1900
+Wire Wire Line
+	10800 2000 10050 2000
+Wire Wire Line
+	10050 2100 10800 2100
+Wire Wire Line
+	10800 2200 10050 2200
+Wire Wire Line
+	10050 2300 10800 2300
+Wire Wire Line
+	10800 2500 10050 2500
+Wire Wire Line
+	10050 2600 10800 2600
+Text Label 10800 1200 2    50   ~ 0
+ARDUINO_RESET
+Wire Wire Line
+	10800 1200 10050 1200
+Text Notes 5600 7600 0    50   ~ 0
+Ammount of pins used:\n\nPMOD1 - 2x10 = 20\nPMOD2 - 2x6 = 12\nPMOD3 - 2x4 = 8\n=====Total PMOD = 40\n\n=====Total Arduino = 24\n\n================\nTotal used: 64 out of 107
+Text Label 5600 1300 2    50   ~ 0
+3V3
+Text Label 3600 1300 0    50   ~ 0
+3V3
+$Comp
+L power:GND #PWR?
+U 1 1 5F669A5F
+P 3400 1300
+F 0 "#PWR?" H 3400 1050 50  0001 C CNN
+F 1 "GND" H 3405 1127 50  0000 C CNN
+F 2 "" H 3400 1300 50  0001 C CNN
+F 3 "" H 3400 1300 50  0001 C CNN
+	1    3400 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F66A4F2
+P 5800 1300
+F 0 "#PWR?" H 5800 1050 50  0001 C CNN
+F 1 "GND" H 5805 1127 50  0000 C CNN
+F 2 "" H 5800 1300 50  0001 C CNN
+F 3 "" H 5800 1300 50  0001 C CNN
+	1    5800 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 1300 5800 1200
+Wire Wire Line
+	4850 1200 5800 1200
+Wire Wire Line
+	4850 1300 5600 1300
+Wire Wire Line
+	3400 1300 3400 1200
+Wire Wire Line
+	3400 1200 4350 1200
+Wire Wire Line
+	3600 1300 4350 1300
+Text Label 3600 2200 0    50   ~ 0
+3V3
+$Comp
+L power:GND #PWR?
+U 1 1 5F67B3BB
+P 3400 2200
+F 0 "#PWR?" H 3400 1950 50  0001 C CNN
+F 1 "GND" H 3405 2027 50  0000 C CNN
+F 2 "" H 3400 2200 50  0001 C CNN
+F 3 "" H 3400 2200 50  0001 C CNN
+	1    3400 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 2200 3400 2100
+Wire Wire Line
+	3400 2100 4350 2100
+Wire Wire Line
+	3600 2200 4350 2200
+Text Label 5600 2200 2    50   ~ 0
+3V3
+$Comp
+L power:GND #PWR?
+U 1 1 5F6821AA
+P 5800 2200
+F 0 "#PWR?" H 5800 1950 50  0001 C CNN
+F 1 "GND" H 5805 2027 50  0000 C CNN
+F 2 "" H 5800 2200 50  0001 C CNN
+F 3 "" H 5800 2200 50  0001 C CNN
+	1    5800 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 2200 5800 2100
+Wire Wire Line
+	4850 2100 5800 2100
+Wire Wire Line
+	4850 2200 5600 2200
+Text Label 9650 700  1    50   ~ 0
+3V3
+Wire Wire Line
+	9650 700  9650 800 
+Text Label 9750 700  1    50   ~ 0
+5V
+Wire Wire Line
+	9750 700  9750 800 
+Text Label 9450 700  1    50   ~ 0
+5V
+Wire Wire Line
+	9450 700  9450 800 
+$Comp
+L power:GND #PWR?
+U 1 1 5F6931F6
+P 9550 2950
+F 0 "#PWR?" H 9550 2700 50  0001 C CNN
+F 1 "GND" H 9555 2777 50  0000 C CNN
+F 2 "" H 9550 2950 50  0001 C CNN
+F 3 "" H 9550 2950 50  0001 C CNN
+	1    9550 2950
+	1    0    0    -1  
+$EndComp
+Text Label 7700 1250 2    50   ~ 0
+3V3
+$Comp
+L power:GND #PWR?
+U 1 1 5F694E96
+P 7900 1250
+F 0 "#PWR?" H 7900 1000 50  0001 C CNN
+F 1 "GND" H 7905 1077 50  0000 C CNN
+F 2 "" H 7900 1250 50  0001 C CNN
+F 3 "" H 7900 1250 50  0001 C CNN
+	1    7900 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7900 1250 7900 1150
+Wire Wire Line
+	6800 1150 7900 1150
+Wire Wire Line
+	6800 1250 7700 1250
+Text Label 7700 2200 2    50   ~ 0
+3V3
+$Comp
+L power:GND #PWR?
+U 1 1 5F698C2B
+P 7900 2200
+F 0 "#PWR?" H 7900 1950 50  0001 C CNN
+F 1 "GND" H 7905 2027 50  0000 C CNN
+F 2 "" H 7900 2200 50  0001 C CNN
+F 3 "" H 7900 2200 50  0001 C CNN
+	1    7900 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7900 2200 7900 2100
+Wire Wire Line
+	6800 2100 7900 2100
+Wire Wire Line
+	6800 2200 7700 2200
+Text Label 850  1300 0    50   ~ 0
+3V3
+$Comp
+L power:GND #PWR?
+U 1 1 5F6B0B31
+P 650 1300
+F 0 "#PWR?" H 650 1050 50  0001 C CNN
+F 1 "GND" H 655 1127 50  0000 C CNN
+F 2 "" H 650 1300 50  0001 C CNN
+F 3 "" H 650 1300 50  0001 C CNN
+	1    650  1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	650  1300 650  1200
+Wire Wire Line
+	650  1200 1600 1200
+Wire Wire Line
+	850  1300 1600 1300
+Text Label 850  2200 0    50   ~ 0
+3V3
+$Comp
+L power:GND #PWR?
+U 1 1 5F6B4646
+P 650 2200
+F 0 "#PWR?" H 650 1950 50  0001 C CNN
+F 1 "GND" H 655 2027 50  0000 C CNN
+F 2 "" H 650 2200 50  0001 C CNN
+F 3 "" H 650 2200 50  0001 C CNN
+	1    650  2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	650  2200 650  2100
+Wire Wire Line
+	650  2100 1600 2100
+Wire Wire Line
+	850  2200 1600 2200
+Text Label 2850 1300 2    50   ~ 0
+3V3
+$Comp
+L power:GND #PWR?
+U 1 1 5F6B815F
+P 3050 1300
+F 0 "#PWR?" H 3050 1050 50  0001 C CNN
+F 1 "GND" H 3055 1127 50  0000 C CNN
+F 2 "" H 3050 1300 50  0001 C CNN
+F 3 "" H 3050 1300 50  0001 C CNN
+	1    3050 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 1300 3050 1200
+Wire Wire Line
+	2100 1300 2850 1300
+Wire Wire Line
+	2100 1200 3050 1200
+Text Label 2850 2200 2    50   ~ 0
+3V3
+$Comp
+L power:GND #PWR?
+U 1 1 5F6BBFC9
+P 3050 2200
+F 0 "#PWR?" H 3050 1950 50  0001 C CNN
+F 1 "GND" H 3055 2027 50  0000 C CNN
+F 2 "" H 3050 2200 50  0001 C CNN
+F 3 "" H 3050 2200 50  0001 C CNN
+	1    3050 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 2200 3050 2100
+Wire Wire Line
+	2100 2200 2850 2200
+Wire Wire Line
+	2100 2100 3050 2100
+Text Notes 9300 6400 0    50   ~ 0
+GBIN Ports can be used for Master clock input
+$EndSCHEMATC

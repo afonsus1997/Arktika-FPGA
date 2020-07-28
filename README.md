@@ -16,6 +16,8 @@ This project is sponsored by pcbway.
 
 [ICE40 Programming information](http://www.latticesemi.com/dynamic/view_document.cfm?document_id=46502)
 
+[PMOD Standard](http://digilentinc.com/Pmods/Digilent-Pmod_%20Interface_Specification.pdf)
+
 ###### Bonus
 
 Q: What is arktika?
