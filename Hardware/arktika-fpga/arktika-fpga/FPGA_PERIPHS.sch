@@ -275,23 +275,23 @@ Wire Wire Line
 Wire Wire Line
 	2900 5150 2900 5250
 Entry Bus Bus
-	3500 5050 3600 5150
+	3450 5050 3550 5150
 Entry Bus Bus
-	3500 5050 3600 5150
+	3450 5050 3550 5150
 Entry Bus Bus
-	3400 5050 3500 5150
+	3350 5050 3450 5150
 Entry Bus Bus
-	3300 5050 3400 5150
+	3250 5050 3350 5150
 Entry Bus Bus
-	3200 5050 3300 5150
+	3150 5050 3250 5150
 Entry Bus Bus
-	3100 5050 3200 5150
+	3050 5050 3150 5150
 Entry Bus Bus
-	3000 5050 3100 5150
+	2950 5050 3050 5150
 Entry Bus Bus
-	2900 5050 3000 5150
+	2850 5050 2950 5150
 Entry Bus Bus
-	2800 5050 2900 5150
+	2750 5050 2850 5150
 Wire Wire Line
 	3250 5850 3300 5850
 Connection ~ 3250 5850
@@ -737,10 +737,187 @@ F 3 "~" H 1150 5800 50  0001 C CNN
 	1    1150 5600
 	0    -1   -1   0   
 $EndComp
+Wire Wire Line
+	2100 2700 2100 2750
+$Comp
+L power:GND #PWR?
+U 1 1 5F21FDC0
+P 2100 2750
+AR Path="/5F21FDC0" Ref="#PWR?"  Part="1" 
+AR Path="/5F3E98C5/5F21FDC0" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2100 2500 50  0001 C CNN
+F 1 "GND" H 2100 2600 50  0000 C CNN
+F 2 "" H 2100 2750 50  0001 C CNN
+F 3 "" H 2100 2750 50  0001 C CNN
+	1    2100 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 2250 2000 2300
+Wire Wire Line
+	2100 2250 2100 2300
+Wire Wire Line
+	2200 2250 2200 2300
+Text Label 2200 2250 1    50   ~ 0
+D-
+Text Label 2100 2250 1    50   ~ 0
+D+
+Text Label 2000 2250 1    50   ~ 0
+Vbus
+$Comp
+L Power_Protection:SP0503BAHT D?
+U 1 1 5F21FDCC
+P 2100 2500
+AR Path="/5F21FDCC" Ref="D?"  Part="1" 
+AR Path="/5F3E98C5/5F21FDCC" Ref="D?"  Part="1" 
+F 0 "D?" H 2305 2546 50  0000 L CNN
+F 1 "SP0503BAHT" H 2305 2455 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-143" H 2325 2450 50  0001 L CNN
+F 3 "http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf" H 2225 2625 50  0001 C CNN
+	1    2100 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 5150 2900 5150
+Wire Wire Line
+	2950 5150 3000 5150
+Wire Wire Line
+	3050 5150 3100 5150
+Wire Wire Line
+	3150 5150 3200 5150
+Wire Wire Line
+	3250 5150 3300 5150
+Wire Wire Line
+	3350 5150 3400 5150
+Wire Wire Line
+	3450 5150 3500 5150
+Wire Wire Line
+	3550 5150 3600 5150
+$Comp
+L Device:R_Pack04 RN?
+U 1 1 5F256182
+P 3050 4700
+F 0 "RN?" H 2650 4750 50  0000 L CNN
+F 1 "R_Pack04" H 2400 4650 50  0000 L CNN
+F 2 "" V 3325 4700 50  0001 C CNN
+F 3 "~" H 3050 4700 50  0001 C CNN
+	1    3050 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Pack04 RN?
+U 1 1 5F257989
+P 3550 4700
+F 0 "RN?" H 3738 4746 50  0000 L CNN
+F 1 "R_Pack04" H 3738 4655 50  0000 L CNN
+F 2 "" V 3825 4700 50  0001 C CNN
+F 3 "~" H 3550 4700 50  0001 C CNN
+	1    3550 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 5150 2900 4950
+Wire Wire Line
+	2900 4950 2850 4950
+Wire Wire Line
+	2850 4950 2850 4900
+Connection ~ 2900 5150
+Wire Wire Line
+	3000 5150 3000 4950
+Wire Wire Line
+	3000 4950 2950 4950
+Wire Wire Line
+	2950 4950 2950 4900
+Connection ~ 3000 5150
+Wire Wire Line
+	3100 5150 3100 4950
+Wire Wire Line
+	3100 4950 3050 4950
+Wire Wire Line
+	3050 4950 3050 4900
+Connection ~ 3100 5150
+Wire Wire Line
+	3200 5150 3200 4950
+Wire Wire Line
+	3200 4950 3150 4950
+Wire Wire Line
+	3150 4950 3150 4900
+Connection ~ 3200 5150
+Wire Wire Line
+	3300 5150 3300 4950
+Wire Wire Line
+	3300 4950 3350 4950
+Wire Wire Line
+	3350 4950 3350 4900
+Connection ~ 3300 5150
+Wire Wire Line
+	3400 5150 3400 4950
+Wire Wire Line
+	3400 4950 3450 4950
+Wire Wire Line
+	3450 4950 3450 4900
+Connection ~ 3400 5150
+Wire Wire Line
+	3500 5150 3500 4950
+Wire Wire Line
+	3500 4950 3550 4950
+Wire Wire Line
+	3550 4950 3550 4900
+Connection ~ 3500 5150
+Wire Wire Line
+	3600 5150 3600 4950
+Wire Wire Line
+	3600 4950 3650 4950
+Wire Wire Line
+	3650 4950 3650 4900
+Connection ~ 3600 5150
+Wire Wire Line
+	3650 4500 3650 4450
+Wire Wire Line
+	3650 4450 3550 4450
+Wire Wire Line
+	2850 4450 2850 4500
+Wire Wire Line
+	2950 4450 2950 4500
+Connection ~ 2950 4450
+Wire Wire Line
+	2950 4450 2850 4450
+Wire Wire Line
+	3050 4450 3050 4500
+Connection ~ 3050 4450
+Wire Wire Line
+	3050 4450 2950 4450
+Wire Wire Line
+	3150 4450 3150 4500
+Connection ~ 3150 4450
+Wire Wire Line
+	3150 4450 3050 4450
+Wire Wire Line
+	3350 4450 3350 4500
+Connection ~ 3350 4450
+Wire Wire Line
+	3350 4450 3250 4450
+Wire Wire Line
+	3450 4450 3450 4500
+Connection ~ 3450 4450
+Wire Wire Line
+	3450 4450 3350 4450
+Wire Wire Line
+	3550 4450 3550 4500
+Connection ~ 3550 4450
+Wire Wire Line
+	3550 4450 3450 4450
+Wire Wire Line
+	3250 4350 3250 4450
 Wire Bus Line
 	750  5150 2000 5150
 Wire Bus Line
-	2650 5050 3500 5050
+	2600 5050 3450 5050
 Wire Bus Line
 	4550 4950 6350 4950
+Connection ~ 3250 4450
+Wire Wire Line
+	3250 4450 3150 4450
+Text Label 3250 4350 1    50   ~ 0
+3V3
 $EndSCHEMATC
