@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 5
 Title "Arktika FPGA"
-Date "2020-07-28"
+Date "2020-07-29"
 Rev ""
 Comp "Author: Afonso Muralha"
 Comment1 ""

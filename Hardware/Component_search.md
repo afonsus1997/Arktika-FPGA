@@ -74,10 +74,9 @@ Using the ICE40HX4K-TQ144
   PMOD2 – 2x6 <br>
   PMOD3 – 2x4 <br>
   [Datasheet]()
-  
 * Interface Arduino UNO R3
-
 * Interface common PINs FPGA
+* Crystal oscillator ([arrow](https://www.arrow.com/en/products/abm8-50.000mhz-b1u-t/abracon), [arrow](https://www.arrow.com/en/products/ecs-500-10-33-rtn-tr/ecs-international), [arrow](https://www.arrow.com/en/products/7m-50.000maaj-t/txc-corporation), [arrow](https://www.arrow.com/en/products/ase2-50.000mhz-et/abracon), [arrow](https://www.arrow.com/en/products/ase2-50.000mhz-et/abracon))
 
 ## Sheet FPGA_PERIPHS
 
