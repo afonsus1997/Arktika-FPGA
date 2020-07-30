@@ -554,8 +554,8 @@ Text Label 1850 2800 0    50   ~ 0
 D-
 Text Label 1850 2700 0    50   ~ 0
 D+
-Text Label 2150 2500 0    50   ~ 0
-Vbus
+Text Label 2700 2500 0    50   ~ 0
+VCC5V
 $Comp
 L Connector:USB_B_Micro J?
 U 1 1 5F40A28F
@@ -891,12 +891,8 @@ Text HLabel 2100 2700 2    50   Input ~ 0
 D+
 Text HLabel 2100 2800 2    50   Input ~ 0
 D-
-Text Label 7800 2000 2    50   ~ 0
-Vbus
-Text HLabel 9800 2000 2    50   Input ~ 0
-VBUS
-Wire Wire Line
-	9800 2000 7800 2000
+Text HLabel 9850 5900 2    50   Input ~ 0
+VCC5V
 $Comp
 L Device:CP CIN1
 U 1 1 5F53822A
@@ -963,7 +959,7 @@ F 3 "~" H 1250 1510 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 800  1850 0    50   ~ 0
-Alternate voltage input\n
+Alternate 5V! voltage input\n
 $Comp
 L power:GND #PWR?
 U 1 1 5F325100
@@ -1086,4 +1082,31 @@ Wire Wire Line
 	1550 2500 1800 2500
 Wire Wire Line
 	2100 2500 2350 2500
+Text HLabel 9850 5700 2    50   Input ~ 0
+VCC3V3
+Text Label 7950 5700 2    50   ~ 0
+VCC3V3
+Wire Wire Line
+	7950 5700 9850 5700
+Text Label 7950 5900 2    50   ~ 0
+VCC5V
+Wire Wire Line
+	7950 5900 9850 5900
+Text HLabel 1200 6200 0    50   Input ~ 0
+GND
+$Comp
+L power:GND #PWR?
+U 1 1 5F2B9D61
+P 1500 6200
+AR Path="/5F2B9D61" Ref="#PWR?"  Part="1" 
+AR Path="/5F3E98C5/5F2B9D61" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1500 5950 50  0001 C CNN
+F 1 "GND" H 1500 6050 50  0000 C CNN
+F 2 "" H 1500 6200 50  0001 C CNN
+F 3 "" H 1500 6200 50  0001 C CNN
+	1    1500 6200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 6200 1200 6200
 $EndSCHEMATC

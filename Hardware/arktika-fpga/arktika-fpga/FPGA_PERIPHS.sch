@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Analog_ADC:MCP3204 U?
+L Analog_ADC:MCP3204 UPER2
 U 1 1 5F72040D
 P 8950 5000
-F 0 "U?" H 9400 5450 50  0000 C CNN
+F 0 "UPER2" H 9400 5450 50  0000 C CNN
 F 1 "MCP3204" H 9250 5350 50  0000 C CNN
 F 2 "" H 9850 4700 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21298c.pdf" H 9850 4700 50  0001 C CNN
@@ -79,10 +79,10 @@ F 3 "~" H 2250 1100 50  0001 C CNN
 $EndComp
 Connection ~ 2750 950 
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0147
 U 1 1 5F729246
 P 2500 1250
-F 0 "#PWR?" H 2500 1000 50  0001 C CNN
+F 0 "#PWR0147" H 2500 1000 50  0001 C CNN
 F 1 "GND" H 2505 1077 50  0000 C CNN
 F 2 "" H 2500 1250 50  0001 C CNN
 F 3 "" H 2500 1250 50  0001 C CNN
@@ -92,10 +92,10 @@ $EndComp
 Wire Wire Line
 	1800 950  2250 950 
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0148
 U 1 1 5F72E759
 P 2500 1900
-F 0 "#PWR?" H 2500 1650 50  0001 C CNN
+F 0 "#PWR0148" H 2500 1650 50  0001 C CNN
 F 1 "GND" H 2505 1727 50  0000 C CNN
 F 2 "" H 2500 1900 50  0001 C CNN
 F 3 "" H 2500 1900 50  0001 C CNN
@@ -153,10 +153,10 @@ Wire Wire Line
 Wire Wire Line
 	4350 1700 4650 1700
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0149
 U 1 1 5F736641
 P 3850 3700
-F 0 "#PWR?" H 3850 3450 50  0001 C CNN
+F 0 "#PWR0149" H 3850 3450 50  0001 C CNN
 F 1 "GND" H 3855 3527 50  0000 C CNN
 F 2 "" H 3850 3700 50  0001 C CNN
 F 3 "" H 3850 3700 50  0001 C CNN
@@ -192,8 +192,8 @@ U 1 1 5F751C99
 P 950 2300
 AR Path="/5F751C99" Ref="#PWR?"  Part="1" 
 AR Path="/5F3E98C5/5F751C99" Ref="#PWR?"  Part="1" 
-AR Path="/5F72015E/5F751C99" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 950 2050 50  0001 C CNN
+AR Path="/5F72015E/5F751C99" Ref="#PWR0150"  Part="1" 
+F 0 "#PWR0150" H 950 2050 50  0001 C CNN
 F 1 "GND" H 950 2150 50  0000 C CNN
 F 2 "" H 950 2300 50  0001 C CNN
 F 3 "" H 950 2300 50  0001 C CNN
@@ -235,10 +235,10 @@ Wire Wire Line
 Wire Wire Line
 	3750 950  3850 950 
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0151
 U 1 1 5F27FA98
 P 3250 5950
-F 0 "#PWR?" H 3250 5700 50  0001 C CNN
+F 0 "#PWR0151" H 3250 5700 50  0001 C CNN
 F 1 "GND" H 3255 5777 50  0000 C CNN
 F 2 "" H 3250 5950 50  0001 C CNN
 F 3 "" H 3250 5950 50  0001 C CNN
@@ -246,10 +246,10 @@ F 3 "" H 3250 5950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0152
 U 1 1 5F2089AF
 P 1650 5950
-F 0 "#PWR?" H 1650 5700 50  0001 C CNN
+F 0 "#PWR0152" H 1650 5700 50  0001 C CNN
 F 1 "GND" H 1655 5777 50  0000 C CNN
 F 2 "" H 1650 5950 50  0001 C CNN
 F 3 "" H 1650 5950 50  0001 C CNN
@@ -264,8 +264,8 @@ U 1 1 5F21FDC0
 P 2100 2750
 AR Path="/5F21FDC0" Ref="#PWR?"  Part="1" 
 AR Path="/5F3E98C5/5F21FDC0" Ref="#PWR?"  Part="1" 
-AR Path="/5F72015E/5F21FDC0" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 2100 2500 50  0001 C CNN
+AR Path="/5F72015E/5F21FDC0" Ref="#PWR0153"  Part="1" 
+F 0 "#PWR0153" H 2100 2500 50  0001 C CNN
 F 1 "GND" H 2100 2600 50  0000 C CNN
 F 2 "" H 2100 2750 50  0001 C CNN
 F 3 "" H 2100 2750 50  0001 C CNN
@@ -350,30 +350,30 @@ Text Label 7850 5500 1    50   ~ 0
 ADC
 Text Label 10150 5500 1    50   ~ 0
 ADC
+Text HLabel 1250 7100 0    50   Input ~ 0
+PUSH_BTNS
 Text HLabel 1250 7200 0    50   Input ~ 0
-PUSH_BTNS
+SWITCHES
 Text HLabel 1250 7300 0    50   Input ~ 0
-SWITCHES
+LEDS
 Text HLabel 1250 7400 0    50   Input ~ 0
-LEDS
-Text HLabel 1250 7500 0    50   Input ~ 0
 ADC
-Text Label 1350 7200 0    50   ~ 0
+Text Label 1350 7100 0    50   ~ 0
 PUSH_BTNS
-Text Label 1350 7300 0    50   ~ 0
+Text Label 1350 7200 0    50   ~ 0
 SWITCHES
-Text Label 1350 7400 0    50   ~ 0
+Text Label 1350 7300 0    50   ~ 0
 LEDS
-Text Label 1350 7500 0    50   ~ 0
+Text Label 1350 7400 0    50   ~ 0
 ADC
+Wire Bus Line
+	1250 7100 1800 7100
 Wire Bus Line
 	1250 7200 1800 7200
 Wire Bus Line
 	1250 7300 1800 7300
 Wire Bus Line
 	1250 7400 1800 7400
-Wire Bus Line
-	1250 7500 1800 7500
 Entry Wire Line
 	4650 1200 4750 1300
 Entry Wire Line
@@ -388,11 +388,11 @@ Entry Wire Line
 	4650 1700 4750 1800
 Text Label 4750 2100 1    50   ~ 0
 UART
-Text HLabel 1250 7600 0    50   Input ~ 0
+Text HLabel 1250 7500 0    50   Input ~ 0
 UART
 Wire Bus Line
-	1250 7600 1800 7600
-Text Label 1350 7600 0    50   ~ 0
+	1250 7500 1800 7500
+Text Label 1350 7500 0    50   ~ 0
 UART
 Text Label 4550 4200 0    50   ~ 0
 LEDS
@@ -814,10 +814,10 @@ Connection ~ 4700 5700
 Wire Wire Line
 	4700 5700 5050 5700
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0154
 U 1 1 5F226137
 P 5600 5750
-F 0 "#PWR?" H 5600 5500 50  0001 C CNN
+F 0 "#PWR0154" H 5600 5500 50  0001 C CNN
 F 1 "GND" H 5605 5577 50  0000 C CNN
 F 2 "" H 5600 5750 50  0001 C CNN
 F 3 "" H 5600 5750 50  0001 C CNN
@@ -962,12 +962,12 @@ Wire Wire Line
 Connection ~ 3250 5850
 Wire Wire Line
 	3250 5850 3300 5850
-Text HLabel 1250 7100 0    50   Input ~ 0
+Text HLabel 1250 7000 0    50   Input ~ 0
 VCC3V3
-Text Label 1350 7100 0    50   ~ 0
+Text Label 1350 7000 0    50   ~ 0
 VCC3V3
 Wire Wire Line
-	1250 7100 1800 7100
+	1250 7000 1800 7000
 Text Label 1550 4350 1    50   ~ 0
 VCC3V3
 Text Label 3250 4100 1    50   ~ 0
@@ -979,10 +979,10 @@ Maybe find better adc. But cheap\n
 Text Notes 2850 800  0    50   ~ 0
 Maybe find bridge with a easier package to solder. But also cheap\n
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0155
 U 1 1 5F6F2DE0
 P 8900 5600
-F 0 "#PWR?" H 8900 5350 50  0001 C CNN
+F 0 "#PWR0155" H 8900 5350 50  0001 C CNN
 F 1 "GND" H 8905 5427 50  0000 C CNN
 F 2 "" H 8900 5600 50  0001 C CNN
 F 3 "" H 8900 5600 50  0001 C CNN
@@ -1132,6 +1132,56 @@ Wire Wire Line
 	1300 1600 1350 1600
 Wire Wire Line
 	1650 1600 2250 1600
+$Comp
+L Device:Buzzer BPER1
+U 1 1 5F25EF58
+P 3400 7250
+F 0 "BPER1" H 3552 7279 50  0000 L CNN
+F 1 "Buzzer" H 3552 7188 50  0000 L CNN
+F 2 "" V 3375 7350 50  0001 C CNN
+F 3 "~" V 3375 7350 50  0001 C CNN
+	1    3400 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0156
+U 1 1 5F25F55A
+P 3300 7350
+F 0 "#PWR0156" H 3300 7100 50  0001 C CNN
+F 1 "GND" H 3305 7177 50  0000 C CNN
+F 2 "" H 3300 7350 50  0001 C CNN
+F 3 "" H 3300 7350 50  0001 C CNN
+	1    3300 7350
+	1    0    0    -1  
+$EndComp
+Text HLabel 1250 7600 0    50   Input ~ 0
+Buzzer
+Wire Wire Line
+	1250 7600 1800 7600
+Text Label 1350 7600 0    50   ~ 0
+Buzzer
+Text Label 2900 7150 0    50   ~ 0
+Buzzer
+Wire Wire Line
+	2900 7150 3300 7150
+Text HLabel 1250 6600 0    50   Input ~ 0
+GND
+$Comp
+L power:GND #PWR?
+U 1 1 5F2D68F6
+P 1550 6600
+AR Path="/5F2D68F6" Ref="#PWR?"  Part="1" 
+AR Path="/5F3E98C5/5F2D68F6" Ref="#PWR?"  Part="1" 
+AR Path="/5F72015E/5F2D68F6" Ref="#PWR0157"  Part="1" 
+F 0 "#PWR0157" H 1550 6350 50  0001 C CNN
+F 1 "GND" H 1550 6450 50  0000 C CNN
+F 2 "" H 1550 6600 50  0001 C CNN
+F 3 "" H 1550 6600 50  0001 C CNN
+	1    1550 6600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1550 6600 1250 6600
 Wire Bus Line
 	7850 5000 7850 5500
 Wire Bus Line

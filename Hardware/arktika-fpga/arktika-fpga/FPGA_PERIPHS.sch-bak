@@ -350,30 +350,30 @@ Text Label 7850 5500 1    50   ~ 0
 ADC
 Text Label 10150 5500 1    50   ~ 0
 ADC
+Text HLabel 1250 7100 0    50   Input ~ 0
+PUSH_BTNS
 Text HLabel 1250 7200 0    50   Input ~ 0
-PUSH_BTNS
+SWITCHES
 Text HLabel 1250 7300 0    50   Input ~ 0
-SWITCHES
+LEDS
 Text HLabel 1250 7400 0    50   Input ~ 0
-LEDS
-Text HLabel 1250 7500 0    50   Input ~ 0
 ADC
-Text Label 1350 7200 0    50   ~ 0
+Text Label 1350 7100 0    50   ~ 0
 PUSH_BTNS
-Text Label 1350 7300 0    50   ~ 0
+Text Label 1350 7200 0    50   ~ 0
 SWITCHES
-Text Label 1350 7400 0    50   ~ 0
+Text Label 1350 7300 0    50   ~ 0
 LEDS
-Text Label 1350 7500 0    50   ~ 0
+Text Label 1350 7400 0    50   ~ 0
 ADC
+Wire Bus Line
+	1250 7100 1800 7100
 Wire Bus Line
 	1250 7200 1800 7200
 Wire Bus Line
 	1250 7300 1800 7300
 Wire Bus Line
 	1250 7400 1800 7400
-Wire Bus Line
-	1250 7500 1800 7500
 Entry Wire Line
 	4650 1200 4750 1300
 Entry Wire Line
@@ -388,11 +388,11 @@ Entry Wire Line
 	4650 1700 4750 1800
 Text Label 4750 2100 1    50   ~ 0
 UART
-Text HLabel 1250 7600 0    50   Input ~ 0
+Text HLabel 1250 7500 0    50   Input ~ 0
 UART
 Wire Bus Line
-	1250 7600 1800 7600
-Text Label 1350 7600 0    50   ~ 0
+	1250 7500 1800 7500
+Text Label 1350 7500 0    50   ~ 0
 UART
 Text Label 4550 4200 0    50   ~ 0
 LEDS
@@ -962,12 +962,12 @@ Wire Wire Line
 Connection ~ 3250 5850
 Wire Wire Line
 	3250 5850 3300 5850
-Text HLabel 1250 7100 0    50   Input ~ 0
+Text HLabel 1250 7000 0    50   Input ~ 0
 VCC3V3
-Text Label 1350 7100 0    50   ~ 0
+Text Label 1350 7000 0    50   ~ 0
 VCC3V3
 Wire Wire Line
-	1250 7100 1800 7100
+	1250 7000 1800 7000
 Text Label 1550 4350 1    50   ~ 0
 VCC3V3
 Text Label 3250 4100 1    50   ~ 0
@@ -1132,6 +1132,55 @@ Wire Wire Line
 	1300 1600 1350 1600
 Wire Wire Line
 	1650 1600 2250 1600
+$Comp
+L Device:Buzzer BPER1
+U 1 1 5F25EF58
+P 3400 7250
+F 0 "BPER1" H 3552 7279 50  0000 L CNN
+F 1 "Buzzer" H 3552 7188 50  0000 L CNN
+F 2 "" V 3375 7350 50  0001 C CNN
+F 3 "~" V 3375 7350 50  0001 C CNN
+	1    3400 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F25F55A
+P 3300 7350
+F 0 "#PWR?" H 3300 7100 50  0001 C CNN
+F 1 "GND" H 3305 7177 50  0000 C CNN
+F 2 "" H 3300 7350 50  0001 C CNN
+F 3 "" H 3300 7350 50  0001 C CNN
+	1    3300 7350
+	1    0    0    -1  
+$EndComp
+Text HLabel 1250 7600 0    50   Input ~ 0
+Buzzer
+Wire Wire Line
+	1250 7600 1800 7600
+Text Label 1350 7600 0    50   ~ 0
+Buzzer
+Text Label 2900 7150 0    50   ~ 0
+Buzzer
+Wire Wire Line
+	2900 7150 3300 7150
+Text HLabel 1250 6600 0    50   Input ~ 0
+GND
+$Comp
+L power:GND #PWR?
+U 1 1 5F2D68F6
+P 1550 6600
+AR Path="/5F2D68F6" Ref="#PWR?"  Part="1" 
+AR Path="/5F3E98C5/5F2D68F6" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1550 6350 50  0001 C CNN
+F 1 "GND" H 1550 6450 50  0000 C CNN
+F 2 "" H 1550 6600 50  0001 C CNN
+F 3 "" H 1550 6600 50  0001 C CNN
+	1    1550 6600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1550 6600 1250 6600
 Wire Bus Line
 	7850 5000 7850 5500
 Wire Bus Line

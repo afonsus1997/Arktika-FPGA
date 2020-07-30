@@ -913,6 +913,29 @@ Wire Wire Line
 	900  7050 1050 7050
 Text Label 1050 7050 0    50   ~ 0
 Vin
+Text HLabel 10550 6400 2    50   Input ~ 0
+Buzzer
+Wire Wire Line
+	10550 6400 10000 6400
+Text Label 10450 6400 2    50   ~ 0
+Buzzer
+Text HLabel 900  6500 0    50   Input ~ 0
+GND
+$Comp
+L power:GND #PWR?
+U 1 1 5F2CF44B
+P 1200 6500
+AR Path="/5F2CF44B" Ref="#PWR?"  Part="1" 
+AR Path="/5F3E98C5/5F2CF44B" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1200 6250 50  0001 C CNN
+F 1 "GND" H 1200 6350 50  0000 C CNN
+F 2 "" H 1200 6500 50  0001 C CNN
+F 3 "" H 1200 6500 50  0001 C CNN
+	1    1200 6500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1200 6500 900  6500
 Wire Bus Line
 	5800 7000 5800 7500
 Wire Bus Line
