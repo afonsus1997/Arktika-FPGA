@@ -56,9 +56,9 @@ Using the ICE40HX4K-TQ144
   [DigiKey](https://www.digikey.com/product-detail/en/ftdi-future-technology-devices-international-ltd/FT232HL-REEL/768-1101-1-ND/2614632) <br>
   [Datasheet](https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT232H.pdf)
   
-* UUP2 –  EEPROM 93CxxB – EEPROM to retain the configurations for the FTDI USB serial and SPI converter. <br>
-  [DigiKey]()  <br>
-  [Datasheet]()
+* UUP2 –  EEPROM 93LC56BT-I/OT – EEPROM to retain the configurations for the FTDI USB serial and SPI converter. <br>
+  [DigiKey]( https://www.digikey.pt/product-detail/en/microchip-technology/93LC56BT-I-OT/93LC56BT-I-OTTR-ND/572825 )  <br>
+  [Datasheet]( https://static6.arrow.com/aropdfconversion/88ae318f18f89e8680c0097a6b922f08efb41928/21794g.pdf )
   
 * UP3E – FPGA LATICE ICE40HX4K-TQ144 <br>
   [DigiKey](https://www.digikey.com/products/en?keywords=ICE40HX4K-TQ144) <br>
