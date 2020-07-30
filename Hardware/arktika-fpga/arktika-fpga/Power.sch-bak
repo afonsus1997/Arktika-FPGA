@@ -5,9 +5,9 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 5
 Title "Arktika FPGA"
-Date "2020-07-29"
+Date "2020-07-30"
 Rev ""
-Comp "Author: Afonso Muralha"
+Comp "Authors: Afonso Muralha and João Nuno Carvalho"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -949,7 +949,7 @@ Wire Wire Line
 	8800 1250 9100 1250
 Wire Wire Line
 	9100 1150 8800 1150
-Text Notes 2150 3050 0    50   ~ 0
+Text Notes 2600 3100 0    50   ~ 0
 CIN1 - Test if needed\n
 $Comp
 L Connector:Barrel_Jack JP1
