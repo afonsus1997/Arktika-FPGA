@@ -5,16 +5,16 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 5
 Title "Arktika FPGA"
-Date "2020-07-29"
+Date "2020-07-30"
 Rev ""
-Comp "Author: Afonso Muralha"
+Comp "Authors: Afonso Muralha and João Nuno Carvalho"
 Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Regulator_Linear:MCP1812AT U?
+L arktika-fpga-rescue:MCP1812AT-Regulator_Linear U?
 U 1 1 5F40A15A
 P 4300 3500
 AR Path="/5F40A15A" Ref="U?"  Part="1" 
@@ -131,7 +131,7 @@ Connection ~ 3400 3500
 Wire Wire Line
 	3400 3500 3750 3500
 $Comp
-L Regulator_Linear:MCP1812AT U?
+L arktika-fpga-rescue:MCP1812AT-Regulator_Linear U?
 U 1 1 5F40A1B0
 P 4300 4600
 AR Path="/5F40A1B0" Ref="U?"  Part="1" 
@@ -949,7 +949,7 @@ Wire Wire Line
 	8800 1250 9100 1250
 Wire Wire Line
 	9100 1150 8800 1150
-Text Notes 2150 3050 0    50   ~ 0
+Text Notes 2600 3100 0    50   ~ 0
 CIN1 - Test if needed\n
 $Comp
 L Connector:Barrel_Jack JP1

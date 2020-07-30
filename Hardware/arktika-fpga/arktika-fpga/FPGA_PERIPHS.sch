@@ -5,9 +5,9 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 5 5
 Title "Arktika FPGA"
-Date "2020-07-29"
+Date "2020-07-30"
 Rev ""
-Comp "Author: Afonso Muralha"
+Comp "Authors: Afonso Muralha and João Nuno Carvalho"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -180,52 +180,50 @@ NoConn ~ 4350 3200
 NoConn ~ 4350 3300
 NoConn ~ 4350 3400
 Wire Wire Line
-	1400 2200 1400 2300
+	950  2200 950  2300
 Wire Wire Line
-	1400 2200 1450 2200
-Connection ~ 1400 2200
+	950  2200 1000 2200
+Connection ~ 950  2200
 Wire Wire Line
-	1350 2200 1400 2200
+	900  2200 950  2200
 $Comp
 L power:GND #PWR?
 U 1 1 5F751C99
-P 1400 2300
+P 950 2300
 AR Path="/5F751C99" Ref="#PWR?"  Part="1" 
 AR Path="/5F3E98C5/5F751C99" Ref="#PWR?"  Part="1" 
 AR Path="/5F72015E/5F751C99" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 1400 2050 50  0001 C CNN
-F 1 "GND" H 1400 2150 50  0000 C CNN
-F 2 "" H 1400 2300 50  0001 C CNN
-F 3 "" H 1400 2300 50  0001 C CNN
-	1    1400 2300
+F 0 "#PWR?" H 950 2050 50  0001 C CNN
+F 1 "GND" H 950 2150 50  0000 C CNN
+F 2 "" H 950 2300 50  0001 C CNN
+F 3 "" H 950 2300 50  0001 C CNN
+	1    950  2300
 	1    0    0    -1  
 $EndComp
-Text Label 1950 1900 0    50   ~ 0
+Text Label 1500 1900 0    50   ~ 0
 D-
-Text Label 1950 1800 0    50   ~ 0
+Text Label 1500 1800 0    50   ~ 0
 D+
 Text Label 1950 1600 0    50   ~ 0
 Vbus
 $Comp
 L Connector:USB_B_Micro JUSB?
 U 1 1 5F751CA2
-P 1450 1800
+P 1000 1800
 AR Path="/5F751CA2" Ref="JUSB?"  Part="1" 
 AR Path="/5F3E98C5/5F751CA2" Ref="JUSB?"  Part="1" 
 AR Path="/5F72015E/5F751CA2" Ref="JUSB2"  Part="1" 
-F 0 "JUSB2" H 1507 2267 50  0000 C CNN
-F 1 "USB_B_Micro" H 1507 2176 50  0000 C CNN
-F 2 "Connectors:USB_Micro-B" H 1600 1750 50  0001 C CNN
-F 3 "~" H 1600 1750 50  0001 C CNN
-	1    1450 1800
+F 0 "JUSB2" H 1057 2267 50  0000 C CNN
+F 1 "USB_B_Micro" H 1057 2176 50  0000 C CNN
+F 2 "Connectors:USB_Micro-B" H 1150 1750 50  0001 C CNN
+F 3 "~" H 1150 1750 50  0001 C CNN
+	1    1000 1800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1950 1800 1750 1800
+	1500 1800 1300 1800
 Wire Wire Line
-	1750 1900 1950 1900
-Wire Wire Line
-	1750 1600 2250 1600
+	1300 1900 1500 1900
 Wire Wire Line
 	2750 950  3150 950 
 Connection ~ 3750 950 
@@ -1115,7 +1113,25 @@ F 3 "~" H 4700 5400 50  0001 C CNN
 	1    4700 5400
 	0    -1   -1   0   
 $EndComp
-NoConn ~ 1750 2000
+NoConn ~ 1300 2000
+$Comp
+L Device:Fuse F?
+U 1 1 5F2413DD
+P 1500 1600
+AR Path="/5F2413DD" Ref="F?"  Part="1" 
+AR Path="/5F3E98C5/5F2413DD" Ref="F?"  Part="1" 
+AR Path="/5F72015E/5F2413DD" Ref="F?"  Part="1" 
+F 0 "F?" V 1303 1600 50  0000 C CNN
+F 1 "500mA?" V 1394 1600 50  0000 C CNN
+F 2 "" V 1430 1600 50  0001 C CNN
+F 3 "~" H 1500 1600 50  0001 C CNN
+	1    1500 1600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1300 1600 1350 1600
+Wire Wire Line
+	1650 1600 2250 1600
 Wire Bus Line
 	7850 5000 7850 5500
 Wire Bus Line
