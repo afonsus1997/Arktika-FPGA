@@ -303,8 +303,8 @@ $Comp
 L MCU_Module:Arduino_UNO_R3 A?
 U 1 1 5F6046D5
 P 9800 1950
-F 0 "A?" H 8800 3150 50  0000 C CNN
-F 1 "Arduino_UNO_R3" H 9100 3050 50  0000 C CNN
+F 0 "A?" H 8800 3150 50  0001 C CNN
+F 1 "Arduino_UNO_R3" H 9350 2900 50  0000 C CNN
 F 2 "Module:Arduino_UNO_R3" H 9800 1950 50  0001 C CIN
 F 3 "https://www.arduino.cc/en/Main/arduinoBoardUno" H 9800 1950 50  0001 C CNN
 	1    9800 1950
@@ -338,14 +338,6 @@ Text Label 8650 2550 0    50   ~ 0
 ARDUINO_D12
 Text Label 8650 2650 0    50   ~ 0
 ARDUINO_D13
-Text Label 11050 1950 2    50   ~ 0
-ARDUINO_A0
-Text Label 11050 2050 2    50   ~ 0
-ARDUINO_A1
-Text Label 11050 2150 2    50   ~ 0
-ARDUINO_A2
-Text Label 11050 2250 2    50   ~ 0
-ARDUINO_A3
 Text Label 11050 2350 2    50   ~ 0
 ARDUINO_A4
 Text Label 11050 2450 2    50   ~ 0
@@ -354,9 +346,9 @@ Text Label 11050 2650 2    50   ~ 0
 ARDUINO_A4
 Text Label 11050 2750 2    50   ~ 0
 ARDUINO_A5
-Text Label 11050 1550 2    50   ~ 0
+Text Label 11000 1550 2    50   ~ 0
 ARDUINO_EXTRA_1
-Text Label 11050 1750 2    50   ~ 0
+Text Label 11000 1750 2    50   ~ 0
 ARDUINO_EXTRA_2
 Wire Wire Line
 	9700 3050 9700 3100
@@ -398,17 +390,7 @@ Wire Wire Line
 Wire Wire Line
 	9300 2650 8650 2650
 Wire Wire Line
-	11050 1550 10300 1550
-Wire Wire Line
 	10300 1750 11050 1750
-Wire Wire Line
-	11050 1950 10300 1950
-Wire Wire Line
-	10300 2050 11050 2050
-Wire Wire Line
-	11050 2150 10300 2150
-Wire Wire Line
-	10300 2250 11050 2250
 Wire Wire Line
 	11050 2350 10300 2350
 Wire Wire Line
@@ -417,10 +399,8 @@ Wire Wire Line
 	11050 2650 10300 2650
 Wire Wire Line
 	10300 2750 11050 2750
-Text Label 11050 1350 2    50   ~ 0
+Text Label 10900 1350 2    50   ~ 0
 ARDUINO_RESET
-Wire Wire Line
-	11050 1350 10300 1350
 Text Notes 9350 5150 0    50   ~ 0
 Ammount of pins used:\n\nPMOD1 - 2x10 = 20\nPMOD2 - 2x6 = 12\nPMOD3 - 2x4 = 8\n=====Total PMOD = 40\n\n=====Total Arduino = 24\n\n=====Total uart = 6\n\n=====Total ADC = 4\n\nLEDs = 8\nPush Buttons = 4\nSwitches = 8\n=====Total human interface = 20\n\n================\nTotal used: 94 out of 109
 Text Label 5600 1300 2    50   ~ 0
@@ -499,8 +479,6 @@ Wire Wire Line
 	4850 2100 5800 2100
 Wire Wire Line
 	4850 2200 5600 2200
-Wire Wire Line
-	9900 850  9900 950 
 $Comp
 L power:GND #PWR?
 U 1 1 5F6931F6
@@ -650,7 +628,7 @@ Wire Wire Line
 	3750 2700 3750 2750
 Wire Wire Line
 	1050 2700 1050 2750
-Text Label 9900 850  1    50   ~ 0
+Text Label 9900 800  1    50   ~ 0
 VCC3V3
 Text HLabel 900  6950 0    50   Input ~ 0
 VCC5V
@@ -660,10 +638,6 @@ Wire Wire Line
 	1050 6950 900  6950
 Text Label 10000 800  1    50   ~ 0
 VCC5V
-Text Label 9700 800  1    50   ~ 0
-VCC5V
-Wire Wire Line
-	9700 800  9700 950 
 Wire Wire Line
 	10000 800  10000 950 
 Entry Wire Line
@@ -816,12 +790,135 @@ Wire Bus Line
 	10550 6300 10000 6300
 Text Label 10450 6300 2    50   ~ 0
 UART
-Text Notes 850  7250 0    50   ~ 0
+Text Notes 750  7350 0    50   ~ 0
 Still need to add a second oscillator!\n(and/or add option to use usb oscillator, need to be careful with distance and track lengh!)
-Text Notes 850  7550 0    50   ~ 0
-Most common 50Mhz crystals on china come in 7050 5*7mm package, but cant find on arrow\nMaybe its possible to make a universal footprint dor 3225 and 7050(\nAlso, needs to be active
+Text Notes 750  7650 0    50   ~ 0
+Most common 50Mhz crystals on china come in 7050 and 3225 package, but cant find on arrow\nMaybe its possible to make a universal footprint dor 3225 and 7050\nAlso, needs to be active
+$Comp
+L Oscillator:ASCO XPER1
+U 1 1 5F23DFDD
+P 2500 6550
+F 0 "XPER1" H 2200 6800 50  0000 L CNN
+F 1 "ASCO" H 2650 6800 50  0000 L CNN
+F 2 "Crystals:Crystal_SMD_3225-4pin_3.2x2.5mm_HandSoldering" H 2600 6200 50  0001 C CNN
+F 3 "https://abracon.com/Oscillators/ASCO.pdf" H 2275 6675 50  0001 C CNN
+	1    2500 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5F23EF40
+P 1700 6550
+F 0 "C?" H 1815 6596 50  0000 L CNN
+F 1 "0.01u" H 1815 6505 50  0000 L CNN
+F 2 "" H 1738 6400 50  0001 C CNN
+F 3 "~" H 1700 6550 50  0001 C CNN
+	1    1700 6550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 6400 1700 6250
+Wire Wire Line
+	1700 6250 2500 6250
+Wire Wire Line
+	2500 6850 1700 6850
+Wire Wire Line
+	1700 6850 1700 6700
+$Comp
+L power:GND #PWR?
+U 1 1 5F24D370
+P 2500 6850
+F 0 "#PWR?" H 2500 6600 50  0001 C CNN
+F 1 "GND" H 2505 6677 50  0000 C CNN
+F 2 "" H 2500 6850 50  0001 C CNN
+F 3 "" H 2500 6850 50  0001 C CNN
+	1    2500 6850
+	1    0    0    -1  
+$EndComp
+Connection ~ 2500 6850
+Text Label 2500 6250 0    50   ~ 0
+3V3
+Text Label 2900 6550 0    50   ~ 0
+OSC_OUT
+Text Label 2850 4950 0    50   ~ 0
+OSC_OUT
+Wire Wire Line
+	2850 4950 3250 4950
+NoConn ~ 2100 6550
+Entry Wire Line
+	11050 2250 11150 2150
+Entry Wire Line
+	11050 2150 11150 2050
+Entry Wire Line
+	11050 2050 11150 1950
+Entry Wire Line
+	11050 1950 11150 1850
+Text Label 11050 1950 2    50   ~ 0
+ADC_CH0
+Text Label 11050 2050 2    50   ~ 0
+ADC_CH1
+Text Label 11050 2150 2    50   ~ 0
+ADC_CH2
+Text Label 11050 2250 2    50   ~ 0
+ADC_CH3
+Text Label 11150 800  3    50   ~ 0
+ADC
+Entry Wire Line
+	7600 6350 7500 6250
+Entry Wire Line
+	7600 6250 7500 6150
+Entry Wire Line
+	7600 6150 7500 6050
+Entry Wire Line
+	7600 6050 7500 5950
+Text Label 8000 6350 2    50   ~ 0
+ADC_CLK
+Text Label 8000 6250 2    50   ~ 0
+ADC_MISO
+Text Label 8000 6150 2    50   ~ 0
+ADC_MOSI
+Text Label 8000 6050 2    50   ~ 0
+ADC_CS
+Wire Wire Line
+	8100 6350 7600 6350
+Wire Wire Line
+	7600 6250 8100 6250
+Wire Wire Line
+	8100 6150 7600 6150
+Wire Wire Line
+	7600 6050 8100 6050
+Text Label 7500 5750 3    50   ~ 0
+ADC
+Wire Wire Line
+	10300 1950 11050 1950
+Wire Wire Line
+	10300 2050 11050 2050
+Wire Wire Line
+	10300 2150 11050 2150
+Wire Wire Line
+	10300 2250 11050 2250
+Wire Wire Line
+	10300 1550 11000 1550
+Wire Wire Line
+	11000 1350 10300 1350
+Text Label 9700 800  1    50   ~ 0
+Vin
+Wire Wire Line
+	9700 800  9700 950 
+Wire Wire Line
+	9900 800  9900 950 
+Text HLabel 900  7050 0    50   Input ~ 0
+Vin
+Wire Wire Line
+	900  7050 1050 7050
+Text Label 1050 7050 0    50   ~ 0
+Vin
 Wire Bus Line
 	5800 7000 5800 7500
+Wire Bus Line
+	7500 5750 7500 6250
+Wire Bus Line
+	11150 800  11150 2150
 Wire Bus Line
 	6500 6650 6500 7500
 Wire Bus Line

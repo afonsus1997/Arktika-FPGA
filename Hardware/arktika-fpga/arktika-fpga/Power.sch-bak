@@ -370,43 +370,43 @@ Wire Wire Line
 Text Notes 3050 5300 0    50   ~ 0
 Do not place PLL supply and solder jumper in order to use main VCC for PLL\n
 Wire Wire Line
-	1700 4050 1700 4100
+	1200 4050 1200 4100
 $Comp
 L power:GND #PWR?
 U 1 1 5F40A231
-P 1700 4100
+P 1200 4100
 AR Path="/5F40A231" Ref="#PWR?"  Part="1" 
 AR Path="/5F3E98C5/5F40A231" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 1700 3850 50  0001 C CNN
-F 1 "GND" H 1700 3950 50  0000 C CNN
-F 2 "" H 1700 4100 50  0001 C CNN
-F 3 "" H 1700 4100 50  0001 C CNN
-	1    1700 4100
+F 0 "#PWR?" H 1200 3850 50  0001 C CNN
+F 1 "GND" H 1200 3950 50  0000 C CNN
+F 2 "" H 1200 4100 50  0001 C CNN
+F 3 "" H 1200 4100 50  0001 C CNN
+	1    1200 4100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1600 3600 1600 3650
+	1100 3600 1100 3650
 Wire Wire Line
-	1700 3600 1700 3650
+	1200 3600 1200 3650
 Wire Wire Line
-	1800 3600 1800 3650
-Text Label 1800 3600 1    50   ~ 0
+	1300 3600 1300 3650
+Text Label 1300 3600 1    50   ~ 0
 D-
-Text Label 1700 3600 1    50   ~ 0
+Text Label 1200 3600 1    50   ~ 0
 D+
-Text Label 1600 3600 1    50   ~ 0
+Text Label 1100 3600 1    50   ~ 0
 Vbus
 $Comp
 L Power_Protection:SP0503BAHT D?
 U 1 1 5F40A23D
-P 1700 3850
+P 1200 3850
 AR Path="/5F40A23D" Ref="D?"  Part="1" 
 AR Path="/5F3E98C5/5F40A23D" Ref="DUSB1"  Part="1" 
-F 0 "DUSB1" H 1905 3896 50  0000 L CNN
-F 1 "SP0503BAHT" H 1905 3805 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-143" H 1925 3800 50  0001 L CNN
-F 3 "http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf" H 1825 3975 50  0001 C CNN
-	1    1700 3850
+F 0 "DUSB1" H 1405 3896 50  0000 L CNN
+F 1 "SP0503BAHT" H 1405 3805 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-143" H 1425 3800 50  0001 L CNN
+F 3 "http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf" H 1325 3975 50  0001 C CNN
+	1    1200 3850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -514,61 +514,59 @@ F 3 "" H 4300 2900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1700 3100 1700 3200
+	1200 3100 1200 3200
 Wire Wire Line
-	2050 2800 2600 2800
+	1550 2800 2100 2800
 Wire Wire Line
-	2050 2700 2600 2700
+	1550 2700 2100 2700
 $Comp
 L Device:Fuse F?
 U 1 1 5F40A27C
-P 2300 2500
+P 1950 2500
 AR Path="/5F40A27C" Ref="F?"  Part="1" 
 AR Path="/5F3E98C5/5F40A27C" Ref="FUSB1"  Part="1" 
-F 0 "FUSB1" V 2103 2500 50  0000 C CNN
-F 1 "Fuse" V 2194 2500 50  0000 C CNN
-F 2 "" V 2230 2500 50  0001 C CNN
-F 3 "~" H 2300 2500 50  0001 C CNN
-	1    2300 2500
+F 0 "FUSB1" V 1753 2500 50  0000 C CNN
+F 1 "500mA?" V 1844 2500 50  0000 C CNN
+F 2 "" V 1880 2500 50  0001 C CNN
+F 3 "~" H 1950 2500 50  0001 C CNN
+	1    1950 2500
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2050 2500 2150 2500
+	1200 3100 1250 3100
+Connection ~ 1200 3100
 Wire Wire Line
-	1700 3100 1750 3100
-Connection ~ 1700 3100
-Wire Wire Line
-	1650 3100 1700 3100
+	1150 3100 1200 3100
 $Comp
 L power:GND #PWR?
 U 1 1 5F40A286
-P 1700 3200
+P 1200 3200
 AR Path="/5F40A286" Ref="#PWR?"  Part="1" 
 AR Path="/5F3E98C5/5F40A286" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 1700 2950 50  0001 C CNN
-F 1 "GND" H 1700 3050 50  0000 C CNN
-F 2 "" H 1700 3200 50  0001 C CNN
-F 3 "" H 1700 3200 50  0001 C CNN
-	1    1700 3200
+F 0 "#PWR?" H 1200 2950 50  0001 C CNN
+F 1 "GND" H 1200 3050 50  0000 C CNN
+F 2 "" H 1200 3200 50  0001 C CNN
+F 3 "" H 1200 3200 50  0001 C CNN
+	1    1200 3200
 	1    0    0    -1  
 $EndComp
-Text Label 2350 2800 0    50   ~ 0
+Text Label 1850 2800 0    50   ~ 0
 D-
-Text Label 2350 2700 0    50   ~ 0
+Text Label 1850 2700 0    50   ~ 0
 D+
-Text Label 2500 2500 0    50   ~ 0
+Text Label 2150 2500 0    50   ~ 0
 Vbus
 $Comp
 L Connector:USB_B_Micro J?
 U 1 1 5F40A28F
-P 1750 2700
+P 1250 2700
 AR Path="/5F40A28F" Ref="J?"  Part="1" 
 AR Path="/5F3E98C5/5F40A28F" Ref="JUSB1"  Part="1" 
-F 0 "JUSB1" H 1807 3167 50  0000 C CNN
-F 1 "USB_B_Micro" H 1807 3076 50  0000 C CNN
-F 2 "Connectors:USB_Micro-B" H 1900 2650 50  0001 C CNN
-F 3 "~" H 1900 2650 50  0001 C CNN
-	1    1750 2700
+F 0 "JUSB1" H 1307 3167 50  0000 C CNN
+F 1 "USB_B_Micro" H 1307 3076 50  0000 C CNN
+F 2 "Connectors:USB_Micro-B" H 1400 2650 50  0001 C CNN
+F 3 "~" H 1400 2650 50  0001 C CNN
+	1    1250 2700
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -589,8 +587,8 @@ L Jumper:SolderJumper_2_Open JP?
 U 1 1 5F40A29B
 P 6500 4100
 AR Path="/5F40A29B" Ref="JP?"  Part="1" 
-AR Path="/5F3E98C5/5F40A29B" Ref="JP1"  Part="1" 
-F 0 "JP1" V 6500 4168 50  0000 L CNN
+AR Path="/5F3E98C5/5F40A29B" Ref="JP2"  Part="1" 
+F 0 "JP2" V 6500 4168 50  0000 L CNN
 F 1 "SolderJumper_2_Open" V 6545 4168 50  0001 L CNN
 F 2 "" H 6500 4100 50  0001 C CNN
 F 3 "~" H 6500 4100 50  0001 C CNN
@@ -889,9 +887,9 @@ Wire Wire Line
 	9100 4250 9800 4250
 Wire Wire Line
 	9100 4850 9800 4850
-Text HLabel 2600 2700 2    50   Input ~ 0
+Text HLabel 2100 2700 2    50   Input ~ 0
 D+
-Text HLabel 2600 2800 2    50   Input ~ 0
+Text HLabel 2100 2800 2    50   Input ~ 0
 D-
 Text Label 7800 2000 2    50   ~ 0
 Vbus
@@ -910,9 +908,6 @@ F 3 "~" H 3000 2650 50  0001 C CNN
 	1    3000 2650
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2450 2500 3000 2500
-Connection ~ 3000 2500
 Wire Wire Line
 	3000 2500 3400 2500
 Wire Wire Line
@@ -954,6 +949,141 @@ Wire Wire Line
 	8800 1250 9100 1250
 Wire Wire Line
 	9100 1150 8800 1150
-Text Notes 2650 3050 0    50   ~ 0
+Text Notes 2150 3050 0    50   ~ 0
 CIN1 - Test if needed\n
+$Comp
+L Connector:Barrel_Jack JP1
+U 1 1 5F318F23
+P 1200 1550
+F 0 "JP1" H 1257 1875 50  0000 C CNN
+F 1 "Barrel_Jack" H 1257 1784 50  0000 C CNN
+F 2 "" H 1250 1510 50  0001 C CNN
+F 3 "~" H 1250 1510 50  0001 C CNN
+	1    1200 1550
+	1    0    0    -1  
+$EndComp
+Text Notes 800  1850 0    50   ~ 0
+Alternate voltage input\n
+$Comp
+L power:GND #PWR?
+U 1 1 5F325100
+P 1800 1650
+AR Path="/5F325100" Ref="#PWR?"  Part="1" 
+AR Path="/5F3E98C5/5F325100" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1800 1400 50  0001 C CNN
+F 1 "GND" H 1800 1500 50  0000 C CNN
+F 2 "" H 1800 1650 50  0001 C CNN
+F 3 "" H 1800 1650 50  0001 C CNN
+	1    1800 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 1650 1500 1650
+$Comp
+L Device:D_Schottky DP2
+U 1 1 5F32AFB5
+P 2500 2500
+F 0 "DP2" H 2500 2283 50  0000 C CNN
+F 1 "D_Schottky" H 2500 2374 50  0000 C CNN
+F 2 "" H 2500 2500 50  0001 C CNN
+F 3 "~" H 2500 2500 50  0001 C CNN
+	1    2500 2500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D_Schottky DP1
+U 1 1 5F32C33F
+P 2500 2050
+F 0 "DP1" H 2500 1833 50  0000 C CNN
+F 1 "D_Schottky" H 2500 1924 50  0000 C CNN
+F 2 "" H 2500 2050 50  0001 C CNN
+F 3 "~" H 2500 2050 50  0001 C CNN
+	1    2500 2050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2650 2500 2800 2500
+Connection ~ 3000 2500
+Wire Wire Line
+	2650 2050 2800 2050
+Wire Wire Line
+	2800 2050 2800 2500
+Connection ~ 2800 2500
+Wire Wire Line
+	2800 2500 3000 2500
+Wire Wire Line
+	2100 2050 2350 2050
+$Comp
+L Device:Fuse F?
+U 1 1 5F33C8E6
+P 1950 1450
+AR Path="/5F33C8E6" Ref="F?"  Part="1" 
+AR Path="/5F3E98C5/5F33C8E6" Ref="FP1"  Part="1" 
+F 0 "FP1" V 1753 1450 50  0000 C CNN
+F 1 "500mA?" V 1844 1450 50  0000 C CNN
+F 2 "" V 1880 1450 50  0001 C CNN
+F 3 "~" H 1950 1450 50  0001 C CNN
+	1    1950 1450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED DP3
+U 1 1 5F3476D2
+P 8200 1450
+F 0 "DP3" V 8239 1332 50  0000 R CNN
+F 1 "LED" V 8148 1332 50  0000 R CNN
+F 2 "" H 8200 1450 50  0001 C CNN
+F 3 "~" H 8200 1450 50  0001 C CNN
+	1    8200 1450
+	0    -1   -1   0   
+$EndComp
+Text Label 8200 900  1    50   ~ 0
+VCC3V3
+$Comp
+L Device:R_US R?
+U 1 1 5F34E939
+P 8200 1150
+AR Path="/5F34E939" Ref="R?"  Part="1" 
+AR Path="/5F3E98C5/5F34E939" Ref="RP2"  Part="1" 
+F 0 "RP2" V 7995 1150 50  0000 C CNN
+F 1 "660?" V 8086 1150 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 8240 1140 50  0001 C CNN
+F 3 "~" H 8200 1150 50  0001 C CNN
+	1    8200 1150
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	8200 900  8200 1000
+$Comp
+L power:GND #PWR?
+U 1 1 5F354396
+P 8200 1650
+AR Path="/5F354396" Ref="#PWR?"  Part="1" 
+AR Path="/5F3E98C5/5F354396" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 8200 1400 50  0001 C CNN
+F 1 "GND" H 8200 1500 50  0000 C CNN
+F 2 "" H 8200 1650 50  0001 C CNN
+F 3 "" H 8200 1650 50  0001 C CNN
+	1    8200 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8200 1600 8200 1650
+Wire Wire Line
+	2100 1450 2100 2050
+Text HLabel 1100 900  0    50   Input ~ 0
+Vin
+Wire Wire Line
+	1100 900  1700 900 
+Wire Wire Line
+	1700 900  1700 1450
+Wire Wire Line
+	1500 1450 1700 1450
+Wire Wire Line
+	1800 1450 1700 1450
+Connection ~ 1700 1450
+Wire Wire Line
+	1550 2500 1800 2500
+Wire Wire Line
+	2100 2500 2350 2500
 $EndSCHEMATC
