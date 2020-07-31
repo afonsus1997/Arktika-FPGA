@@ -1,4 +1,5 @@
 (fp_lib_table
   (lib (name Jumper)(type KiCad)(uri ${KIPRJMOD}/Libraries/Jumper.pretty)(options "")(descr ""))
   (lib (name Arktica-Specific)(type KiCad)(uri ${KIPRJMOD}/Libraries/arktika-fpga.pretty)(options "")(descr ""))
+  (lib (name Fuses)(type KiCad)(uri ${KIPRJMOD}/Libraries/Fuse.pretty)(options "")(descr ""))
 )
