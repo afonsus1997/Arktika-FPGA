@@ -34,7 +34,7 @@ AR Path="/5F40A166" Ref="C?"  Part="1"
 AR Path="/5F3E98C5/5F40A166" Ref="CP3_2"  Part="1" 
 F 0 "CP3_2" H 4750 3750 50  0000 L CNN
 F 1 "10u" H 4800 3550 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 4788 3500 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 4788 3500 50  0001 C CNN
 F 3 "~" H 4750 3650 50  0001 C CNN
 	1    4750 3650
 	1    0    0    -1  
@@ -47,7 +47,7 @@ AR Path="/5F40A16C" Ref="C?"  Part="1"
 AR Path="/5F3E98C5/5F40A16C" Ref="CP4_2"  Part="1" 
 F 0 "CP4_2" H 5100 3750 50  0000 L CNN
 F 1 "1u" H 5150 3550 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 5138 3500 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 5138 3500 50  0001 C CNN
 F 3 "~" H 5100 3650 50  0001 C CNN
 	1    5100 3650
 	1    0    0    -1  
@@ -75,7 +75,7 @@ AR Path="/5F40A17B" Ref="C?"  Part="1"
 AR Path="/5F3E98C5/5F40A17B" Ref="CP1_2"  Part="1" 
 F 0 "CP1_2" H 3400 3750 50  0000 L CNN
 F 1 "10u" H 3450 3550 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 3438 3500 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 3438 3500 50  0001 C CNN
 F 3 "~" H 3400 3650 50  0001 C CNN
 	1    3400 3650
 	1    0    0    -1  
@@ -88,7 +88,7 @@ AR Path="/5F40A181" Ref="C?"  Part="1"
 AR Path="/5F3E98C5/5F40A181" Ref="CP2_2"  Part="1" 
 F 0 "CP2_2" H 3750 3750 50  0000 L CNN
 F 1 "100n" H 3800 3550 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 3788 3500 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 3788 3500 50  0001 C CNN
 F 3 "~" H 3750 3650 50  0001 C CNN
 	1    3750 3650
 	1    0    0    -1  
@@ -151,7 +151,7 @@ AR Path="/5F40A1B6" Ref="C?"  Part="1"
 AR Path="/5F3E98C5/5F40A1B6" Ref="CP3_3"  Part="1" 
 F 0 "CP3_3" H 4750 4850 50  0000 L CNN
 F 1 "10u" H 4800 4650 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 4788 4600 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 4788 4600 50  0001 C CNN
 F 3 "~" H 4750 4750 50  0001 C CNN
 	1    4750 4750
 	1    0    0    -1  
@@ -164,7 +164,7 @@ AR Path="/5F40A1BC" Ref="C?"  Part="1"
 AR Path="/5F3E98C5/5F40A1BC" Ref="CP4_3"  Part="1" 
 F 0 "CP4_3" H 5100 4850 50  0000 L CNN
 F 1 "1u" H 5150 4650 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 5138 4600 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 5138 4600 50  0001 C CNN
 F 3 "~" H 5100 4750 50  0001 C CNN
 	1    5100 4750
 	1    0    0    -1  
@@ -192,7 +192,7 @@ AR Path="/5F40A1CB" Ref="C?"  Part="1"
 AR Path="/5F3E98C5/5F40A1CB" Ref="CP1_3"  Part="1" 
 F 0 "CP1_3" H 3400 4850 50  0000 L CNN
 F 1 "10u" H 3450 4650 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 3438 4600 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 3438 4600 50  0001 C CNN
 F 3 "~" H 3400 4750 50  0001 C CNN
 	1    3400 4750
 	1    0    0    -1  
@@ -205,7 +205,7 @@ AR Path="/5F40A1D1" Ref="C?"  Part="1"
 AR Path="/5F3E98C5/5F40A1D1" Ref="CP2_3"  Part="1" 
 F 0 "CP2_3" H 3750 4850 50  0000 L CNN
 F 1 "100n" H 3800 4650 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 3788 4600 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 3788 4600 50  0001 C CNN
 F 3 "~" H 3750 4750 50  0001 C CNN
 	1    3750 4750
 	1    0    0    -1  
@@ -257,7 +257,7 @@ AR Path="/5F40A1F2" Ref="R?"  Part="1"
 AR Path="/5F3E98C5/5F40A1F2" Ref="RP1_2"  Part="1" 
 F 0 "RP1_2" V 7995 4850 50  0000 C CNN
 F 1 "100" V 8086 4850 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 8240 4840 50  0001 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 8240 4840 50  0001 C CNN
 F 3 "~" H 8200 4850 50  0001 C CNN
 	1    8200 4850
 	0    -1   1    0   
@@ -270,7 +270,7 @@ AR Path="/5F40A1F8" Ref="C?"  Part="1"
 AR Path="/5F3E98C5/5F40A1F8" Ref="CP10_2"  Part="1" 
 F 0 "CP10_2" H 9200 5100 50  0000 L CNN
 F 1 "10u" H 9215 4955 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 9138 4850 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 9138 4850 50  0001 C CNN
 F 3 "~" H 9100 5000 50  0001 C CNN
 	1    9100 5000
 	-1   0    0    -1  
@@ -283,7 +283,7 @@ AR Path="/5F40A1FE" Ref="C?"  Part="1"
 AR Path="/5F3E98C5/5F40A1FE" Ref="CP9_2"  Part="1" 
 F 0 "CP9_2" H 8750 5100 50  0000 L CNN
 F 1 "100n" H 8765 4955 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 8688 4850 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 8688 4850 50  0001 C CNN
 F 3 "~" H 8650 5000 50  0001 C CNN
 	1    8650 5000
 	-1   0    0    -1  
@@ -315,7 +315,7 @@ AR Path="/5F40A210" Ref="R?"  Part="1"
 AR Path="/5F3E98C5/5F40A210" Ref="RP1_1"  Part="1" 
 F 0 "RP1_1" V 7995 4250 50  0000 C CNN
 F 1 "100" V 8086 4250 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 8240 4240 50  0001 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 8240 4240 50  0001 C CNN
 F 3 "~" H 8200 4250 50  0001 C CNN
 	1    8200 4250
 	0    -1   1    0   
@@ -328,7 +328,7 @@ AR Path="/5F40A216" Ref="C?"  Part="1"
 AR Path="/5F3E98C5/5F40A216" Ref="CP10_1"  Part="1" 
 F 0 "CP10_1" H 9200 4500 50  0000 L CNN
 F 1 "10u" H 9215 4355 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 9138 4250 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 9138 4250 50  0001 C CNN
 F 3 "~" H 9100 4400 50  0001 C CNN
 	1    9100 4400
 	-1   0    0    -1  
@@ -341,7 +341,7 @@ AR Path="/5F40A21C" Ref="C?"  Part="1"
 AR Path="/5F3E98C5/5F40A21C" Ref="CP9_1"  Part="1" 
 F 0 "CP9_1" H 8750 4500 50  0000 L CNN
 F 1 "100n" H 8765 4355 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 8688 4250 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 8688 4250 50  0001 C CNN
 F 3 "~" H 8650 4400 50  0001 C CNN
 	1    8650 4400
 	-1   0    0    -1  
@@ -404,7 +404,7 @@ AR Path="/5F40A23D" Ref="D?"  Part="1"
 AR Path="/5F3E98C5/5F40A23D" Ref="DUSB1"  Part="1" 
 F 0 "DUSB1" H 1405 3896 50  0000 L CNN
 F 1 "SP0503BAHT" H 1405 3805 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-143" H 1425 3800 50  0001 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-143" H 1425 3800 50  0001 L CNN
 F 3 "http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf" H 1325 3975 50  0001 C CNN
 	1    1200 3850
 	1    0    0    -1  
@@ -450,7 +450,7 @@ AR Path="/5F40A256" Ref="C?"  Part="1"
 AR Path="/5F3E98C5/5F40A256" Ref="CP4_1"  Part="1" 
 F 0 "CP4_1" H 5100 2750 50  0000 L CNN
 F 1 "1u" H 5150 2550 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 5138 2500 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 5138 2500 50  0001 C CNN
 F 3 "~" H 5100 2650 50  0001 C CNN
 	1    5100 2650
 	1    0    0    -1  
@@ -463,7 +463,7 @@ AR Path="/5F40A25C" Ref="C?"  Part="1"
 AR Path="/5F3E98C5/5F40A25C" Ref="CP3_1"  Part="1" 
 F 0 "CP3_1" H 4750 2750 50  0000 L CNN
 F 1 "10u" H 4800 2550 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 4788 2500 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 4788 2500 50  0001 C CNN
 F 3 "~" H 4750 2650 50  0001 C CNN
 	1    4750 2650
 	1    0    0    -1  
@@ -477,7 +477,7 @@ AR Path="/5F40A263" Ref="C?"  Part="1"
 AR Path="/5F3E98C5/5F40A263" Ref="CP2_1"  Part="1" 
 F 0 "CP2_1" H 3750 2750 50  0000 L CNN
 F 1 "100n" H 3800 2550 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 3788 2500 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 3788 2500 50  0001 C CNN
 F 3 "~" H 3750 2650 50  0001 C CNN
 	1    3750 2650
 	1    0    0    -1  
@@ -493,7 +493,7 @@ AR Path="/5F40A26B" Ref="C?"  Part="1"
 AR Path="/5F3E98C5/5F40A26B" Ref="CP1_1"  Part="1" 
 F 0 "CP1_1" H 3400 2750 50  0000 L CNN
 F 1 "10u" H 3450 2550 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 3438 2500 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 3438 2500 50  0001 C CNN
 F 3 "~" H 3400 2650 50  0001 C CNN
 	1    3400 2650
 	1    0    0    -1  
@@ -527,7 +527,7 @@ AR Path="/5F40A27C" Ref="F?"  Part="1"
 AR Path="/5F3E98C5/5F40A27C" Ref="FUSB1"  Part="1" 
 F 0 "FUSB1" V 1753 2500 50  0000 C CNN
 F 1 "500mA?" V 1844 2500 50  0000 C CNN
-F 2 "" V 1880 2500 50  0001 C CNN
+F 2 "Fuses:Fuse_1812_4532Metric" V 1880 2500 50  0001 C CNN
 F 3 "~" H 1950 2500 50  0001 C CNN
 	1    1950 2500
 	0    1    1    0   
@@ -577,7 +577,7 @@ AR Path="/5F40A295" Ref="U?"  Part="1"
 AR Path="/5F3E98C5/5F40A295" Ref="UP1"  Part="1" 
 F 0 "UP1" H 4300 2742 50  0000 C CNN
 F 1 "AMS1117-3.3" H 4300 2651 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 4300 2700 50  0001 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-223-3_TabPin2" H 4300 2700 50  0001 C CNN
 F 3 "http://www.advanced-monolithic.com/pdf/ds1117.pdf" H 4400 2250 50  0001 C CNN
 	1    4300 2500
 	1    0    0    -1  
@@ -590,7 +590,7 @@ AR Path="/5F40A29B" Ref="JP?"  Part="1"
 AR Path="/5F3E98C5/5F40A29B" Ref="JP2"  Part="1" 
 F 0 "JP2" V 6500 4168 50  0000 L CNN
 F 1 "SolderJumper_2_Open" V 6545 4168 50  0001 L CNN
-F 2 "" H 6500 4100 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 6500 4100 50  0001 C CNN
 F 3 "~" H 6500 4100 50  0001 C CNN
 	1    6500 4100
 	0    1    1    0   
@@ -603,7 +603,7 @@ AR Path="/5F40A2A1" Ref="C?"  Part="1"
 AR Path="/5F3E98C5/5F40A2A1" Ref="CP5_1"  Part="1" 
 F 0 "CP5_1" H 5450 2750 50  0000 L CNN
 F 1 "0.1u" H 5500 2550 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 5488 2500 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 5488 2500 50  0001 C CNN
 F 3 "~" H 5450 2650 50  0001 C CNN
 	1    5450 2650
 	1    0    0    -1  
@@ -617,7 +617,7 @@ AR Path="/5F40A2A8" Ref="C?"  Part="1"
 AR Path="/5F3E98C5/5F40A2A8" Ref="CCP5_2"  Part="1" 
 F 0 "CCP5_2" H 5500 3750 50  0000 L CNN
 F 1 "0.1u" H 5550 3550 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 5538 3500 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 5538 3500 50  0001 C CNN
 F 3 "~" H 5500 3650 50  0001 C CNN
 	1    5500 3650
 	1    0    0    -1  
@@ -631,7 +631,7 @@ AR Path="/5F40A2AF" Ref="C?"  Part="1"
 AR Path="/5F3E98C5/5F40A2AF" Ref="CP5_3"  Part="1" 
 F 0 "CP5_3" H 5500 4850 50  0000 L CNN
 F 1 "0.1u" H 5550 4650 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 5538 4600 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 5538 4600 50  0001 C CNN
 F 3 "~" H 5500 4750 50  0001 C CNN
 	1    5500 4750
 	1    0    0    -1  
@@ -667,8 +667,8 @@ P 5950 2500
 AR Path="/5F40A2C3" Ref="L?"  Part="1" 
 AR Path="/5F3E98C5/5F40A2C3" Ref="LP1_1"  Part="1" 
 F 0 "LP1_1" V 6140 2500 50  0000 C CNN
-F 1 "Ferrite" V 6049 2500 50  0000 C CNN
-F 2 "" H 5950 2500 50  0001 C CNN
+F 1 "BLM31B601S" V 6049 2500 50  0000 C CNN
+F 2 "Inductors_SMD:L_1206_HandSoldering" H 5950 2500 50  0001 C CNN
 F 3 "~" H 5950 2500 50  0001 C CNN
 	1    5950 2500
 	0    -1   -1   0   
@@ -680,8 +680,8 @@ P 5950 3500
 AR Path="/5F40A2C9" Ref="L?"  Part="1" 
 AR Path="/5F3E98C5/5F40A2C9" Ref="LP1_2"  Part="1" 
 F 0 "LP1_2" V 6140 3500 50  0000 C CNN
-F 1 "Ferrite" V 6049 3500 50  0000 C CNN
-F 2 "" H 5950 3500 50  0001 C CNN
+F 1 "BLM31B601S" V 6049 3500 50  0000 C CNN
+F 2 "Inductors_SMD:L_1206_HandSoldering" H 5950 3500 50  0001 C CNN
 F 3 "~" H 5950 3500 50  0001 C CNN
 	1    5950 3500
 	0    -1   -1   0   
@@ -693,8 +693,8 @@ P 5950 4600
 AR Path="/5F40A2CF" Ref="L?"  Part="1" 
 AR Path="/5F3E98C5/5F40A2CF" Ref="LP1_3"  Part="1" 
 F 0 "LP1_3" V 6140 4600 50  0000 C CNN
-F 1 "Ferrite" V 6049 4600 50  0000 C CNN
-F 2 "" H 5950 4600 50  0001 C CNN
+F 1 "BLM31B601S" V 6049 4600 50  0000 C CNN
+F 2 "Inductors_SMD:L_1206_HandSoldering" H 5950 4600 50  0001 C CNN
 F 3 "~" H 5950 4600 50  0001 C CNN
 	1    5950 4600
 	0    -1   -1   0   
@@ -707,7 +707,7 @@ AR Path="/5F40A2D5" Ref="C?"  Part="1"
 AR Path="/5F3E98C5/5F40A2D5" Ref="CP6_1"  Part="1" 
 F 0 "CP6_1" H 6250 2750 50  0000 L CNN
 F 1 "0.1u" H 6300 2550 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 6288 2500 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 6288 2500 50  0001 C CNN
 F 3 "~" H 6250 2650 50  0001 C CNN
 	1    6250 2650
 	1    0    0    -1  
@@ -720,7 +720,7 @@ AR Path="/5F40A2DB" Ref="C?"  Part="1"
 AR Path="/5F3E98C5/5F40A2DB" Ref="CP6_2"  Part="1" 
 F 0 "CP6_2" H 6250 3750 50  0000 L CNN
 F 1 "0.1u" H 6300 3550 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 6288 3500 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 6288 3500 50  0001 C CNN
 F 3 "~" H 6250 3650 50  0001 C CNN
 	1    6250 3650
 	1    0    0    -1  
@@ -733,7 +733,7 @@ AR Path="/5F40A2E1" Ref="C?"  Part="1"
 AR Path="/5F3E98C5/5F40A2E1" Ref="CP6_3"  Part="1" 
 F 0 "CP6_3" H 6250 4850 50  0000 L CNN
 F 1 "0.1u" H 6300 4650 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 6288 4600 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 6288 4600 50  0001 C CNN
 F 3 "~" H 6250 4750 50  0001 C CNN
 	1    6250 4750
 	1    0    0    -1  
@@ -817,7 +817,7 @@ AR Path="/5F40A30E" Ref="C?"  Part="1"
 AR Path="/5F3E98C5/5F40A30E" Ref="CP8"  Part="1" 
 F 0 "CP8" H 8365 3646 50  0000 L CNN
 F 1 "10n" H 8365 3555 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 8288 3450 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 8288 3450 50  0001 C CNN
 F 3 "~" H 8250 3600 50  0001 C CNN
 	1    8250 3600
 	-1   0    0    -1  
@@ -833,7 +833,7 @@ AR Path="/5F40A316" Ref="C?"  Part="1"
 AR Path="/5F3E98C5/5F40A316" Ref="CP7"  Part="1" 
 F 0 "CP7" H 8365 3096 50  0000 L CNN
 F 1 "10n" H 8365 3005 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 8288 2900 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 8288 2900 50  0001 C CNN
 F 3 "~" H 8250 3050 50  0001 C CNN
 	1    8250 3050
 	-1   0    0    -1  
@@ -862,7 +862,7 @@ AR Path="/5F40A324" Ref="C?"  Part="1"
 AR Path="/5F3E98C5/5F40A324" Ref="CP6"  Part="1" 
 F 0 "CP6" H 8365 2546 50  0000 L CNN
 F 1 "10n" H 8365 2455 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 8288 2350 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 8288 2350 50  0001 C CNN
 F 3 "~" H 8250 2500 50  0001 C CNN
 	1    8250 2500
 	-1   0    0    -1  
@@ -899,7 +899,7 @@ U 1 1 5F53822A
 P 3000 2650
 F 0 "CIN1" H 3050 2750 50  0000 L CNN
 F 1 "100u" H 3050 2550 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 3038 2500 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 3038 2500 50  0001 C CNN
 F 3 "~" H 3000 2650 50  0001 C CNN
 	1    3000 2650
 	1    0    0    -1  
@@ -917,14 +917,12 @@ U 1 1 5F5497C9
 P 8600 1250
 F 0 "JP1" H 8518 1567 50  0000 C CNN
 F 1 "Conn_01x03" H 8518 1476 50  0000 C CNN
-F 2 "" H 8600 1250 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 8600 1250 50  0001 C CNN
 F 3 "~" H 8600 1250 50  0001 C CNN
 	1    8600 1250
 	-1   0    0    -1  
 $EndComp
-Text Label 9100 1150 0    50   ~ 0
-Vbus
-Text Label 9100 1250 0    50   ~ 0
+Text Label 8850 1250 0    50   ~ 0
 VCC3V3
 $Comp
 L power:GND #PWR?
@@ -948,12 +946,12 @@ Wire Wire Line
 Text Notes 2600 3100 0    50   ~ 0
 CIN1 - Test if needed\n
 $Comp
-L Connector:Barrel_Jack JP1
+L Connector:Barrel_Jack JIN1
 U 1 1 5F318F23
 P 1200 1550
-F 0 "JP1" H 1257 1875 50  0000 C CNN
+F 0 "JIN1" H 1257 1875 50  0000 C CNN
 F 1 "Barrel_Jack" H 1257 1784 50  0000 C CNN
-F 2 "" H 1250 1510 50  0001 C CNN
+F 2 "Connectors:Barrel_Jack_CUI_PJ-102AH" H 1250 1510 50  0001 C CNN
 F 3 "~" H 1250 1510 50  0001 C CNN
 	1    1200 1550
 	1    0    0    -1  
@@ -981,7 +979,7 @@ U 1 1 5F32AFB5
 P 2500 2500
 F 0 "DP2" H 2500 2283 50  0000 C CNN
 F 1 "D_Schottky" H 2500 2374 50  0000 C CNN
-F 2 "" H 2500 2500 50  0001 C CNN
+F 2 "Diodes_SMD:D_SMA-SMB_Universal_Handsoldering" H 2500 2500 50  0001 C CNN
 F 3 "~" H 2500 2500 50  0001 C CNN
 	1    2500 2500
 	-1   0    0    1   
@@ -992,7 +990,7 @@ U 1 1 5F32C33F
 P 2500 2050
 F 0 "DP1" H 2500 1833 50  0000 C CNN
 F 1 "D_Schottky" H 2500 1924 50  0000 C CNN
-F 2 "" H 2500 2050 50  0001 C CNN
+F 2 "Diodes_SMD:D_SMA-SMB_Universal_Handsoldering" H 2500 2050 50  0001 C CNN
 F 3 "~" H 2500 2050 50  0001 C CNN
 	1    2500 2050
 	-1   0    0    1   
@@ -1017,7 +1015,7 @@ AR Path="/5F33C8E6" Ref="F?"  Part="1"
 AR Path="/5F3E98C5/5F33C8E6" Ref="FP1"  Part="1" 
 F 0 "FP1" V 1753 1450 50  0000 C CNN
 F 1 "500mA?" V 1844 1450 50  0000 C CNN
-F 2 "" V 1880 1450 50  0001 C CNN
+F 2 "Fuses:Fuse_1812_4532Metric" V 1880 1450 50  0001 C CNN
 F 3 "~" H 1950 1450 50  0001 C CNN
 	1    1950 1450
 	0    1    1    0   
@@ -1028,7 +1026,7 @@ U 1 1 5F3476D2
 P 8200 1450
 F 0 "DP3" V 8239 1332 50  0000 R CNN
 F 1 "LED" V 8148 1332 50  0000 R CNN
-F 2 "" H 8200 1450 50  0001 C CNN
+F 2 "LEDs:LED_0603_HandSoldering" H 8200 1450 50  0001 C CNN
 F 3 "~" H 8200 1450 50  0001 C CNN
 	1    8200 1450
 	0    -1   -1   0   
@@ -1043,7 +1041,7 @@ AR Path="/5F34E939" Ref="R?"  Part="1"
 AR Path="/5F3E98C5/5F34E939" Ref="RP2"  Part="1" 
 F 0 "RP2" V 7995 1150 50  0000 C CNN
 F 1 "660?" V 8086 1150 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 8240 1140 50  0001 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 8240 1140 50  0001 C CNN
 F 3 "~" H 8200 1150 50  0001 C CNN
 	1    8200 1150
 	-1   0    0    -1  
@@ -1109,4 +1107,8 @@ F 3 "" H 1500 6200 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1500 6200 1200 6200
+Text Notes 1900 1200 0    50   ~ 0
+1812 fuse footprint\n
+Text Label 8850 1150 0    50   ~ 0
+VCC5V
 $EndSCHEMATC

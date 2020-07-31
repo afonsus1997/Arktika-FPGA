@@ -21,7 +21,7 @@ AR Path="/5F51FF1D" Ref="U?"  Part="1"
 AR Path="/5F516611/5F51FF1D" Ref="UUP3"  Part="1" 
 F 0 "UUP3" H 700 3050 50  0000 L CNN
 F 1 "ICE40HX4K-TQ144" H 700 2950 50  0000 L CNN
-F 2 "Package_QFP:TQFP-144_20x20mm_P0.5mm" H 2050 2650 50  0001 R CNN
+F 2 "Housings_QFP:TQFP-144_20x20mm_Pitch0.5mm" H 2050 2650 50  0001 R CNN
 F 3 "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40" H 50  7050 50  0001 C CNN
 	1    1050 4550
 	-1   0    0    -1  
@@ -34,7 +34,7 @@ AR Path="/5F51FF23" Ref="U?"  Part="2"
 AR Path="/5F516611/5F51FF23" Ref="UUP3"  Part="2" 
 F 0 "UUP3" H 3400 3050 50  0000 L CNN
 F 1 "ICE40HX4K-TQ144" H 3400 2950 50  0000 L CNN
-F 2 "Package_QFP:TQFP-144_20x20mm_P0.5mm" H 4750 2750 50  0001 R CNN
+F 2 "Housings_QFP:TQFP-144_20x20mm_Pitch0.5mm" H 4750 2750 50  0001 R CNN
 F 3 "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40" H 2750 7150 50  0001 C CNN
 	2    3750 4650
 	1    0    0    -1  
@@ -47,7 +47,7 @@ AR Path="/5F51FF29" Ref="U?"  Part="3"
 AR Path="/5F516611/5F51FF29" Ref="UUP3"  Part="3" 
 F 0 "UUP3" H 7750 3100 50  0000 L CNN
 F 1 "ICE40HX4K-TQ144" H 7750 3000 50  0000 L CNN
-F 2 "Package_QFP:TQFP-144_20x20mm_P0.5mm" H 9100 2300 50  0001 R CNN
+F 2 "Housings_QFP:TQFP-144_20x20mm_Pitch0.5mm" H 9100 2300 50  0001 R CNN
 F 3 "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40" H 7100 6700 50  0001 C CNN
 	3    8100 4200
 	1    0    0    -1  
@@ -60,73 +60,73 @@ AR Path="/5F51FF2F" Ref="U?"  Part="4"
 AR Path="/5F516611/5F51FF2F" Ref="UUP3"  Part="4" 
 F 0 "UUP3" H 5300 3000 50  0000 L CNN
 F 1 "ICE40HX4K-TQ144" H 5300 2900 50  0000 L CNN
-F 2 "Package_QFP:TQFP-144_20x20mm_P0.5mm" H 6650 2700 50  0001 R CNN
+F 2 "Housings_QFP:TQFP-144_20x20mm_Pitch0.5mm" H 6650 2700 50  0001 R CNN
 F 3 "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40" H 4650 7100 50  0001 C CNN
 	4    5650 4600
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x06_Top_Bottom PMOD1_A
+L Connector_Generic:Conn_02x06_Top_Bottom PMODA_1
 U 1 1 5F5824E2
 P 1800 1000
-F 0 "PMOD1_A" H 1850 1417 50  0000 C CNN
+F 0 "PMODA_1" H 1850 1417 50  0000 C CNN
 F 1 "Conn_02x06_Top_Bottom" H 1850 1326 50  0000 C CNN
-F 2 "" H 1800 1000 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Angled_2x06_Pitch2.54mm" H 1800 1000 50  0001 C CNN
 F 3 "~" H 1800 1000 50  0001 C CNN
 	1    1800 1000
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x06_Top_Bottom PMOD1_B
+L Connector_Generic:Conn_02x06_Top_Bottom PMODA_2
 U 1 1 5F5844DB
 P 1800 1900
-F 0 "PMOD1_B" H 1850 2317 50  0000 C CNN
+F 0 "PMODA_2" H 1850 2317 50  0000 C CNN
 F 1 "Conn_02x06_Top_Bottom" H 1850 2226 50  0000 C CNN
-F 2 "" H 1800 1900 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Angled_2x06_Pitch2.54mm" H 1800 1900 50  0001 C CNN
 F 3 "~" H 1800 1900 50  0001 C CNN
 	1    1800 1900
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x04_Odd_Even PMOD2_A
+L Connector_Generic:Conn_02x04_Odd_Even PMODB_1
 U 1 1 5F586835
 P 4550 1100
-F 0 "PMOD2_A" H 4600 1417 50  0000 C CNN
+F 0 "PMODB_1" H 4600 1417 50  0000 C CNN
 F 1 "Conn_02x04_Odd_Even" H 4600 1326 50  0000 C CNN
-F 2 "" H 4550 1100 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Angled_2x04_Pitch2.54mm" H 4550 1100 50  0001 C CNN
 F 3 "~" H 4550 1100 50  0001 C CNN
 	1    4550 1100
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x04_Odd_Even PMOD2_B
+L Connector_Generic:Conn_02x04_Odd_Even PMODB_2
 U 1 1 5F5882E5
 P 4550 2000
-F 0 "PMOD2_B" H 4600 2317 50  0000 C CNN
+F 0 "PMODB_2" H 4600 2317 50  0000 C CNN
 F 1 "Conn_02x04_Odd_Even" H 4600 2226 50  0000 C CNN
-F 2 "" H 4550 2000 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Angled_2x04_Pitch2.54mm" H 4550 2000 50  0001 C CNN
 F 3 "~" H 4550 2000 50  0001 C CNN
 	1    4550 2000
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x06 PMOD3_A
+L Connector_Generic:Conn_01x06 PMODC_1
 U 1 1 5F58A547
 P 6600 950
-F 0 "PMOD3_A" H 6680 942 50  0000 L CNN
+F 0 "PMODC_1" H 6680 942 50  0000 L CNN
 F 1 "Conn_01x06" H 6680 851 50  0000 L CNN
-F 2 "" H 6600 950 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Angled_1x06_Pitch2.54mm" H 6600 950 50  0001 C CNN
 F 3 "~" H 6600 950 50  0001 C CNN
 	1    6600 950 
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x06 PMOD3_B
+L Connector_Generic:Conn_01x06 PMODC_2
 U 1 1 5F58B5B0
 P 6600 1900
-F 0 "PMOD3_B" H 6680 1892 50  0000 L CNN
+F 0 "PMODC_2" H 6680 1892 50  0000 L CNN
 F 1 "Conn_01x06" H 6680 1801 50  0000 L CNN
-F 2 "" H 6600 1900 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Angled_1x06_Pitch2.54mm" H 6600 1900 50  0001 C CNN
 F 3 "~" H 6600 1900 50  0001 C CNN
 	1    6600 1900
 	-1   0    0    -1  
@@ -305,7 +305,7 @@ U 1 1 5F6046D5
 P 9800 1950
 F 0 "A1" H 8800 3150 50  0001 C CNN
 F 1 "Arduino_UNO_R3" H 9350 2900 50  0000 C CNN
-F 2 "Module:Arduino_UNO_R3" H 9800 1950 50  0001 C CIN
+F 2 "Modules:Arduino_UNO_R3" H 9800 1950 50  0001 C CIN
 F 3 "https://www.arduino.cc/en/Main/arduinoBoardUno" H 9800 1950 50  0001 C CNN
 	1    9800 1950
 	1    0    0    -1  
@@ -795,23 +795,23 @@ Still need to add a second oscillator!\n(and/or add option to use usb oscillator
 Text Notes 750  7650 0    50   ~ 0
 Most common 50Mhz crystals on china come in 7050 and 3225 package, but cant find on arrow\nMaybe its possible to make a universal footprint dor 3225 and 7050\nAlso, needs to be active
 $Comp
-L Oscillator:ASCO XPER1
+L Oscillator:ASCO XUP1
 U 1 1 5F23DFDD
 P 2500 6550
-F 0 "XPER1" H 2200 6800 50  0000 L CNN
+F 0 "XUP1" H 2200 6800 50  0000 L CNN
 F 1 "ASCO" H 2650 6800 50  0000 L CNN
-F 2 "Crystals:Crystal_SMD_3225-4pin_3.2x2.5mm_HandSoldering" H 2600 6200 50  0001 C CNN
+F 2 "Arktica-Specific:Crystal_SMD_7050-4pin_7.0x5.0mm_MOD_3225" H 2600 6200 50  0001 C CNN
 F 3 "https://abracon.com/Oscillators/ASCO.pdf" H 2275 6675 50  0001 C CNN
 	1    2500 6550
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C CUP11
 U 1 1 5F23EF40
 P 1700 6550
-F 0 "C?" H 1815 6596 50  0000 L CNN
+F 0 "CUP11" H 1815 6596 50  0000 L CNN
 F 1 "0.01u" H 1815 6505 50  0000 L CNN
-F 2 "" H 1738 6400 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 1738 6400 50  0001 C CNN
 F 3 "~" H 1700 6550 50  0001 C CNN
 	1    1700 6550
 	1    0    0    -1  
@@ -947,4 +947,6 @@ Wire Bus Line
 	6500 6650 6500 7500
 Wire Bus Line
 	5300 6650 5300 7500
+Text Notes 2900 700  0    50   ~ 0
+Check pmod footprints\n
 $EndSCHEMATC
