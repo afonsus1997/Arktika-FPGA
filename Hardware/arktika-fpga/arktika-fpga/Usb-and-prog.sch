@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L FPGA_Lattice:ICE40HX4K-TQ144 U?
+L arktika-fpga-rescue:ICE40HX4K-TQ144-FPGA_Lattice U?
 U 5 1 5F448A91
 P 9650 1950
 AR Path="/5F448A91" Ref="U?"  Part="5" 
@@ -22,7 +22,7 @@ AR Path="/5F3E98C5/5F448A91" Ref="U?"  Part="5"
 AR Path="/5F415705/5F448A91" Ref="UUP3"  Part="5" 
 F 0 "UUP3" H 8800 1350 50  0000 L CNN
 F 1 "ICE40HX4K-TQ144" H 8800 1250 50  0000 L CNN
-F 2 "Housings_QFP:TQFP-144_20x20mm_Pitch0.5mm" H 10650 50  50  0001 R CNN
+F 2 "Package_QFP:TQFP-144_20x20mm_P0.5mm" H 10650 50  50  0001 R CNN
 F 3 "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40" H 8650 4450 50  0001 C CNN
 	5    9650 1950
 	1    0    0    -1  
@@ -39,7 +39,7 @@ VCCPLL0
 Text Label 10050 1100 1    50   ~ 0
 VCCPLL1
 $Comp
-L power:GND #PWR?
+L arktika-fpga-rescue:GND-power #PWR?
 U 1 1 5F448A9D
 P 9650 2700
 AR Path="/5F448A9D" Ref="#PWR?"  Part="1" 
@@ -81,7 +81,7 @@ Wire Wire Line
 Text Label 10650 1400 1    50   ~ 0
 VCC3V3
 $Comp
-L Device:R_US R?
+L arktika-fpga-rescue:R_US-Device R?
 U 1 1 5F448AB1
 P 10650 1700
 AR Path="/5F448AB1" Ref="R?"  Part="1" 
@@ -89,13 +89,13 @@ AR Path="/5F3E98C5/5F448AB1" Ref="R?"  Part="1"
 AR Path="/5F415705/5F448AB1" Ref="RUP8"  Part="1" 
 F 0 "RUP8" H 10582 1746 50  0000 R CNN
 F 1 "1k" H 10582 1655 50  0000 R CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 10690 1690 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 10690 1690 50  0001 C CNN
 F 3 "~" H 10650 1700 50  0001 C CNN
 	1    10650 1700
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:LED D?
+L arktika-fpga-rescue:LED-Device D?
 U 1 1 5F448AB7
 P 10650 2200
 AR Path="/5F448AB7" Ref="D?"  Part="1" 
@@ -103,7 +103,7 @@ AR Path="/5F3E98C5/5F448AB7" Ref="D?"  Part="1"
 AR Path="/5F415705/5F448AB7" Ref="DUP3"  Part="1" 
 F 0 "DUP3" V 10689 2082 50  0000 R CNN
 F 1 "LED" V 10598 2082 50  0000 R CNN
-F 2 "LEDs:LED_0603_HandSoldering" H 10650 2200 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10650 2200 50  0001 C CNN
 F 3 "~" H 10650 2200 50  0001 C CNN
 	1    10650 2200
 	0    -1   -1   0   
@@ -118,7 +118,7 @@ Wire Wire Line
 	10650 1850 10650 1950
 Connection ~ 10650 1950
 $Comp
-L power:GND #PWR?
+L arktika-fpga-rescue:GND-power #PWR?
 U 1 1 5F448AC2
 P 10650 2450
 AR Path="/5F448AC2" Ref="#PWR?"  Part="1" 
@@ -134,14 +134,14 @@ $EndComp
 Wire Wire Line
 	10650 2350 10650 2450
 $Comp
-L Interface_USB:FT232H U?
+L arktika-fpga-rescue:FT232H-Interface_USB U?
 U 1 1 5F44EC2E
 P 3750 3900
 AR Path="/5F3E98C5/5F44EC2E" Ref="U?"  Part="1" 
 AR Path="/5F415705/5F44EC2E" Ref="UUP1"  Part="1" 
 F 0 "UUP1" H 4450 5400 50  0000 C CNN
 F 1 "FT232H" H 4350 5300 50  0000 C CNN
-F 2 "Housings_QFP:LQFP-48_7x7mm_Pitch0.5mm" H 3750 3900 50  0001 C CNN
+F 2 "Package_QFP:LQFP-48-1EP_7x7mm_P0.5mm_EP3.6x3.6mm" H 3750 3900 50  0001 C CNN
 F 3 "https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT232H.pdf" H 3750 3900 50  0001 C CNN
 	1    3750 3900
 	1    0    0    -1  
@@ -192,12 +192,12 @@ Connection ~ 3850 2400
 Wire Wire Line
 	3850 2400 3950 2400
 $Comp
-L Device:C CUP7
+L arktika-fpga-rescue:C-Device CUP7
 U 1 1 5F47DBB9
 P 1300 3250
 F 0 "CUP7" H 1415 3296 50  0000 L CNN
 F 1 "0.1u" H 1415 3205 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 1338 3100 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1338 3100 50  0001 C CNN
 F 3 "~" H 1300 3250 50  0001 C CNN
 	1    1300 3250
 	1    0    0    -1  
@@ -205,12 +205,12 @@ $EndComp
 Text Label 1800 3000 0    50   ~ 0
 VCC_CORE_USB
 $Comp
-L Device:C CUP2
+L arktika-fpga-rescue:C-Device CUP2
 U 1 1 5F48A5BE
 P 3400 1450
 F 0 "CUP2" H 3450 1550 50  0000 L CNN
 F 1 "0.1u" H 3450 1350 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 3438 1300 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3438 1300 50  0001 C CNN
 F 3 "~" H 3400 1450 50  0001 C CNN
 	1    3400 1450
 	1    0    0    -1  
@@ -219,8 +219,6 @@ Text Label 3650 2300 1    50   ~ 0
 VPLL_USB
 Text Label 3550 2300 1    50   ~ 0
 VPHY
-Text Label 3850 2300 1    50   ~ 0
-VCCIO_USB
 Wire Wire Line
 	3850 2300 3850 2400
 Wire Wire Line
@@ -230,12 +228,12 @@ Wire Wire Line
 Text Label 3400 1200 1    50   ~ 0
 VPHY
 $Comp
-L Device:C CUP3
+L arktika-fpga-rescue:C-Device CUP3
 U 1 1 5F48FC48
 P 3800 1450
 F 0 "CUP3" H 3850 1550 50  0000 L CNN
 F 1 "0.1u" H 3850 1350 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 3838 1300 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3838 1300 50  0001 C CNN
 F 3 "~" H 3800 1450 50  0001 C CNN
 	1    3800 1450
 	1    0    0    -1  
@@ -243,52 +241,42 @@ $EndComp
 Text Label 3800 1200 1    50   ~ 0
 VPLL_USB
 $Comp
-L Device:C CUP4
+L arktika-fpga-rescue:C-Device CUP4
 U 1 1 5F490514
 P 4200 1450
 F 0 "CUP4" H 4250 1550 50  0000 L CNN
 F 1 "0.1u" H 4250 1350 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 4238 1300 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4238 1300 50  0001 C CNN
 F 3 "~" H 4200 1450 50  0001 C CNN
 	1    4200 1450
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C CUP5
+L arktika-fpga-rescue:C-Device CUP5
 U 1 1 5F490B78
 P 4600 1450
 F 0 "CUP5" H 4650 1550 50  0000 L CNN
 F 1 "0.1u" H 4650 1350 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 4638 1300 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4638 1300 50  0001 C CNN
 F 3 "~" H 4600 1450 50  0001 C CNN
 	1    4600 1450
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C CUP6
+L arktika-fpga-rescue:C-Device CUP6
 U 1 1 5F490EFC
 P 5000 1450
 F 0 "CUP6" H 5050 1550 50  0000 L CNN
 F 1 "0.1u" H 5050 1350 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 5038 1300 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5038 1300 50  0001 C CNN
 F 3 "~" H 5000 1450 50  0001 C CNN
 	1    5000 1450
 	1    0    0    -1  
 $EndComp
-Text Label 4600 1200 1    50   ~ 0
-VCCIO_USB
 Wire Wire Line
 	3400 1200 3400 1300
 Wire Wire Line
 	3800 1200 3800 1300
-Wire Wire Line
-	4200 1300 4200 1250
-Wire Wire Line
-	4200 1250 5000 1250
-Wire Wire Line
-	5000 1250 5000 1300
-Wire Wire Line
-	4600 1200 4600 1300
 Wire Wire Line
 	5000 1600 5000 1650
 Wire Wire Line
@@ -301,7 +289,7 @@ Connection ~ 4600 1650
 Wire Wire Line
 	4600 1650 4200 1650
 $Comp
-L Jumper:SolderJumper_2_Open JP?
+L arktika-fpga-rescue:SolderJumper_2_Open-Jumper JP?
 U 1 1 5F4A0B6F
 P 2600 2700
 AR Path="/5F4A0B6F" Ref="JP?"  Part="1" 
@@ -331,12 +319,12 @@ VCC3V3_USB
 Wire Wire Line
 	1800 2900 2850 2900
 $Comp
-L Device:C CUP1
+L arktika-fpga-rescue:C-Device CUP1
 U 1 1 5F4AC289
 P 3000 1450
 F 0 "CUP1" H 3050 1550 50  0000 L CNN
 F 1 "0.1u" H 3050 1350 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 3038 1300 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3038 1300 50  0001 C CNN
 F 3 "~" H 3000 1450 50  0001 C CNN
 	1    3000 1450
 	1    0    0    -1  
@@ -364,12 +352,12 @@ VCC3V3
 Wire Wire Line
 	2500 3600 2850 3600
 $Comp
-L Device:R_US RUP3
+L arktika-fpga-rescue:R_US-Device RUP3
 U 1 1 5F4B4623
 P 1900 3950
 F 0 "RUP3" H 1968 3996 50  0000 L CNN
 F 1 "12k/1%" H 1968 3905 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 1940 3940 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1940 3940 50  0001 C CNN
 F 3 "~" H 1900 3950 50  0001 C CNN
 	1    1900 3950
 	1    0    0    -1  
@@ -377,7 +365,7 @@ $EndComp
 Wire Wire Line
 	1900 3800 2850 3800
 $Comp
-L power:GND #PWR0118
+L arktika-fpga-rescue:GND-power #PWR0118
 U 1 1 5F4B6DED
 P 1900 5000
 F 0 "#PWR0118" H 1900 4750 50  0001 C CNN
@@ -388,7 +376,7 @@ F 3 "" H 1900 5000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0119
+L arktika-fpga-rescue:GND-power #PWR0119
 U 1 1 5F4B8617
 P 1900 4100
 F 0 "#PWR0119" H 1900 3850 50  0001 C CNN
@@ -399,7 +387,7 @@ F 3 "" H 1900 4100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0120
+L arktika-fpga-rescue:GND-power #PWR0120
 U 1 1 5F4B8C50
 P 1300 3450
 F 0 "#PWR0120" H 1300 3200 50  0001 C CNN
@@ -410,7 +398,7 @@ F 3 "" H 1300 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0121
+L arktika-fpga-rescue:GND-power #PWR0121
 U 1 1 5F4B9767
 P 3000 1600
 F 0 "#PWR0121" H 3000 1350 50  0001 C CNN
@@ -421,7 +409,7 @@ F 3 "" H 3000 1600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0122
+L arktika-fpga-rescue:GND-power #PWR0122
 U 1 1 5F4B9F55
 P 3400 1600
 F 0 "#PWR0122" H 3400 1350 50  0001 C CNN
@@ -432,7 +420,7 @@ F 3 "" H 3400 1600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0123
+L arktika-fpga-rescue:GND-power #PWR0123
 U 1 1 5F4BA2D0
 P 3800 1600
 F 0 "#PWR0123" H 3800 1350 50  0001 C CNN
@@ -443,7 +431,7 @@ F 3 "" H 3800 1600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0124
+L arktika-fpga-rescue:GND-power #PWR0124
 U 1 1 5F4BA61E
 P 4600 1650
 F 0 "#PWR0124" H 4600 1400 50  0001 C CNN
@@ -485,7 +473,7 @@ Connection ~ 4250 5400
 Wire Wire Line
 	4250 5400 4350 5400
 $Comp
-L power:GND #PWR0125
+L arktika-fpga-rescue:GND-power #PWR0125
 U 1 1 5F4BCC98
 P 3850 5400
 F 0 "#PWR0125" H 3850 5150 50  0001 C CNN
@@ -500,7 +488,7 @@ C9
 Text Label 6900 3300 0    50   ~ 0
 C8
 $Comp
-L Device:LED D?
+L arktika-fpga-rescue:LED-Device D?
 U 1 1 5F4C04E5
 P 4700 5550
 AR Path="/5F4C04E5" Ref="D?"  Part="1" 
@@ -508,13 +496,13 @@ AR Path="/5F3E98C5/5F4C04E5" Ref="D?"  Part="1"
 AR Path="/5F415705/5F4C04E5" Ref="DUP1"  Part="1" 
 F 0 "DUP1" V 4739 5432 50  0000 R CNN
 F 1 "LED" V 4648 5432 50  0000 R CNN
-F 2 "LEDs:LED_0603_HandSoldering" H 4700 5550 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4700 5550 50  0001 C CNN
 F 3 "~" H 4700 5550 50  0001 C CNN
 	1    4700 5550
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:LED D?
+L arktika-fpga-rescue:LED-Device D?
 U 1 1 5F4C1A7A
 P 5050 5550
 AR Path="/5F4C1A7A" Ref="D?"  Part="1" 
@@ -522,17 +510,13 @@ AR Path="/5F3E98C5/5F4C1A7A" Ref="D?"  Part="1"
 AR Path="/5F415705/5F4C1A7A" Ref="DUP2"  Part="1" 
 F 0 "DUP2" V 5089 5432 50  0000 R CNN
 F 1 "LED" V 4998 5432 50  0000 R CNN
-F 2 "LEDs:LED_0603_HandSoldering" H 5050 5550 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5050 5550 50  0001 C CNN
 F 3 "~" H 5050 5550 50  0001 C CNN
 	1    5050 5550
 	0    -1   -1   0   
 $EndComp
-Text Label 4700 5900 0    50   ~ 0
-C9
-Text Label 5050 5900 0    50   ~ 0
-C8
 $Comp
-L Device:R_US R?
+L arktika-fpga-rescue:R_US-Device R?
 U 1 1 5F4C3D7E
 P 4700 5200
 AR Path="/5F4C3D7E" Ref="R?"  Part="1" 
@@ -540,13 +524,13 @@ AR Path="/5F3E98C5/5F4C3D7E" Ref="R?"  Part="1"
 AR Path="/5F415705/5F4C3D7E" Ref="RUP1"  Part="1" 
 F 0 "RUP1" H 4632 5246 50  0000 R CNN
 F 1 "1k" H 4632 5155 50  0000 R CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 4740 5190 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4740 5190 50  0001 C CNN
 F 3 "~" H 4700 5200 50  0001 C CNN
 	1    4700 5200
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:R_US R?
+L arktika-fpga-rescue:R_US-Device R?
 U 1 1 5F4C4924
 P 5050 5200
 AR Path="/5F4C4924" Ref="R?"  Part="1" 
@@ -554,7 +538,7 @@ AR Path="/5F3E98C5/5F4C4924" Ref="R?"  Part="1"
 AR Path="/5F415705/5F4C4924" Ref="RUP2"  Part="1" 
 F 0 "RUP2" H 4982 5246 50  0000 R CNN
 F 1 "1k" H 4982 5155 50  0000 R CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 5090 5190 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5090 5190 50  0001 C CNN
 F 3 "~" H 5050 5200 50  0001 C CNN
 	1    5050 5200
 	-1   0    0    -1  
@@ -586,18 +570,18 @@ ICE_CS
 Text Label 6900 3200 0    50   ~ 0
 ICE_CRESET
 $Comp
-L Memory_Flash:W25Q128JVS UUP4
+L arktika-fpga-rescue:W25Q128JVS-Memory_Flash UUP4
 U 1 1 5F4DDDDF
 P 9400 4650
 F 0 "UUP4" H 9400 5231 50  0000 C CNN
 F 1 "W25Q128JVS" H 9400 5140 50  0000 C CNN
-F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 9400 4650 50  0001 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 9400 4650 50  0001 C CNN
 F 3 "http://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf" H 9400 4650 50  0001 C CNN
 	1    9400 4650
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_US R?
+L arktika-fpga-rescue:R_US-Device R?
 U 1 1 5F4DED88
 P 9250 3400
 AR Path="/5F4DED88" Ref="R?"  Part="1" 
@@ -605,13 +589,13 @@ AR Path="/5F3E98C5/5F4DED88" Ref="R?"  Part="1"
 AR Path="/5F415705/5F4DED88" Ref="RUP7_2"  Part="1" 
 F 0 "RUP7_2" V 9350 3500 50  0000 R CNN
 F 1 "10k" V 9300 3650 50  0000 R CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 9290 3390 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9290 3390 50  0001 C CNN
 F 3 "~" H 9250 3400 50  0001 C CNN
 	1    9250 3400
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:R_US R?
+L arktika-fpga-rescue:R_US-Device R?
 U 1 1 5F4DFDDC
 P 9000 3400
 AR Path="/5F4DFDDC" Ref="R?"  Part="1" 
@@ -619,13 +603,13 @@ AR Path="/5F3E98C5/5F4DFDDC" Ref="R?"  Part="1"
 AR Path="/5F415705/5F4DFDDC" Ref="RUP7_1"  Part="1" 
 F 0 "RUP7_1" V 9100 3500 50  0000 R CNN
 F 1 "10k" V 9050 3650 50  0000 R CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 9040 3390 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9040 3390 50  0001 C CNN
 F 3 "~" H 9000 3400 50  0001 C CNN
 	1    9000 3400
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Jumper:SolderJumper_2_Open JP?
+L arktika-fpga-rescue:SolderJumper_2_Open-Jumper JP?
 U 1 1 5F4E66C1
 P 2600 2350
 AR Path="/5F4E66C1" Ref="JP?"  Part="1" 
@@ -649,19 +633,10 @@ Wire Wire Line
 	2450 2350 2100 2350
 Text Label 2100 2350 0    50   ~ 0
 VCC3V3
-Text Label 4700 1200 1    50   ~ 0
-VCC3V3
-Wire Wire Line
-	4700 1200 4600 1200
-Wire Wire Line
-	4600 1150 4600 1200
-Connection ~ 4600 1200
-Wire Wire Line
-	4700 1150 4700 1200
 Text Label 3000 1200 1    50   ~ 0
 VCC_CORE_USB
 $Comp
-L Jumper:SolderJumper_2_Open JP?
+L arktika-fpga-rescue:SolderJumper_2_Open-Jumper JP?
 U 1 1 5F4F135C
 P 1650 3000
 AR Path="/5F4F135C" Ref="JP?"  Part="1" 
@@ -679,7 +654,7 @@ VCC_CORE
 Wire Wire Line
 	1050 3000 1500 3000
 $Comp
-L Jumper:SolderJumper_2_Open JP?
+L arktika-fpga-rescue:SolderJumper_2_Open-Jumper JP?
 U 1 1 5F4F63AA
 P 1650 2650
 AR Path="/5F4F63AA" Ref="JP?"  Part="1" 
@@ -755,7 +730,7 @@ Wire Wire Line
 Text Label 8150 4550 0    50   ~ 0
 ICE_SS
 $Comp
-L power:GND #PWR?
+L arktika-fpga-rescue:GND-power #PWR?
 U 1 1 5F53F910
 P 9400 5050
 AR Path="/5F53F910" Ref="#PWR?"  Part="1" 
@@ -769,12 +744,12 @@ F 3 "" H 9400 5050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C CUP10
+L arktika-fpga-rescue:C-Device CUP10
 U 1 1 5F5400D2
 P 10700 4600
 F 0 "CUP10" H 10815 4646 50  0000 L CNN
 F 1 "0.1u" H 10815 4555 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 10738 4450 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10738 4450 50  0001 C CNN
 F 3 "~" H 10700 4600 50  0001 C CNN
 	1    10700 4600
 	1    0    0    -1  
@@ -791,7 +766,7 @@ Connection ~ 9400 5050
 Text Label 10700 4250 1    50   ~ 0
 VCC3V3
 $Comp
-L Connector_Generic:Conn_01x02 JUP8_1
+L arktika-fpga-rescue:Conn_01x02-Connector_Generic JUP8_1
 U 1 1 5F549B57
 P 8150 5650
 F 0 "JUP8_1" V 8068 5730 50  0000 L CNN
@@ -802,7 +777,7 @@ F 3 "~" H 8150 5650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x02 JUP8_2
+L arktika-fpga-rescue:Conn_01x02-Connector_Generic JUP8_2
 U 1 1 5F54B0AB
 P 8150 6000
 F 0 "JUP8_2" V 8068 6080 50  0000 L CNN
@@ -829,7 +804,7 @@ Wire Wire Line
 Wire Wire Line
 	8050 5800 7500 5800
 $Comp
-L Device:R_US R?
+L arktika-fpga-rescue:R_US-Device R?
 U 1 1 5F561F7E
 P 9500 3400
 AR Path="/5F561F7E" Ref="R?"  Part="1" 
@@ -837,13 +812,13 @@ AR Path="/5F3E98C5/5F561F7E" Ref="R?"  Part="1"
 AR Path="/5F415705/5F561F7E" Ref="RUP7_3"  Part="1" 
 F 0 "RUP7_3" V 9600 3500 50  0000 R CNN
 F 1 "10k" V 9550 3650 50  0000 R CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 9540 3390 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9540 3390 50  0001 C CNN
 F 3 "~" H 9500 3400 50  0001 C CNN
 	1    9500 3400
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:R_US R?
+L arktika-fpga-rescue:R_US-Device R?
 U 1 1 5F5622E4
 P 9750 3400
 AR Path="/5F5622E4" Ref="R?"  Part="1" 
@@ -851,7 +826,7 @@ AR Path="/5F3E98C5/5F5622E4" Ref="R?"  Part="1"
 AR Path="/5F415705/5F5622E4" Ref="RUP7_4"  Part="1" 
 F 0 "RUP7_4" V 9850 3500 50  0000 R CNN
 F 1 "10k" V 9800 3650 50  0000 R CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 9790 3390 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9790 3390 50  0001 C CNN
 F 3 "~" H 9750 3400 50  0001 C CNN
 	1    9750 3400
 	-1   0    0    -1  
@@ -897,18 +872,18 @@ Wire Wire Line
 Text Notes 7700 6350 0    50   ~ 0
 = For programming flash\n|| For programming ICE\n
 $Comp
-L Connector_Generic:Conn_01x07 JUP9
+L arktika-fpga-rescue:Conn_01x07-Connector_Generic JUP9
 U 1 1 5F5CAD81
 P 9750 5800
 F 0 "JUP9" H 9830 5842 50  0000 L CNN
 F 1 "Conn_01x07" H 9830 5751 50  0000 L CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x07_Pitch2.54mm" H 9750 5800 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Horizontal" H 9750 5800 50  0001 C CNN
 F 3 "~" H 9750 5800 50  0001 C CNN
 	1    9750 5800
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L arktika-fpga-rescue:GND-power #PWR?
 U 1 1 5F5CC008
 P 9400 6100
 AR Path="/5F5CC008" Ref="#PWR?"  Part="1" 
@@ -923,17 +898,17 @@ F 3 "" H 9400 6100 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9400 6100 9550 6100
-Text Label 9050 5500 0    50   ~ 0
-FLASH_CS
-Text Label 9050 5600 0    50   ~ 0
-ICE_SCK
-Text Label 9050 5700 0    50   ~ 0
-FLASH_MOSI
-Text Label 9050 5800 0    50   ~ 0
-FLASH_MISO
-Text Label 9050 5900 0    50   ~ 0
-flash_~WP
 Text Label 9050 6000 0    50   ~ 0
+FLASH_CS
+Text Label 9050 5900 0    50   ~ 0
+ICE_SCK
+Text Label 9050 5800 0    50   ~ 0
+FLASH_MOSI
+Text Label 9050 5700 0    50   ~ 0
+FLASH_MISO
+Text Label 9050 5600 0    50   ~ 0
+flash_~WP
+Text Label 9050 5500 0    50   ~ 0
 flash_~RST
 Wire Wire Line
 	9050 6000 9550 6000
@@ -948,34 +923,34 @@ Wire Wire Line
 Wire Wire Line
 	9550 5500 9050 5500
 $Comp
-L Device:Crystal_GND24_Small YUP1
+L arktika-fpga-rescue:Crystal_GND24_Small-Device YUP1
 U 1 1 5F5F092B
 P 1500 4600
 F 0 "YUP1" V 1450 4100 50  0000 L CNN
 F 1 "12Mhz Passive" V 1500 4300 50  0000 R CNN
-F 2 "Crystals:Crystal_SMD_3225-4pin_3.2x2.5mm_HandSoldering" H 1500 4600 50  0001 C CNN
+F 2 "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm_HandSoldering" H 1500 4600 50  0001 C CNN
 F 3 "~" H 1500 4600 50  0001 C CNN
 	1    1500 4600
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C CUP8_1
+L arktika-fpga-rescue:C-Device CUP8_1
 U 1 1 5F60959E
 P 1350 4200
 F 0 "CUP8_1" V 1200 4050 50  0000 L CNN
 F 1 "0.1u" V 1300 4300 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 1388 4050 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1388 4050 50  0001 C CNN
 F 3 "~" H 1350 4200 50  0001 C CNN
 	1    1350 4200
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C CUP8_2
+L arktika-fpga-rescue:C-Device CUP8_2
 U 1 1 5F609C00
 P 1350 5000
 F 0 "CUP8_2" V 1500 4850 50  0000 L CNN
 F 1 "0.1u" V 1400 5100 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 1388 4850 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1388 4850 50  0001 C CNN
 F 3 "~" H 1350 5000 50  0001 C CNN
 	1    1350 5000
 	0    1    1    0   
@@ -995,7 +970,7 @@ Connection ~ 1500 4800
 Wire Wire Line
 	1500 4800 1500 5000
 $Comp
-L power:GND #PWR0128
+L arktika-fpga-rescue:GND-power #PWR0128
 U 1 1 5F62F66B
 P 1750 4600
 F 0 "#PWR0128" H 1750 4350 50  0001 C CNN
@@ -1006,7 +981,7 @@ F 3 "" H 1750 4600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0129
+L arktika-fpga-rescue:GND-power #PWR0129
 U 1 1 5F630354
 P 1250 4600
 F 0 "#PWR0129" H 1250 4350 50  0001 C CNN
@@ -1021,7 +996,7 @@ Wire Wire Line
 Wire Wire Line
 	1600 4600 1750 4600
 $Comp
-L power:GND #PWR0130
+L arktika-fpga-rescue:GND-power #PWR0130
 U 1 1 5F640280
 P 1000 4200
 F 0 "#PWR0130" H 1000 3950 50  0001 C CNN
@@ -1032,7 +1007,7 @@ F 3 "" H 1000 4200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0131
+L arktika-fpga-rescue:GND-power #PWR0131
 U 1 1 5F64094D
 P 1000 5000
 F 0 "#PWR0131" H 1000 4750 50  0001 C CNN
@@ -1049,7 +1024,7 @@ Wire Wire Line
 Text Label 1800 5850 0    50   ~ 0
 VCC3V3_USB
 $Comp
-L power:GND #PWR0132
+L arktika-fpga-rescue:GND-power #PWR0132
 U 1 1 5F64F8ED
 P 1800 6750
 F 0 "#PWR0132" H 1800 6500 50  0001 C CNN
@@ -1080,7 +1055,7 @@ Wire Wire Line
 Wire Wire Line
 	2200 6250 2700 6250
 $Comp
-L Device:R_US R?
+L arktika-fpga-rescue:R_US-Device R?
 U 1 1 5F69315F
 P 2700 6100
 AR Path="/5F69315F" Ref="R?"  Part="1" 
@@ -1088,13 +1063,13 @@ AR Path="/5F3E98C5/5F69315F" Ref="R?"  Part="1"
 AR Path="/5F415705/5F69315F" Ref="RUP5"  Part="1" 
 F 0 "RUP5" H 2632 6146 50  0000 R CNN
 F 1 "10k" H 2632 6055 50  0000 R CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 2740 6090 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2740 6090 50  0001 C CNN
 F 3 "~" H 2700 6100 50  0001 C CNN
 	1    2700 6100
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:R_US R?
+L arktika-fpga-rescue:R_US-Device R?
 U 1 1 5F693BAD
 P 3000 6100
 AR Path="/5F693BAD" Ref="R?"  Part="1" 
@@ -1102,7 +1077,7 @@ AR Path="/5F3E98C5/5F693BAD" Ref="R?"  Part="1"
 AR Path="/5F415705/5F693BAD" Ref="RUP6"  Part="1" 
 F 0 "RUP6" H 2932 6146 50  0000 R CNN
 F 1 "10k" H 2932 6055 50  0000 R CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 3040 6090 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3040 6090 50  0001 C CNN
 F 3 "~" H 3000 6100 50  0001 C CNN
 	1    3000 6100
 	-1   0    0    -1  
@@ -1119,7 +1094,7 @@ Wire Wire Line
 Wire Wire Line
 	3000 6250 3000 6350
 $Comp
-L Device:R_US R?
+L arktika-fpga-rescue:R_US-Device R?
 U 1 1 5F6AFFD7
 P 950 6100
 AR Path="/5F6AFFD7" Ref="R?"  Part="1" 
@@ -1127,7 +1102,7 @@ AR Path="/5F3E98C5/5F6AFFD7" Ref="R?"  Part="1"
 AR Path="/5F415705/5F6AFFD7" Ref="RUP4"  Part="1" 
 F 0 "RUP4" H 882 6146 50  0000 R CNN
 F 1 "10k" H 882 6055 50  0000 R CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 990 6090 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 990 6090 50  0001 C CNN
 F 3 "~" H 950 6100 50  0001 C CNN
 	1    950  6100
 	-1   0    0    -1  
@@ -1141,7 +1116,7 @@ Wire Wire Line
 Wire Wire Line
 	950  6250 1400 6250
 $Comp
-L Jumper:SolderJumper_2_Bridged JUP5_1
+L arktika-fpga-rescue:SolderJumper_2_Bridged-Jumper JUP5_1
 U 1 1 5F6D0C34
 P 2450 3300
 F 0 "JUP5_1" H 2450 3413 50  0000 C CNN
@@ -1154,7 +1129,7 @@ $EndComp
 Wire Wire Line
 	1300 3100 2850 3100
 $Comp
-L Jumper:SolderJumper_2_Bridged JUP5_2
+L arktika-fpga-rescue:SolderJumper_2_Bridged-Jumper JUP5_2
 U 1 1 5F6DA709
 P 2150 3400
 F 0 "JUP5_2" H 2150 3300 50  0000 C CNN
@@ -1179,7 +1154,7 @@ ICE_CRESET
 Wire Wire Line
 	8550 2350 9050 2350
 $Comp
-L Connector_Generic:Conn_01x18 JUP6
+L arktika-fpga-rescue:Conn_01x18-Connector_Generic JUP6
 U 1 1 5F1FD944
 P 5550 3500
 F 0 "JUP6" H 5550 4400 50  0000 L CNN
@@ -1268,7 +1243,7 @@ Wire Wire Line
 Wire Wire Line
 	6650 3400 6900 3400
 $Comp
-L Connector_Generic:Conn_01x08 JUP7_1
+L arktika-fpga-rescue:Conn_01x08-Connector_Generic JUP7_1
 U 1 1 5F40AE8F
 P 6150 3000
 F 0 "JUP7_1" H 6000 3450 50  0000 L CNN
@@ -1279,7 +1254,7 @@ F 3 "~" H 6150 3000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x08 JUP7_2
+L arktika-fpga-rescue:Conn_01x08-Connector_Generic JUP7_2
 U 1 1 5F40BDD8
 P 6450 3000
 F 0 "JUP7_2" H 6400 3450 50  0000 C CNN
@@ -1352,18 +1327,18 @@ Connection ~ 5350 4300
 Wire Wire Line
 	5350 4300 5800 4300
 $Comp
-L Memory_EEPROM:93LCxxBxxOT UUP2
+L arktika-fpga-rescue:93LCxxBxxOT-Memory_EEPROM UUP2
 U 1 1 5F29EF92
 P 1800 6350
 F 0 "UUP2" H 1550 6600 50  0000 C CNN
 F 1 "93LC56B/OT" H 1450 6100 50  0000 C CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23-6_Handsoldering" H 1800 6350 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6_Handsoldering" H 1800 6350 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001749K.pdf" H 1800 6350 50  0001 C CNN
 	1    1800 6350
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_US R?
+L arktika-fpga-rescue:R_US-Device R?
 U 1 1 5F650447
 P 2400 6450
 AR Path="/5F650447" Ref="R?"  Part="1" 
@@ -1371,7 +1346,7 @@ AR Path="/5F3E98C5/5F650447" Ref="R?"  Part="1"
 AR Path="/5F415705/5F650447" Ref="RUP7"  Part="1" 
 F 0 "RUP7" V 2300 6350 50  0000 C CNN
 F 1 "2.2k" V 2300 6550 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 2440 6440 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2440 6440 50  0001 C CNN
 F 3 "~" H 2400 6450 50  0001 C CNN
 	1    2400 6450
 	0    1    -1   0   
@@ -1388,12 +1363,12 @@ Connection ~ 2700 6350
 Wire Wire Line
 	2700 6350 3000 6350
 $Comp
-L Device:C CUP9
+L arktika-fpga-rescue:C-Device CUP9
 U 1 1 5F2BFCBB
 P 650 6450
 F 0 "CUP9" H 765 6496 50  0000 L CNN
 F 1 "0.1u" H 765 6405 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 688 6300 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 688 6300 50  0001 C CNN
 F 3 "~" H 650 6450 50  0001 C CNN
 	1    650  6450
 	1    0    0    -1  
@@ -1415,7 +1390,7 @@ Wire Wire Line
 Text HLabel 950  7350 0    50   Input ~ 0
 GND
 $Comp
-L power:GND #PWR?
+L arktika-fpga-rescue:GND-power #PWR?
 U 1 1 5F2C0418
 P 1250 7350
 AR Path="/5F2C0418" Ref="#PWR?"  Part="1" 
@@ -1430,4 +1405,43 @@ F 3 "" H 1250 7350 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1250 7350 950  7350
+Text Label 2650 3300 0    50   ~ 0
+D'-
+Text Label 2650 3400 0    50   ~ 0
+D'+
+Text Label 3850 2300 1    50   ~ 0
+VCC3V3
+Text Label 4600 1150 1    50   ~ 0
+VCC3V3
+Wire Wire Line
+	4200 1300 4200 1150
+Wire Wire Line
+	4200 1150 4600 1150
+Wire Wire Line
+	5000 1150 5000 1300
+Wire Wire Line
+	4600 1150 4600 1300
+Connection ~ 4600 1150
+Wire Wire Line
+	4600 1150 5000 1150
+Text Label 4950 4400 0    50   ~ 0
+C8'
+Text Label 4950 4500 0    50   ~ 0
+C9'
+Text Label 4700 5900 1    50   ~ 0
+C8'
+Text Label 5050 5900 1    50   ~ 0
+C9'
+Text HLabel 1500 1800 0    50   Input ~ 0
+GNDPLL0
+Text HLabel 1500 1900 0    50   Input ~ 0
+GNDPLL1
+Text Label 1650 1800 0    50   ~ 0
+GNDPLL0
+Text Label 1650 1900 0    50   ~ 0
+GNDPLL1
+Wire Wire Line
+	1500 1800 1650 1800
+Wire Wire Line
+	1650 1900 1500 1900
 $EndSCHEMATC
