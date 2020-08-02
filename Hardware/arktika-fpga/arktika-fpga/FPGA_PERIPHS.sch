@@ -16,14 +16,14 @@ $EndDescr
 $Comp
 L arktika-fpga-rescue:MCP3204-Analog_ADC UPER2
 U 1 1 5F72040D
-P 8950 5000
+P 9450 5000
 AR Path="/5F72040D" Ref="UPER2"  Part="1" 
 AR Path="/5F72015E/5F72040D" Ref="UPER2"  Part="1" 
-F 0 "UPER2" H 9400 5450 50  0000 C CNN
-F 1 "MCP3204" H 9250 5350 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 9850 4700 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21298c.pdf" H 9850 4700 50  0001 C CNN
-	1    8950 5000
+F 0 "UPER2" H 9900 5450 50  0000 C CNN
+F 1 "MCP3204" H 9750 5350 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 10350 4700 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21298c.pdf" H 10350 4700 50  0001 C CNN
+	1    9450 5000
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -300,22 +300,22 @@ F 3 "http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/do
 	1    2100 2500
 	1    0    0    -1  
 $EndComp
-Text Label 9650 4900 0    50   ~ 0
+Text Label 10150 4900 0    50   ~ 0
 ADC_CLK
-Text Label 9650 5000 0    50   ~ 0
+Text Label 10150 5000 0    50   ~ 0
 ADC_MISO
-Text Label 9650 5100 0    50   ~ 0
+Text Label 10150 5100 0    50   ~ 0
 ADC_MOSI
-Text Label 9650 5200 0    50   ~ 0
+Text Label 10150 5200 0    50   ~ 0
 ADC_CS
 Wire Wire Line
-	9550 4900 10050 4900
+	10050 4900 10550 4900
 Wire Wire Line
-	10050 5000 9550 5000
+	10550 5000 10050 5000
 Wire Wire Line
-	9550 5100 10050 5100
+	10050 5100 10550 5100
 Wire Wire Line
-	10050 5200 9550 5200
+	10550 5200 10050 5200
 Text HLabel 1250 7200 0    50   Input ~ 0
 SW[0..7]
 Text HLabel 1250 7300 0    50   Input ~ 0
@@ -906,59 +906,45 @@ Text Label 3250 4100 1    50   ~ 0
 VCC3V3
 Text Label 1800 950  0    50   ~ 0
 VCC3V3
-Text Notes 8250 5950 0    50   ~ 0
+Text Notes 8750 5950 0    50   ~ 0
 Maybe find better adc. But cheap\n
 Text Notes 2850 800  0    50   ~ 0
 Maybe find bridge with a easier package to solder. But also cheap\n
 $Comp
 L arktika-fpga-rescue:GND-power #PWR0155
 U 1 1 5F6F2DE0
-P 8900 5600
-F 0 "#PWR0155" H 8900 5350 50  0001 C CNN
-F 1 "GND" H 8905 5427 50  0000 C CNN
-F 2 "" H 8900 5600 50  0001 C CNN
-F 3 "" H 8900 5600 50  0001 C CNN
-	1    8900 5600
+P 9400 5600
+F 0 "#PWR0155" H 9400 5350 50  0001 C CNN
+F 1 "GND" H 9405 5427 50  0000 C CNN
+F 2 "" H 9400 5600 50  0001 C CNN
+F 3 "" H 9400 5600 50  0001 C CNN
+	1    9400 5600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8850 5500 8850 5550
+	9350 5500 9350 5550
 Wire Wire Line
-	8850 5550 8900 5550
+	9350 5550 9400 5550
 Wire Wire Line
-	8950 5550 8950 5500
+	9450 5550 9450 5500
 Wire Wire Line
-	8900 5550 8900 5600
-Connection ~ 8900 5550
+	9400 5550 9400 5600
+Connection ~ 9400 5550
 Wire Wire Line
-	8900 5550 8950 5550
-Text Notes 7950 6200 0    50   ~ 0
+	9400 5550 9450 5550
+Text Notes 8450 6200 0    50   ~ 0
 Analize if dedicated AGND is better for noise in this case\nMaybe "isolate" ADC gnd with net tie
-Text Label 8950 4250 1    50   ~ 0
+Text Label 9450 4250 1    50   ~ 0
 VCC3V3
 Wire Wire Line
-	8950 4250 8950 4450
+	9450 4250 9450 4450
 Wire Wire Line
-	8850 4600 8850 4450
+	9350 4600 9350 4450
 Wire Wire Line
-	8850 4450 8950 4450
-Connection ~ 8950 4450
+	9350 4450 9450 4450
+Connection ~ 9450 4450
 Wire Wire Line
-	8950 4450 8950 4600
-Text Notes 8100 3850 0    50   ~ 0
-Maybe use a 4.096V reference for easier conversion.\nNeed to find a cheap one
-Text Notes 7000 2050 0    50   ~ 0
-Any more peripherals?
-Text Notes 7000 2150 0    50   ~ 0
-Most of the fpga dev boards have 7seg displays, worth adding?
-Wire Notes Line
-	6900 1900 9600 1900
-Wire Notes Line
-	9600 1900 9600 2300
-Wire Notes Line
-	9600 2300 6900 2300
-Wire Notes Line
-	6900 2300 6900 1900
+	9450 4450 9450 4600
 Connection ~ 2250 1600
 Wire Wire Line
 	2250 1900 2500 1900
@@ -1096,32 +1082,26 @@ Text Label 1350 7200 0    50   ~ 0
 SW[0..7]
 Text Label 1350 7300 0    50   ~ 0
 LED[0..7]
-Text GLabel 8350 4900 0    50   Input ~ 0
+Text GLabel 8850 5200 0    50   Input ~ 0
 ADC_CH0
-Text GLabel 8350 5000 0    50   Input ~ 0
+Text GLabel 8850 5100 0    50   Input ~ 0
 ADC_CH1
-Text GLabel 8350 5100 0    50   Input ~ 0
+Text GLabel 8850 5000 0    50   Input ~ 0
 ADC_CH2
-Text GLabel 8350 5200 0    50   Input ~ 0
+Text GLabel 8850 4900 0    50   Input ~ 0
 ADC_CH3
-Text GLabel 10050 4900 2    50   Input ~ 0
+Text GLabel 10550 4900 2    50   Input ~ 0
 ADC_CLK
-Text GLabel 10050 5000 2    50   Input ~ 0
+Text GLabel 10550 5000 2    50   Input ~ 0
 ADC_MISO
-Text GLabel 10050 5100 2    50   Input ~ 0
+Text GLabel 10550 5100 2    50   Input ~ 0
 ADC_MOSI
-Text GLabel 10050 5200 2    50   Input ~ 0
+Text GLabel 10550 5200 2    50   Input ~ 0
 ADC_CS
 Text GLabel 4650 1400 2    50   Input ~ 0
 UART_RX
 Text GLabel 4650 1500 2    50   Input ~ 0
 UART_TX
-Wire Bus Line
-	2450 4800 3450 4800
-Wire Bus Line
-	650  5150 2000 5150
-Wire Bus Line
-	4550 4200 6350 4200
 Wire Wire Line
 	2900 7150 3300 7150
 Text Label 2900 7150 0    50   ~ 0
@@ -1148,4 +1128,75 @@ F 3 "~" V 3375 7350 50  0001 C CNN
 	1    3400 7250
 	1    0    0    -1  
 $EndComp
+$Comp
+L arktika-fpga-rescue:C-Device CPER7
+U 1 1 5FC72ECB
+P 8050 5050
+F 0 "CPER7" H 8165 5096 50  0000 L CNN
+F 1 "10u" H 8165 5005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8088 4900 50  0001 C CNN
+F 3 "~" H 8050 5050 50  0001 C CNN
+	1    8050 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L arktika-fpga-rescue:C-Device CPER6
+U 1 1 5FC76AE0
+P 7550 5050
+F 0 "CPER6" H 7665 5096 50  0000 L CNN
+F 1 "1u" H 7665 5005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7588 4900 50  0001 C CNN
+F 3 "~" H 7550 5050 50  0001 C CNN
+	1    7550 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7800 4450 7800 4850
+Wire Wire Line
+	7800 4850 7550 4850
+Wire Wire Line
+	7550 4850 7550 4900
+Connection ~ 9350 4450
+Wire Wire Line
+	9350 4450 7800 4450
+Wire Wire Line
+	7800 4850 8050 4850
+Wire Wire Line
+	8050 4850 8050 4900
+Connection ~ 7800 4850
+Wire Wire Line
+	7800 5550 7800 5200
+Connection ~ 9350 5550
+Wire Wire Line
+	9350 5550 7800 5550
+Wire Wire Line
+	7800 5200 8050 5200
+Connection ~ 7800 5200
+$Comp
+L arktika-fpga-rescue:C-Device CPER5
+U 1 1 5FCC1DD9
+P 7050 5050
+F 0 "CPER5" H 7165 5096 50  0000 L CNN
+F 1 "1u" H 7165 5005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7088 4900 50  0001 C CNN
+F 3 "~" H 7050 5050 50  0001 C CNN
+	1    7050 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7050 5200 7550 5200
+Connection ~ 7550 5200
+Wire Wire Line
+	7550 5200 7800 5200
+Wire Wire Line
+	7550 4850 7050 4850
+Wire Wire Line
+	7050 4850 7050 4900
+Connection ~ 7550 4850
+Wire Bus Line
+	650  5150 2000 5150
+Wire Bus Line
+	2450 4800 3450 4800
+Wire Bus Line
+	4550 4200 6350 4200
 $EndSCHEMATC

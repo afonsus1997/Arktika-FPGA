@@ -211,18 +211,12 @@ Text Label 8650 2550 0    50   ~ 0
 ARDUINO_D12
 Text Label 8650 2650 0    50   ~ 0
 ARDUINO_D13
-Text Label 11050 2350 2    50   ~ 0
-ARDUINO_A4
-Text Label 11050 2450 2    50   ~ 0
-ARDUINO_A5
-Text Label 11050 2650 2    50   ~ 0
-ARDUINO_A4
-Text Label 11050 2750 2    50   ~ 0
-ARDUINO_A5
+Text Label 11000 2450 2    50   ~ 0
+ARDUINO_EXTRA_3
+Text Label 11000 2350 2    50   ~ 0
+ARDUINO_EXTRA_4
 Text Label 11000 1550 2    50   ~ 0
 ARDUINO_EXTRA_1
-Text Label 11000 1750 2    50   ~ 0
-ARDUINO_EXTRA_2
 Wire Wire Line
 	9700 3050 9700 3100
 Wire Wire Line
@@ -263,11 +257,7 @@ Wire Wire Line
 Wire Wire Line
 	9300 2650 8650 2650
 Wire Wire Line
-	10300 1750 11050 1750
-Wire Wire Line
-	11050 2350 10300 2350
-Wire Wire Line
-	10300 2450 11050 2450
+	10300 1750 10600 1750
 Wire Wire Line
 	11050 2650 10300 2650
 Wire Wire Line
@@ -466,32 +456,8 @@ Connection ~ 2500 6850
 Text Label 2900 6550 0    50   ~ 0
 OSC_OUT
 NoConn ~ 2100 6550
-Entry Wire Line
-	11050 2250 11150 2150
-Entry Wire Line
-	11050 2150 11150 2050
-Entry Wire Line
-	11050 2050 11150 1950
-Entry Wire Line
-	11050 1950 11150 1850
-Text Label 11050 1950 2    50   ~ 0
-ADC_CH0
-Text Label 11050 2050 2    50   ~ 0
-ADC_CH1
-Text Label 11050 2150 2    50   ~ 0
-ADC_CH2
-Text Label 11050 2250 2    50   ~ 0
-ADC_CH3
 Text Label 11150 800  3    50   ~ 0
 ADC
-Wire Wire Line
-	10300 1950 11050 1950
-Wire Wire Line
-	10300 2050 11050 2050
-Wire Wire Line
-	10300 2150 11050 2150
-Wire Wire Line
-	10300 2250 11050 2250
 Wire Wire Line
 	10300 1550 11000 1550
 Wire Wire Line
@@ -923,22 +889,14 @@ Text Label 1600 5650 0    50   ~ 0
 LED3
 Text Label 1600 5750 0    50   ~ 0
 LED2
-Text GLabel 7600 5200 0    50   Input ~ 0
-ADC_CLK
-Text GLabel 7600 5100 0    50   Input ~ 0
-ADC_MISO
-Text GLabel 7600 5000 0    50   Input ~ 0
-ADC_MOSI
 Text GLabel 7600 4900 0    50   Input ~ 0
+ADC_CLK
+Text GLabel 7600 5000 0    50   Input ~ 0
+ADC_MISO
+Text GLabel 7600 5100 0    50   Input ~ 0
+ADC_MOSI
+Text GLabel 7600 5200 0    50   Input ~ 0
 ADC_CS
-Text GLabel 7600 4500 0    50   Input ~ 0
-ADC_CH0
-Text GLabel 7600 4600 0    50   Input ~ 0
-ADC_CH1
-Text GLabel 7600 4700 0    50   Input ~ 0
-ADC_CH2
-Text GLabel 7600 4800 0    50   Input ~ 0
-ADC_CH3
 Text GLabel 1950 4850 2    50   Input ~ 0
 UART_RX
 Text GLabel 1950 4950 2    50   Input ~ 0
@@ -1296,14 +1254,68 @@ Text Label 4800 5600 0    50   ~ 0
 EXT18
 Wire Wire Line
 	5050 5600 4800 5600
+Text GLabel 10800 1950 2    50   Input ~ 0
+ADC_CH0
+Text GLabel 10800 2050 2    50   Input ~ 0
+ADC_CH1
+Text GLabel 10800 2150 2    50   Input ~ 0
+ADC_CH2
+Text GLabel 10800 2250 2    50   Input ~ 0
+ADC_CH3
+Wire Wire Line
+	10800 2250 10300 2250
+Wire Wire Line
+	10300 2150 10800 2150
+Wire Wire Line
+	10300 1950 11000 1950
+Wire Wire Line
+	10300 2050 11000 2050
+Text Label 3200 3450 2    50   ~ 0
+ARDUINO_EXTRA_3
+Text Label 3200 3550 2    50   ~ 0
+ARDUINO_EXTRA_4
+Wire Wire Line
+	2500 3450 3250 3450
+Wire Wire Line
+	2500 3550 3250 3550
+Wire Wire Line
+	10300 2350 11000 2350
+Wire Wire Line
+	10300 2450 11000 2450
+$Comp
+L arktika-fpga-rescue:GND-power #PWR0161
+U 1 1 5FD857D0
+P 11050 2750
+F 0 "#PWR0161" H 11050 2500 50  0001 C CNN
+F 1 "GND" H 11055 2577 50  0000 C CNN
+F 2 "" H 11050 2750 50  0001 C CNN
+F 3 "" H 11050 2750 50  0001 C CNN
+	1    11050 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11050 2650 11050 2750
 Wire Bus Line
 	6500 2600 6500 3400
 Wire Bus Line
 	7100 5150 7100 6000
 Wire Bus Line
-	11150 800  11150 2150
-Wire Bus Line
 	1900 5050 1900 5650
 Wire Bus Line
 	6600 3350 6600 4200
+Connection ~ 11050 2750
+$Comp
+L arktika-fpga-rescue:GND-power #PWR0162
+U 1 1 5FD9ECAC
+P 10600 1750
+F 0 "#PWR0162" H 10600 1500 50  0001 C CNN
+F 1 "GND" H 10605 1577 50  0000 C CNN
+F 2 "" H 10600 1750 50  0001 C CNN
+F 3 "" H 10600 1750 50  0001 C CNN
+	1    10600 1750
+	1    0    0    -1  
+$EndComp
+Connection ~ 10600 1750
+Wire Wire Line
+	10600 1750 11050 1750
 $EndSCHEMATC
