@@ -1064,38 +1064,12 @@ Wire Wire Line
 	1300 1600 1350 1600
 Wire Wire Line
 	1650 1600 2250 1600
-$Comp
-L arktika-fpga-rescue:Buzzer-Device BPER1
-U 1 1 5F25EF58
-P 3400 7250
-F 0 "BPER1" H 3552 7279 50  0000 L CNN
-F 1 "Buzzer" H 3552 7188 50  0000 L CNN
-F 2 "Buzzers_Beepers:Buzzer_12x9.5RM7.6" V 3375 7350 50  0001 C CNN
-F 3 "~" V 3375 7350 50  0001 C CNN
-	1    3400 7250
-	1    0    0    -1  
-$EndComp
-$Comp
-L arktika-fpga-rescue:GND-power #PWR0156
-U 1 1 5F25F55A
-P 3300 7350
-F 0 "#PWR0156" H 3300 7100 50  0001 C CNN
-F 1 "GND" H 3305 7177 50  0000 C CNN
-F 2 "" H 3300 7350 50  0001 C CNN
-F 3 "" H 3300 7350 50  0001 C CNN
-	1    3300 7350
-	1    0    0    -1  
-$EndComp
 Text HLabel 1250 7400 0    50   Input ~ 0
 Buzzer
 Wire Wire Line
 	1250 7400 1800 7400
 Text Label 1350 7400 0    50   ~ 0
 Buzzer
-Text Label 2900 7150 0    50   ~ 0
-Buzzer
-Wire Wire Line
-	2900 7150 3300 7150
 Text HLabel 1250 6600 0    50   Input ~ 0
 GND
 $Comp
@@ -1143,9 +1117,35 @@ UART_RX
 Text GLabel 4650 1500 2    50   Input ~ 0
 UART_TX
 Wire Bus Line
-	650  5150 2000 5150
-Wire Bus Line
 	2450 4800 3450 4800
 Wire Bus Line
+	650  5150 2000 5150
+Wire Bus Line
 	4550 4200 6350 4200
+Wire Wire Line
+	2900 7150 3300 7150
+Text Label 2900 7150 0    50   ~ 0
+Buzzer
+$Comp
+L arktika-fpga-rescue:GND-power #PWR0156
+U 1 1 5F25F55A
+P 3300 7350
+F 0 "#PWR0156" H 3300 7100 50  0001 C CNN
+F 1 "GND" H 3305 7177 50  0000 C CNN
+F 2 "" H 3300 7350 50  0001 C CNN
+F 3 "" H 3300 7350 50  0001 C CNN
+	1    3300 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L arktika-fpga-rescue:Buzzer-Device BPER1
+U 1 1 5F25EF58
+P 3400 7250
+F 0 "BPER1" H 3552 7279 50  0000 L CNN
+F 1 "Buzzer" H 3552 7188 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" V 3375 7350 50  0001 C CNN
+F 3 "~" V 3375 7350 50  0001 C CNN
+	1    3400 7250
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

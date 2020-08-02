@@ -421,10 +421,6 @@ Text Label 10000 800  1    50   ~ 0
 VCC5V
 Wire Wire Line
 	10000 800  10000 950 
-Text Notes 750  7350 0    50   ~ 0
-Still need to add a second oscillator!\n(and/or add option to use usb oscillator, need to be careful with distance and track lengh!)
-Text Notes 750  7650 0    50   ~ 0
-Most common 50Mhz crystals on china come in 7050 and 3225 package, but cant find on arrow\nMaybe its possible to make a universal footprint dor 3225 and 7050\nAlso, needs to be active
 $Comp
 L arktika-fpga-rescue:ASCO-Oscillator XUP1
 U 1 1 5F23DFDD
@@ -1141,16 +1137,6 @@ Text Label 3250 3750 2    50   ~ 0
 PMOD2_B_1
 Text Label 3250 3850 2    50   ~ 0
 PMOD2_B_4
-Wire Bus Line
-	6500 2600 6500 3400
-Wire Bus Line
-	7100 5150 7100 6000
-Wire Bus Line
-	11150 800  11150 2150
-Wire Bus Line
-	1900 5050 1900 5650
-Wire Bus Line
-	6600 3350 6600 4200
 Text Label 2500 6250 0    50   ~ 0
 VCC3V3
 Text Label 2450 1300 2    50   ~ 0
@@ -1173,4 +1159,151 @@ Text Label 7400 1250 2    50   ~ 0
 VCC3V3
 Text Label 7400 2200 2    50   ~ 0
 VCC3V3
+Text Label 1550 3450 0    50   ~ 0
+EXT2
+Text Label 1550 3550 0    50   ~ 0
+EXT3
+Text Label 1550 3650 0    50   ~ 0
+EXT4
+Text Label 1550 4650 0    50   ~ 0
+EXT5
+Text Label 1550 4750 0    50   ~ 0
+EXT6
+Text Label 1550 4850 0    50   ~ 0
+EXT7
+Text Label 7350 4300 0    50   ~ 0
+EXT8
+Text Label 7350 4200 0    50   ~ 0
+EXT9
+Text Label 7350 4100 0    50   ~ 0
+EXT10
+Text Label 7350 4000 0    50   ~ 0
+EXT11
+Wire Wire Line
+	7350 3400 7600 3400
+Wire Wire Line
+	7350 3500 7600 3500
+Wire Wire Line
+	7600 3600 7350 3600
+Wire Wire Line
+	7350 3700 7600 3700
+Wire Wire Line
+	7350 3800 7600 3800
+Wire Wire Line
+	7350 3900 7600 3900
+Wire Wire Line
+	7600 4000 7350 4000
+Wire Wire Line
+	7350 4100 7600 4100
+Wire Wire Line
+	7600 4200 7350 4200
+Text Label 7350 3900 0    50   ~ 0
+EXT12
+Text Label 7350 3800 0    50   ~ 0
+EXT13
+Text Label 7350 3700 0    50   ~ 0
+EXT14
+Text Label 7350 3600 0    50   ~ 0
+EXT15
+Text Label 7350 3500 0    50   ~ 0
+EXT16
+Text Label 7350 3400 0    50   ~ 0
+EXT17
+Text Label 4800 3900 0    50   ~ 0
+EXT1
+Text Label 4800 4000 0    50   ~ 0
+EXT2
+Text Label 4800 4100 0    50   ~ 0
+EXT3
+Text Label 4800 4200 0    50   ~ 0
+EXT4
+Text Label 4800 4300 0    50   ~ 0
+EXT5
+Text Label 4800 4400 0    50   ~ 0
+EXT6
+Text Label 4800 4500 0    50   ~ 0
+EXT7
+Text Label 4800 4600 0    50   ~ 0
+EXT8
+Text Label 4800 4700 0    50   ~ 0
+EXT9
+Wire Wire Line
+	4800 4700 5050 4700
+Text Label 4800 5500 0    50   ~ 0
+EXT17
+Text Label 4800 5400 0    50   ~ 0
+EXT16
+Text Label 4800 5300 0    50   ~ 0
+EXT15
+Text Label 4800 5200 0    50   ~ 0
+EXT14
+Text Label 4800 5100 0    50   ~ 0
+EXT13
+Text Label 4800 5000 0    50   ~ 0
+EXT12
+Wire Wire Line
+	5050 5500 4800 5500
+Wire Wire Line
+	4800 5400 5050 5400
+Wire Wire Line
+	5050 5300 4800 5300
+Wire Wire Line
+	4800 5200 5050 5200
+Wire Wire Line
+	4800 5100 5050 5100
+Wire Wire Line
+	4800 5000 5050 5000
+Wire Wire Line
+	5050 4900 4800 4900
+Wire Wire Line
+	4800 4800 5050 4800
+Text Label 4800 4900 0    50   ~ 0
+EXT11
+Text Label 4800 4800 0    50   ~ 0
+EXT10
+Wire Wire Line
+	5050 4600 4800 4600
+Wire Wire Line
+	5050 4500 4800 4500
+Wire Wire Line
+	5050 4400 4800 4400
+Wire Wire Line
+	5050 4300 4800 4300
+Wire Wire Line
+	5050 4200 4800 4200
+Wire Wire Line
+	5050 4100 4800 4100
+Wire Wire Line
+	5050 4000 4800 4000
+Wire Wire Line
+	5050 3900 4800 3900
+Wire Wire Line
+	7600 4300 7350 4300
+Text Label 1550 4950 0    50   ~ 0
+EXT18
+$Comp
+L arktika-fpga-rescue:Conn_01x18-Connector_Generic JEXT1
+U 1 1 5F93B780
+P 4600 4700
+F 0 "JEXT1" H 4518 5717 50  0000 C CNN
+F 1 "Conn_01x18-Connector_Generic" H 4518 5626 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x18_P2.54mm_Vertical" H 4600 4700 50  0001 C CNN
+F 3 "" H 4600 4700 50  0001 C CNN
+	1    4600 4700
+	-1   0    0    -1  
+$EndComp
+Text Label 4800 5600 0    50   ~ 0
+EXT18
+Wire Wire Line
+	5050 5600 4800 5600
+Wire Bus Line
+	6500 2600 6500 3400
+Wire Bus Line
+	7100 5150 7100 6000
+Wire Bus Line
+	11150 800  11150 2150
+Wire Bus Line
+	1900 5050 1900 5650
+Wire Bus Line
+	6600 3350 6600 4200
 $EndSCHEMATC
