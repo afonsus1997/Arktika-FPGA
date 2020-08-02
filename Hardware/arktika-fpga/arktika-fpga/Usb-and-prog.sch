@@ -1153,77 +1153,12 @@ Text Label 8550 2350 0    50   ~ 0
 ICE_CRESET
 Wire Wire Line
 	8550 2350 9050 2350
-$Comp
-L arktika-fpga-rescue:Conn_01x18-Connector_Generic JUP6
-U 1 1 5F1FD944
-P 5550 3500
-F 0 "JUP6" H 5550 4400 50  0000 L CNN
-F 1 "Conn_01x18" H 5400 2500 50  0000 L CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x18_Pitch2.54mm" H 5550 3500 50  0001 C CNN
-F 3 "~" H 5550 3500 50  0001 C CNN
-	1    5550 3500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4650 3000 5350 3000
 Wire Wire Line
 	5350 3200 4650 3200
 Wire Wire Line
-	5350 4500 5350 4400
-Wire Wire Line
-	4650 4500 5350 4500
-Wire Wire Line
-	5300 4400 5300 4300
-Wire Wire Line
-	4650 4400 5300 4400
-Wire Wire Line
 	4650 4300 5250 4300
-Wire Wire Line
-	5250 4300 5250 4200
-Wire Wire Line
-	5250 4200 5350 4200
-Wire Wire Line
-	4650 4200 5200 4200
-Wire Wire Line
-	5200 4200 5200 4100
-Wire Wire Line
-	5200 4100 5350 4100
-Wire Wire Line
-	4650 4100 5150 4100
-Wire Wire Line
-	5150 4100 5150 4000
-Wire Wire Line
-	5150 4000 5350 4000
-Wire Wire Line
-	4650 4000 5100 4000
-Wire Wire Line
-	5100 4000 5100 3900
-Wire Wire Line
-	5100 3900 5350 3900
-Wire Wire Line
-	4650 3900 5050 3900
-Wire Wire Line
-	5050 3900 5050 3800
-Wire Wire Line
-	5050 3800 5350 3800
-Wire Wire Line
-	4650 3800 5000 3800
-Wire Wire Line
-	5000 3800 5000 3700
-Wire Wire Line
-	5000 3700 5350 3700
-Wire Wire Line
-	4650 3700 4950 3700
-Wire Wire Line
-	4950 3700 4950 3600
-Wire Wire Line
-	4950 3600 5350 3600
-Wire Wire Line
-	4650 3600 4900 3600
-Wire Wire Line
-	4900 3600 4900 3500
-Wire Wire Line
-	4900 3500 5350 3500
 Text Notes 4950 2350 0    50   ~ 0
 Place shunt between connectors for normal operation\n
 Wire Wire Line
@@ -1265,34 +1200,9 @@ F 3 "~" H 6450 3000 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	4650 2700 5350 2700
-Connection ~ 5350 2700
-Wire Wire Line
-	4650 2800 5350 2800
-Connection ~ 5350 2800
-Wire Wire Line
-	4650 2900 5350 2900
-Connection ~ 5350 2900
-Wire Wire Line
 	5650 3100 5650 3000
 Wire Wire Line
-	4650 3100 5350 3100
-Connection ~ 5350 3100
-Wire Wire Line
-	5350 3100 5650 3100
-Wire Wire Line
 	5700 3300 5700 3100
-Wire Wire Line
-	4650 3300 5350 3300
-Connection ~ 5350 3300
-Wire Wire Line
-	5350 3300 5700 3300
-Wire Wire Line
-	5350 2700 5950 2700
-Wire Wire Line
-	5350 2800 5950 2800
-Wire Wire Line
-	5350 2900 5950 2900
 Wire Wire Line
 	5650 3000 5950 3000
 Wire Wire Line
@@ -1302,30 +1212,13 @@ Wire Wire Line
 Wire Wire Line
 	5750 3200 5950 3200
 Wire Wire Line
-	4650 3400 5350 3400
-Connection ~ 5350 3400
-Wire Wire Line
-	5350 3400 5750 3400
-Wire Wire Line
-	5800 4300 5800 3300
-Wire Wire Line
 	5800 3300 5950 3300
 Wire Wire Line
-	5350 4400 5850 4400
-Wire Wire Line
-	5850 4400 5850 3400
-Wire Wire Line
 	5850 3400 5950 3400
-Connection ~ 5350 4400
 Wire Wire Line
 	1800 6650 1800 6700
 Wire Wire Line
 	1300 3400 1300 3450
-Wire Wire Line
-	5300 4300 5350 4300
-Connection ~ 5350 4300
-Wire Wire Line
-	5350 4300 5800 4300
 $Comp
 L arktika-fpga-rescue:93LCxxBxxOT-Memory_EEPROM UUP2
 U 1 1 5F29EF92
@@ -1444,4 +1337,185 @@ Wire Wire Line
 	1500 1800 1650 1800
 Wire Wire Line
 	1650 1900 1500 1900
+Wire Wire Line
+	4650 2700 5950 2700
+Wire Wire Line
+	4650 2800 5950 2800
+Wire Wire Line
+	4650 2900 5950 2900
+Wire Wire Line
+	4650 3100 5650 3100
+Wire Wire Line
+	4650 3300 5700 3300
+Wire Wire Line
+	4650 3400 5750 3400
+Text Label 5000 2700 0    50   ~ 0
+ADBUS0
+Text Label 5000 2800 0    50   ~ 0
+ADBUS1
+Text Label 5000 2900 0    50   ~ 0
+ADBUS2
+Text Label 5000 3000 0    50   ~ 0
+ADBUS3
+Text Label 5000 3100 0    50   ~ 0
+ADBUS4
+Text Label 5000 3200 0    50   ~ 0
+ADBUS5
+Text Label 5000 3300 0    50   ~ 0
+ADBUS6
+Text Label 5000 3400 0    50   ~ 0
+ADBUS7
+Text Label 6400 4050 0    50   ~ 0
+ADBUS0
+Text Label 6400 4150 0    50   ~ 0
+ADBUS1
+Text Label 6400 4250 0    50   ~ 0
+ADBUS2
+Text Label 6400 4350 0    50   ~ 0
+ADBUS3
+Text Label 6400 4450 0    50   ~ 0
+ADBUS4
+Text Label 6400 4550 0    50   ~ 0
+ADBUS5
+Text Label 6400 4650 0    50   ~ 0
+ADBUS6
+Text Label 6400 4750 0    50   ~ 0
+ADBUS7
+Text Label 5000 3700 0    50   ~ 0
+ACBUS1
+Text Label 5000 3600 0    50   ~ 0
+ACBUS0
+Wire Wire Line
+	4650 4500 5850 4500
+Wire Wire Line
+	5850 3400 5850 4500
+Wire Wire Line
+	4650 4400 5800 4400
+Wire Wire Line
+	5800 3300 5800 4400
+Wire Wire Line
+	4650 3600 5250 3600
+Wire Wire Line
+	4650 3700 5250 3700
+Wire Wire Line
+	4650 3800 5250 3800
+Wire Wire Line
+	4650 3900 5250 3900
+Wire Wire Line
+	4650 4000 5250 4000
+Wire Wire Line
+	4650 4100 5250 4100
+Wire Wire Line
+	4650 4200 5250 4200
+Text Label 5000 3800 0    50   ~ 0
+ACBUS2
+Text Label 5000 3900 0    50   ~ 0
+ACBUS3
+Text Label 5000 4000 0    50   ~ 0
+ACBUS4
+Text Label 5000 4100 0    50   ~ 0
+ACBUS5
+Text Label 5000 4200 0    50   ~ 0
+ACBUS6
+Text Label 5000 4300 0    50   ~ 0
+ACBUS7
+Wire Wire Line
+	7250 4750 7850 4750
+Text Label 7600 4150 0    50   ~ 0
+ACBUS1
+Text Label 7600 4050 0    50   ~ 0
+ACBUS0
+Wire Wire Line
+	7250 4050 7850 4050
+Wire Wire Line
+	7250 4150 7850 4150
+Wire Wire Line
+	7250 4250 7850 4250
+Wire Wire Line
+	7250 4350 7850 4350
+Wire Wire Line
+	7250 4450 7850 4450
+Wire Wire Line
+	7250 4550 7850 4550
+Wire Wire Line
+	7250 4650 7850 4650
+Text Label 7600 4250 0    50   ~ 0
+ACBUS2
+Text Label 7600 4350 0    50   ~ 0
+ACBUS3
+Text Label 7600 4450 0    50   ~ 0
+ACBUS4
+Text Label 7600 4550 0    50   ~ 0
+ACBUS5
+Text Label 7600 4650 0    50   ~ 0
+ACBUS6
+Text Label 7600 4750 0    50   ~ 0
+ACBUS7
+Wire Wire Line
+	6150 4750 6750 4750
+Wire Wire Line
+	6150 4150 6750 4150
+Wire Wire Line
+	6150 4250 6750 4250
+Wire Wire Line
+	6150 4350 6750 4350
+Wire Wire Line
+	6150 4450 6750 4450
+Wire Wire Line
+	6150 4550 6750 4550
+Wire Wire Line
+	6150 4650 6750 4650
+Wire Wire Line
+	6150 4050 6750 4050
+$Comp
+L Connector_Generic:Conn_02x10_Odd_Even JUP6
+U 1 1 603EF912
+P 6950 4450
+F 0 "JUP6" H 7000 5067 50  0000 C CNN
+F 1 "Conn_02x10_Odd_Even" H 7000 4976 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical" H 6950 4450 50  0001 C CNN
+F 3 "~" H 6950 4450 50  0001 C CNN
+	1    6950 4450
+	1    0    0    -1  
+$EndComp
+Text Label 6400 4850 0    50   ~ 0
+C8'
+Text Label 7600 4850 0    50   ~ 0
+C9'
+Wire Wire Line
+	7850 4850 7250 4850
+Wire Wire Line
+	6750 4850 6150 4850
+$Comp
+L arktika-fpga-rescue:GND-power #PWR?
+U 1 1 6042592D
+P 6150 4950
+AR Path="/6042592D" Ref="#PWR?"  Part="1" 
+AR Path="/5F3E98C5/6042592D" Ref="#PWR?"  Part="1" 
+AR Path="/5F415705/6042592D" Ref="#PWR0159"  Part="1" 
+F 0 "#PWR0159" H 6150 4700 50  0001 C CNN
+F 1 "GND" H 6150 4800 50  0000 C CNN
+F 2 "" H 6150 4950 50  0001 C CNN
+F 3 "" H 6150 4950 50  0001 C CNN
+	1    6150 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L arktika-fpga-rescue:GND-power #PWR?
+U 1 1 604263FB
+P 7850 4950
+AR Path="/604263FB" Ref="#PWR?"  Part="1" 
+AR Path="/5F3E98C5/604263FB" Ref="#PWR?"  Part="1" 
+AR Path="/5F415705/604263FB" Ref="#PWR0160"  Part="1" 
+F 0 "#PWR0160" H 7850 4700 50  0001 C CNN
+F 1 "GND" H 7850 4800 50  0000 C CNN
+F 2 "" H 7850 4950 50  0001 C CNN
+F 3 "" H 7850 4950 50  0001 C CNN
+	1    7850 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7850 4950 7250 4950
+Wire Wire Line
+	6150 4950 6750 4950
 $EndSCHEMATC

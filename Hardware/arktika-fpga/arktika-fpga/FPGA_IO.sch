@@ -53,28 +53,6 @@ F 3 "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40" H 7100 6700 50  0001
 	1    0    0    -1  
 $EndComp
 $Comp
-L arktika-fpga-rescue:Conn_02x06_Top_Bottom-Connector_Generic PMODA_1
-U 1 1 5F5824E2
-P 1800 1000
-F 0 "PMODA_1" H 1850 1417 50  0000 C CNN
-F 1 "Conn_02x06_Top_Bottom" H 1850 1326 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Horizontal" H 1800 1000 50  0001 C CNN
-F 3 "~" H 1800 1000 50  0001 C CNN
-	1    1800 1000
-	1    0    0    -1  
-$EndComp
-$Comp
-L arktika-fpga-rescue:Conn_02x06_Top_Bottom-Connector_Generic PMODA_2
-U 1 1 5F5844DB
-P 1800 1900
-F 0 "PMODA_2" H 1850 2317 50  0000 C CNN
-F 1 "Conn_02x06_Top_Bottom" H 1850 2226 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Horizontal" H 1800 1900 50  0001 C CNN
-F 3 "~" H 1800 1900 50  0001 C CNN
-	1    1800 1900
-	1    0    0    -1  
-$EndComp
-$Comp
 L arktika-fpga-rescue:Conn_02x04_Odd_Even-Connector_Generic PMODB_1
 U 1 1 5F586835
 P 4550 1100
@@ -118,102 +96,18 @@ F 3 "~" H 6600 1900 50  0001 C CNN
 	1    6600 1900
 	-1   0    0    -1  
 $EndComp
-Text Label 1050 800  0    50   ~ 0
-PMOD1_A_1
-Text Label 1050 900  0    50   ~ 0
-PMOD1_A_2
-Text Label 1050 1000 0    50   ~ 0
-PMOD1_A_3
-Text Label 1050 1100 0    50   ~ 0
-PMOD1_A_4
-Text Label 1050 1200 0    50   ~ 0
-PMOD1_A_5
-Text Label 1050 1300 0    50   ~ 0
-PMOD1_A_6
-Text Label 2650 1100 2    50   ~ 0
-PMOD1_A_10
-Text Label 2650 1300 2    50   ~ 0
-PMOD1_A_12
-Text Label 2600 800  2    50   ~ 0
-PMOD1_A_7
-Text Label 2600 900  2    50   ~ 0
-PMOD1_A_8
-Text Label 2600 1000 2    50   ~ 0
-PMOD1_A_9
-Text Label 2650 1200 2    50   ~ 0
-PMOD1_A_11
-Wire Wire Line
-	2650 1100 2100 1100
-Wire Wire Line
-	2100 1000 2600 1000
-Wire Wire Line
-	2600 900  2100 900 
-Wire Wire Line
-	2100 800  2600 800 
-Wire Wire Line
-	1600 800  1050 800 
-Wire Wire Line
-	1050 900  1600 900 
-Wire Wire Line
-	1600 1000 1050 1000
-Wire Wire Line
-	1050 1100 1600 1100
-Text Label 1050 1700 0    50   ~ 0
-PMOD1_B_1
-Text Label 1050 1800 0    50   ~ 0
-PMOD1_B_2
-Text Label 1050 1900 0    50   ~ 0
-PMOD1_B_3
-Text Label 1050 2000 0    50   ~ 0
-PMOD1_B_4
-Text Label 1050 2100 0    50   ~ 0
-PMOD1_B_5
-Text Label 1050 2200 0    50   ~ 0
-PMOD1_B_6
-Text Label 2650 1700 2    50   ~ 0
-PMOD1_B_7
-Text Label 2650 1800 2    50   ~ 0
-PMOD1_B_8
-Text Label 2650 1900 2    50   ~ 0
-PMOD1_B_9
-Text Label 2700 2000 2    50   ~ 0
-PMOD1_B_10
-Text Label 2700 2100 2    50   ~ 0
-PMOD1_B_11
-Text Label 2700 2200 2    50   ~ 0
-PMOD1_B_12
-Wire Wire Line
-	1050 1700 1600 1700
-Wire Wire Line
-	1600 1800 1050 1800
-Wire Wire Line
-	1050 1900 1600 1900
-Wire Wire Line
-	1600 2000 1050 2000
-Wire Wire Line
-	2100 2000 2700 2000
-Wire Wire Line
-	2700 1900 2100 1900
-Wire Wire Line
-	2100 1800 2700 1800
-Wire Wire Line
-	2700 1700 2100 1700
 Text Label 3850 1000 0    50   ~ 0
 PMOD2_A_1
 Text Label 3850 1100 0    50   ~ 0
 PMOD2_A_3
 Text Label 3850 1200 0    50   ~ 0
 PMOD2_A_5
-Text Label 3850 1300 0    50   ~ 0
-PMOD2_A_7
 Text Label 5350 1000 2    50   ~ 0
 PMOD2_A_2
 Text Label 5350 1100 2    50   ~ 0
 PMOD2_A_4
 Text Label 5350 1200 2    50   ~ 0
 PMOD2_A_6
-Text Label 5350 1300 2    50   ~ 0
-PMOD2_A_8
 Wire Wire Line
 	5350 1000 4850 1000
 Wire Wire Line
@@ -223,21 +117,17 @@ Wire Wire Line
 Wire Wire Line
 	3850 1000 4350 1000
 Text Label 3850 1900 0    50   ~ 0
-PMOD2_A_1
+PMOD2_B_1
 Text Label 3850 2000 0    50   ~ 0
 PMOD2_B_3
 Text Label 3850 2100 0    50   ~ 0
 PMOD2_B_5
-Text Label 3850 2200 0    50   ~ 0
-PMOD2_B_7
 Text Label 5350 1900 2    50   ~ 0
 PMOD2_B_2
 Text Label 5350 2000 2    50   ~ 0
 PMOD2_B_4
 Text Label 5350 2100 2    50   ~ 0
 PMOD2_B_6
-Text Label 5350 2200 2    50   ~ 0
-PMOD2_B_7
 Wire Wire Line
 	5350 1900 4850 1900
 Wire Wire Line
@@ -256,8 +146,6 @@ Text Label 7400 1050 2    50   ~ 0
 PMOD3_A_4
 Text Label 7400 1150 2    50   ~ 0
 PMOD3_A_5
-Text Label 7400 1250 2    50   ~ 0
-PMOD3_A_6
 Text Label 7400 1700 2    50   ~ 0
 PMOD3_B_1
 Text Label 7400 1800 2    50   ~ 0
@@ -268,8 +156,6 @@ Text Label 7400 2000 2    50   ~ 0
 PMOD3_B_4
 Text Label 7400 2100 2    50   ~ 0
 PMOD3_B_5
-Text Label 7400 2200 2    50   ~ 0
-PMOD3_B_6
 Wire Wire Line
 	7400 750  6800 750 
 Wire Wire Line
@@ -292,7 +178,7 @@ U 1 1 5F6046D5
 P 9800 1950
 F 0 "A1" H 8800 3150 50  0001 C CNN
 F 1 "Arduino_UNO_R3" H 9350 2900 50  0000 C CNN
-F 2 "Module:Arduino_UNO_R3_WithMountingHoles" H 9800 1950 50  0001 C CIN
+F 2 "Module:Arduino_UNO_R3" H 9800 1950 50  0001 C CIN
 F 3 "https://www.arduino.cc/en/Main/arduinoBoardUno" H 9800 1950 50  0001 C CNN
 	1    9800 1950
 	1    0    0    -1  
@@ -390,10 +276,6 @@ Text Label 10900 1350 2    50   ~ 0
 ARDUINO_RESET
 Text Notes 9350 5150 0    50   ~ 0
 Ammount of pins used:\n\nPMOD1 - 2x10 = 20\nPMOD2 - 2x6 = 12\nPMOD3 - 2x4 = 8\n=====Total PMOD = 40\n\n=====Total Arduino = 24\n\n=====Total uart = 6\n\n=====Total ADC = 4\n\nLEDs = 8\nPush Buttons = 4\nSwitches = 8\n=====Total human interface = 20\n\n================\nTotal used: 94 out of 109
-Text Label 5600 1300 2    50   ~ 0
-3V3
-Text Label 3600 1300 0    50   ~ 0
-3V3
 $Comp
 L arktika-fpga-rescue:GND-power #PWR0134
 U 1 1 5F669A5F
@@ -428,8 +310,6 @@ Wire Wire Line
 	3400 1200 4350 1200
 Wire Wire Line
 	3600 1300 4350 1300
-Text Label 3600 2200 0    50   ~ 0
-3V3
 $Comp
 L arktika-fpga-rescue:GND-power #PWR0136
 U 1 1 5F67B3BB
@@ -447,8 +327,6 @@ Wire Wire Line
 	3400 2100 4350 2100
 Wire Wire Line
 	3600 2200 4350 2200
-Text Label 5600 2200 2    50   ~ 0
-3V3
 $Comp
 L arktika-fpga-rescue:GND-power #PWR0137
 U 1 1 5F6821AA
@@ -477,8 +355,6 @@ F 3 "" H 9800 3100 50  0001 C CNN
 	1    9800 3100
 	1    0    0    -1  
 $EndComp
-Text Label 7700 1250 2    50   ~ 0
-3V3
 $Comp
 L arktika-fpga-rescue:GND-power #PWR0139
 U 1 1 5F694E96
@@ -496,8 +372,6 @@ Wire Wire Line
 	6800 1150 7900 1150
 Wire Wire Line
 	6800 1250 7700 1250
-Text Label 7700 2200 2    50   ~ 0
-3V3
 $Comp
 L arktika-fpga-rescue:GND-power #PWR0140
 U 1 1 5F698C2B
@@ -515,82 +389,6 @@ Wire Wire Line
 	6800 2100 7900 2100
 Wire Wire Line
 	6800 2200 7700 2200
-Text Label 850  1300 0    50   ~ 0
-3V3
-$Comp
-L arktika-fpga-rescue:GND-power #PWR0141
-U 1 1 5F6B0B31
-P 650 1300
-F 0 "#PWR0141" H 650 1050 50  0001 C CNN
-F 1 "GND" H 655 1127 50  0000 C CNN
-F 2 "" H 650 1300 50  0001 C CNN
-F 3 "" H 650 1300 50  0001 C CNN
-	1    650  1300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	650  1300 650  1200
-Wire Wire Line
-	650  1200 1600 1200
-Wire Wire Line
-	850  1300 1600 1300
-Text Label 850  2200 0    50   ~ 0
-3V3
-$Comp
-L arktika-fpga-rescue:GND-power #PWR0142
-U 1 1 5F6B4646
-P 650 2200
-F 0 "#PWR0142" H 650 1950 50  0001 C CNN
-F 1 "GND" H 655 2027 50  0000 C CNN
-F 2 "" H 650 2200 50  0001 C CNN
-F 3 "" H 650 2200 50  0001 C CNN
-	1    650  2200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	650  2200 650  2100
-Wire Wire Line
-	650  2100 1600 2100
-Wire Wire Line
-	850  2200 1600 2200
-Text Label 2850 1300 2    50   ~ 0
-3V3
-$Comp
-L arktika-fpga-rescue:GND-power #PWR0143
-U 1 1 5F6B815F
-P 3050 1300
-F 0 "#PWR0143" H 3050 1050 50  0001 C CNN
-F 1 "GND" H 3055 1127 50  0000 C CNN
-F 2 "" H 3050 1300 50  0001 C CNN
-F 3 "" H 3050 1300 50  0001 C CNN
-	1    3050 1300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3050 1300 3050 1200
-Wire Wire Line
-	2100 1300 2850 1300
-Wire Wire Line
-	2100 1200 3050 1200
-Text Label 2850 2200 2    50   ~ 0
-3V3
-$Comp
-L arktika-fpga-rescue:GND-power #PWR0144
-U 1 1 5F6BBFC9
-P 3050 2200
-F 0 "#PWR0144" H 3050 1950 50  0001 C CNN
-F 1 "GND" H 3055 2027 50  0000 C CNN
-F 2 "" H 3050 2200 50  0001 C CNN
-F 3 "" H 3050 2200 50  0001 C CNN
-	1    3050 2200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3050 2200 3050 2100
-Wire Wire Line
-	2100 2200 2850 2200
-Wire Wire Line
-	2100 2100 3050 2100
 Text Notes 9150 5350 0    50   ~ 0
 GBIN Ports can be used for Master clock input
 Text HLabel 900  6850 0    50   Input ~ 0
@@ -669,8 +467,6 @@ F 3 "" H 2500 6850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 2500 6850
-Text Label 2500 6250 0    50   ~ 0
-3V3
 Text Label 2900 6550 0    50   ~ 0
 OSC_OUT
 NoConn ~ 2100 6550
@@ -740,8 +536,6 @@ F 3 "" H 1200 6500 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1200 6500 900  6500
-Text Notes 2900 700  0    50   ~ 0
-Check pmod footprints\n
 Text HLabel 10550 6200 2    50   Input ~ 0
 D+
 Text HLabel 10550 6300 2    50   Input ~ 0
@@ -788,38 +582,22 @@ Wire Wire Line
 	1950 5850 2300 5850
 Wire Wire Line
 	2300 5950 2200 5950
-Text Label 3250 3850 2    50   ~ 0
+Text Label 3250 4150 2    50   ~ 0
 PMOD2_A_1
-Text Label 3250 3750 2    50   ~ 0
-PMOD2_A_3
 Text Label 3250 4050 2    50   ~ 0
+PMOD2_A_3
+Text Label 3250 4350 2    50   ~ 0
 PMOD2_A_2
-Text Label 3250 3950 2    50   ~ 0
+Text Label 3250 4250 2    50   ~ 0
 PMOD2_A_4
 Wire Wire Line
-	2800 4050 3250 4050
+	2800 4350 3250 4350
 Wire Wire Line
-	2800 3950 3250 3950
+	2800 4250 3250 4250
 Wire Wire Line
-	2800 3850 3250 3850
+	2800 4150 3250 4150
 Wire Wire Line
-	3250 3750 2800 3750
-Wire Wire Line
-	2650 5050 3250 5050
-Wire Wire Line
-	3250 5150 2650 5150
-Wire Wire Line
-	2650 5250 3250 5250
-Wire Wire Line
-	3250 5350 2650 5350
-Text Label 3250 5050 2    50   ~ 0
-PMOD3_B_4
-Text Label 3250 5150 2    50   ~ 0
-PMOD3_B_3
-Text Label 3250 5250 2    50   ~ 0
-PMOD3_B_2
-Text Label 3250 5350 2    50   ~ 0
-PMOD3_B_1
+	3250 4050 2800 4050
 Wire Wire Line
 	2650 4650 3250 4650
 Wire Wire Line
@@ -829,36 +607,48 @@ Wire Wire Line
 Wire Wire Line
 	3250 4950 2650 4950
 Text Label 3250 4650 2    50   ~ 0
-PMOD3_A_4
+PMOD3_B_4
 Text Label 3250 4750 2    50   ~ 0
-PMOD3_A_3
+PMOD3_B_3
 Text Label 3250 4850 2    50   ~ 0
-PMOD3_A_2
+PMOD3_B_2
 Text Label 3250 4950 2    50   ~ 0
+PMOD3_B_1
+Wire Wire Line
+	2650 5050 3250 5050
+Wire Wire Line
+	3250 5150 2650 5150
+Wire Wire Line
+	2650 5250 3250 5250
+Wire Wire Line
+	3250 5350 2650 5350
+Text Label 3250 5050 2    50   ~ 0
+PMOD3_A_4
+Text Label 3250 5150 2    50   ~ 0
+PMOD3_A_3
+Text Label 3250 5250 2    50   ~ 0
+PMOD3_A_2
+Text Label 3250 5350 2    50   ~ 0
 PMOD3_A_1
 Wire Wire Line
-	3250 3350 2800 3350
-Wire Wire Line
-	3250 3450 2800 3450
-Wire Wire Line
-	3250 3550 2800 3550
-Wire Wire Line
 	3250 3650 2800 3650
-Text Label 3250 3350 2    50   ~ 0
-PMOD2_B_3
-Text Label 3250 3450 2    50   ~ 0
-PMOD2_A_1
-Text Label 3250 3550 2    50   ~ 0
-PMOD2_B_4
+Wire Wire Line
+	3250 3750 2800 3750
+Wire Wire Line
+	3250 3850 2800 3850
+Wire Wire Line
+	3250 3950 2800 3950
 Text Label 3250 3650 2    50   ~ 0
+PMOD2_B_3
+Text Label 3250 3950 2    50   ~ 0
 PMOD2_B_2
-Text Label 1550 3750 0    50   ~ 0
+Text Label 1650 4450 0    50   ~ 0
 PMOD1_A_1
-Text Label 1550 3850 0    50   ~ 0
+Text Label 1650 4250 0    50   ~ 0
 PMOD1_A_2
-Text Label 1550 3950 0    50   ~ 0
+Text Label 1650 4050 0    50   ~ 0
 PMOD1_A_3
-Text Label 1550 4050 0    50   ~ 0
+Text Label 1650 3850 0    50   ~ 0
 PMOD1_A_4
 Wire Wire Line
 	2100 3750 1550 3750
@@ -868,13 +658,13 @@ Wire Wire Line
 	2100 3950 1550 3950
 Wire Wire Line
 	1550 4050 2100 4050
-Text Label 2100 4450 2    50   ~ 0
+Text Label 1650 3750 0    50   ~ 0
 PMOD1_A_10
-Text Label 2050 4150 2    50   ~ 0
+Text Label 1650 4350 0    50   ~ 0
 PMOD1_A_7
-Text Label 2050 4250 2    50   ~ 0
+Text Label 1650 4150 0    50   ~ 0
 PMOD1_A_8
-Text Label 2050 4350 2    50   ~ 0
+Text Label 1650 3950 0    50   ~ 0
 PMOD1_A_9
 Wire Wire Line
 	2100 4450 1550 4450
@@ -884,13 +674,13 @@ Wire Wire Line
 	2050 4250 1550 4250
 Wire Wire Line
 	1550 4150 2050 4150
-Text Label 2700 5850 0    50   ~ 0
+Text Label 2750 6150 0    50   ~ 0
 PMOD1_B_1
 Text Label 2700 5950 0    50   ~ 0
 PMOD1_B_2
-Text Label 2700 6050 0    50   ~ 0
+Text Label 2800 5750 0    50   ~ 0
 PMOD1_B_3
-Text Label 2700 6150 0    50   ~ 0
+Text Label 2800 5550 0    50   ~ 0
 PMOD1_B_4
 Wire Wire Line
 	2700 5850 3250 5850
@@ -900,13 +690,13 @@ Wire Wire Line
 	2700 6050 3250 6050
 Wire Wire Line
 	3250 6150 2700 6150
-Text Label 3200 5450 2    50   ~ 0
+Text Label 3150 6050 2    50   ~ 0
 PMOD1_B_7
-Text Label 3200 5550 2    50   ~ 0
+Text Label 3200 5850 2    50   ~ 0
 PMOD1_B_8
-Text Label 3200 5650 2    50   ~ 0
+Text Label 3250 5650 2    50   ~ 0
 PMOD1_B_9
-Text Label 3250 5750 2    50   ~ 0
+Text Label 3250 5450 2    50   ~ 0
 PMOD1_B_10
 Wire Wire Line
 	2650 5750 3250 5750
@@ -1173,6 +963,184 @@ Wire Wire Line
 	2100 4550 1550 4550
 Text Label 2000 4550 2    50   ~ 0
 Buzzer
+Text Label 1550 3350 0    50   ~ 0
+EXT1
+Text Label 1050 1200 0    50   ~ 0
+PMOD1_A_5
+Text Notes 2900 700  0    50   ~ 0
+Check pmod footprints\n
+Wire Wire Line
+	2100 2100 3050 2100
+Wire Wire Line
+	2100 2200 2850 2200
+Wire Wire Line
+	3050 2200 3050 2100
+$Comp
+L arktika-fpga-rescue:GND-power #PWR0144
+U 1 1 5F6BBFC9
+P 3050 2200
+F 0 "#PWR0144" H 3050 1950 50  0001 C CNN
+F 1 "GND" H 3055 2027 50  0000 C CNN
+F 2 "" H 3050 2200 50  0001 C CNN
+F 3 "" H 3050 2200 50  0001 C CNN
+	1    3050 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 1200 3050 1200
+Wire Wire Line
+	2100 1300 2850 1300
+Wire Wire Line
+	3050 1300 3050 1200
+$Comp
+L arktika-fpga-rescue:GND-power #PWR0143
+U 1 1 5F6B815F
+P 3050 1300
+F 0 "#PWR0143" H 3050 1050 50  0001 C CNN
+F 1 "GND" H 3055 1127 50  0000 C CNN
+F 2 "" H 3050 1300 50  0001 C CNN
+F 3 "" H 3050 1300 50  0001 C CNN
+	1    3050 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	850  2200 1600 2200
+Wire Wire Line
+	650  2100 1600 2100
+Wire Wire Line
+	650  2200 650  2100
+$Comp
+L arktika-fpga-rescue:GND-power #PWR0142
+U 1 1 5F6B4646
+P 650 2200
+F 0 "#PWR0142" H 650 1950 50  0001 C CNN
+F 1 "GND" H 655 2027 50  0000 C CNN
+F 2 "" H 650 2200 50  0001 C CNN
+F 3 "" H 650 2200 50  0001 C CNN
+	1    650  2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	850  1300 1600 1300
+Wire Wire Line
+	650  1200 1600 1200
+Wire Wire Line
+	650  1300 650  1200
+$Comp
+L arktika-fpga-rescue:GND-power #PWR0141
+U 1 1 5F6B0B31
+P 650 1300
+F 0 "#PWR0141" H 650 1050 50  0001 C CNN
+F 1 "GND" H 655 1127 50  0000 C CNN
+F 2 "" H 650 1300 50  0001 C CNN
+F 3 "" H 650 1300 50  0001 C CNN
+	1    650  1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 1700 2100 1700
+Wire Wire Line
+	2100 1800 2700 1800
+Wire Wire Line
+	2700 1900 2100 1900
+Wire Wire Line
+	2100 2000 2700 2000
+Wire Wire Line
+	1600 2000 1050 2000
+Wire Wire Line
+	1050 1900 1600 1900
+Wire Wire Line
+	1600 1800 1050 1800
+Wire Wire Line
+	1050 1700 1600 1700
+Text Label 2700 2100 2    50   ~ 0
+PMOD1_B_11
+Text Label 2700 2000 2    50   ~ 0
+PMOD1_B_10
+Text Label 2650 1900 2    50   ~ 0
+PMOD1_B_9
+Text Label 2650 1800 2    50   ~ 0
+PMOD1_B_8
+Text Label 2650 1700 2    50   ~ 0
+PMOD1_B_7
+Text Label 1050 2100 0    50   ~ 0
+PMOD1_B_5
+Text Label 1050 2000 0    50   ~ 0
+PMOD1_B_4
+Text Label 1050 1900 0    50   ~ 0
+PMOD1_B_3
+Text Label 1050 1800 0    50   ~ 0
+PMOD1_B_2
+Text Label 1050 1700 0    50   ~ 0
+PMOD1_B_1
+Wire Wire Line
+	1050 1100 1600 1100
+Wire Wire Line
+	1600 1000 1050 1000
+Wire Wire Line
+	1050 900  1600 900 
+Wire Wire Line
+	1600 800  1050 800 
+Wire Wire Line
+	2100 800  2600 800 
+Wire Wire Line
+	2600 900  2100 900 
+Wire Wire Line
+	2100 1000 2600 1000
+Wire Wire Line
+	2650 1100 2100 1100
+Text Label 2650 1200 2    50   ~ 0
+PMOD1_A_11
+Text Label 2600 1000 2    50   ~ 0
+PMOD1_A_9
+Text Label 2600 900  2    50   ~ 0
+PMOD1_A_8
+Text Label 2600 800  2    50   ~ 0
+PMOD1_A_7
+Text Label 2650 1100 2    50   ~ 0
+PMOD1_A_10
+Text Label 1050 1100 0    50   ~ 0
+PMOD1_A_4
+Text Label 1050 1000 0    50   ~ 0
+PMOD1_A_3
+Text Label 1050 900  0    50   ~ 0
+PMOD1_A_2
+Text Label 1050 800  0    50   ~ 0
+PMOD1_A_1
+$Comp
+L Connector_Generic:Conn_02x06_Odd_Even PMODA_1
+U 1 1 60276968
+P 1800 1000
+F 0 "PMODA_1" H 1850 1417 50  0000 C CNN
+F 1 "Conn_02x06_Odd_Even" H 1850 1326 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Horizontal" H 1800 1000 50  0001 C CNN
+F 3 "~" H 1800 1000 50  0001 C CNN
+	1    1800 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x06_Odd_Even PMODA_2
+U 1 1 602CE57E
+P 1800 1900
+F 0 "PMODA_2" H 1850 2317 50  0000 C CNN
+F 1 "Conn_02x06_Odd_Even" H 1850 2226 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Horizontal" H 1800 1900 50  0001 C CNN
+F 3 "~" H 1800 1900 50  0001 C CNN
+	1    1800 1900
+	1    0    0    -1  
+$EndComp
+Text Label 3250 4550 2    50   ~ 0
+ARDUINO_EXTRA_1
+Wire Wire Line
+	3250 4550 2600 4550
+Text Label 3250 4450 2    50   ~ 0
+ARDUINO_RESET
+Wire Wire Line
+	3250 4450 2600 4450
+Text Label 3250 3750 2    50   ~ 0
+PMOD2_B_1
+Text Label 3250 3850 2    50   ~ 0
+PMOD2_B_4
 Wire Bus Line
 	6500 2600 6500 3400
 Wire Bus Line
@@ -1183,6 +1151,26 @@ Wire Bus Line
 	1900 5050 1900 5650
 Wire Bus Line
 	6600 3350 6600 4200
-Text Label 1550 3350 0    50   ~ 0
-EXT1
+Text Label 2500 6250 0    50   ~ 0
+VCC3V3
+Text Label 2450 1300 2    50   ~ 0
+VCC3V3
+Text Label 1350 1300 2    50   ~ 0
+VCC3V3
+Text Label 1500 2200 2    50   ~ 0
+VCC3V3
+Text Label 2500 2200 2    50   ~ 0
+VCC3V3
+Text Label 4150 2200 2    50   ~ 0
+VCC3V3
+Text Label 5350 2200 2    50   ~ 0
+VCC3V3
+Text Label 5350 1300 2    50   ~ 0
+VCC3V3
+Text Label 4150 1300 2    50   ~ 0
+VCC3V3
+Text Label 7400 1250 2    50   ~ 0
+VCC3V3
+Text Label 7400 2200 2    50   ~ 0
+VCC3V3
 $EndSCHEMATC

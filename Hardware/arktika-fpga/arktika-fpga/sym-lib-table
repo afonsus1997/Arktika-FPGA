@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name arktika-fpga-rescue)(type Legacy)(uri ${KIPRJMOD}/arktika-fpga-rescue.lib)(options "")(descr ""))
+  (lib (name pmod)(type Legacy)(uri ${KIPRJMOD}/Libraries/PMOD/pmod.lib)(options "")(descr ""))
 )
