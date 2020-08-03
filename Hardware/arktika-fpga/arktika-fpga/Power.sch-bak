@@ -1195,5 +1195,34 @@ F 3 "~" H 9250 2500 50  0001 C CNN
 $EndComp
 Connection ~ 9250 2350
 Wire Wire Line
-	9250 2350 9800 2350
+	9250 2350 9750 2350
+$Comp
+L arktika-fpga-rescue:C-Device CP7_?
+U 1 1 5FDFD5F6
+P 9750 2500
+AR Path="/5FDFD5F6" Ref="CP7_?"  Part="1" 
+AR Path="/5F3E98C5/5FDFD5F6" Ref="CP7_4"  Part="1" 
+F 0 "CP7_4" H 9865 2546 50  0000 L CNN
+F 1 "10n" H 9865 2455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9788 2350 50  0001 C CNN
+F 3 "~" H 9750 2500 50  0001 C CNN
+	1    9750 2500
+	-1   0    0    -1  
+$EndComp
+Connection ~ 9750 2350
+Wire Wire Line
+	9750 2350 9800 2350
+$Comp
+L arktika-fpga-rescue:GND-power #PWR?
+U 1 1 5FDFDD8F
+P 9750 2650
+AR Path="/5FDFDD8F" Ref="#PWR?"  Part="1" 
+AR Path="/5F3E98C5/5FDFDD8F" Ref="#PWR0163"  Part="1" 
+F 0 "#PWR0163" H 9750 2400 50  0001 C CNN
+F 1 "GND" H 9750 2500 50  0000 C CNN
+F 2 "" H 9750 2650 50  0001 C CNN
+F 3 "" H 9750 2650 50  0001 C CNN
+	1    9750 2650
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC
