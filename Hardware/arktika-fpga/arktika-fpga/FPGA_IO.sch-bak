@@ -514,17 +514,6 @@ Text Label 2500 5850 0    50   ~ 0
 D+
 Text Label 2500 5950 0    50   ~ 0
 D-
-$Comp
-L Jumper:SolderJumper_2_Open JUP6_1
-U 1 1 5F315AF6
-P 2350 5850
-F 0 "JUP6_1" H 2350 5963 50  0000 C CNN
-F 1 "SolderJumper_2_Open" H 2350 5964 50  0001 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 2350 5850 50  0001 C CNN
-F 3 "~" H 2350 5850 50  0001 C CNN
-	1    2350 5850
-	1    0    0    -1  
-$EndComp
 Text Label 3250 4150 2    50   ~ 0
 PMOD2_A_1
 Text Label 3250 4050 2    50   ~ 0
@@ -1292,17 +1281,6 @@ Connection ~ 10600 1750
 Wire Wire Line
 	10600 1750 11050 1750
 $Comp
-L Jumper:SolderJumper_2_Open JPUP6_2
-U 1 1 5F3163BA
-P 2350 5950
-F 0 "JPUP6_2" H 2350 5850 50  0000 C CNN
-F 1 "SolderJumper_2_Open" H 2350 6064 50  0001 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 2350 5950 50  0001 C CNN
-F 3 "~" H 2350 5950 50  0001 C CNN
-	1    2350 5950
-	1    0    0    -1  
-$EndComp
-$Comp
 L arktika-fpga-rescue:R_US-Device R?
 U 1 1 5FEAB72B
 P 2050 5850
@@ -1333,8 +1311,6 @@ F 3 "~" H 1700 5950 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 Wire Wire Line
-	1850 5950 2200 5950
-Wire Wire Line
 	1550 5850 1900 5850
 $Comp
 L arktika-fpga-rescue:R_US-Device R?
@@ -1351,13 +1327,17 @@ F 3 "~" H 2200 5700 50  0001 C CNN
 	1    2200 5700
 	-1   0    0    -1  
 $EndComp
-Connection ~ 2200 5850
 Text Label 2200 5550 0    50   ~ 0
 D+'
 Text Label 7450 4500 0    50   ~ 0
 D+'
 Wire Wire Line
 	7450 4500 7600 4500
+Wire Wire Line
+	2200 5850 2500 5850
+Connection ~ 2200 5850
+Wire Wire Line
+	1850 5950 2500 5950
 Wire Bus Line
 	6500 2600 6500 3400
 Wire Bus Line

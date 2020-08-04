@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 98 43" style="enable-background:new 0 0 98 43;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;stroke:#000000;stroke-miterlimit:10;}
+	.st1{font-family:'FranklinGothic-DemiItalic';}
+	.st2{font-size:19.3343px;}
+	.st3{fill:none;stroke:#000000;stroke-miterlimit:10;}
+	.st4{fill:#FFFFFF;}
+</style>
+<g>
+	<path class="st0" d="M9.89,38.51h80.48c1.8,0,3.27-1.46,3.27-3.27V7.27c0-1.8-1.46-3.27-3.27-3.27H9.89c-1.8,0-3.27,1.46-3.27,3.27
+		v27.97C6.62,37.05,8.09,38.51,9.89,38.51z"/>
+	<text transform="matrix(1 0 0 1 11.0052 20.1958)" class="st1 st2">ARKTIKA</text>
+	<text transform="matrix(1 0 0 1 43.4032 35.7998)" class="st1 st2">FPGA</text>
+	<line class="st3" x1="6.62" y1="22.5" x2="34.38" y2="22.5"/>
+	<line class="st3" x1="38.88" y1="26.65" x2="38.88" y2="38.51"/>
+	<path class="st3" d="M10.06,22.5h25.38c1.9,0,3.44,1.54,3.44,3.44v9.21c0,1.9-1.54,3.44-3.44,3.44H10.06
+		c-1.9,0-3.44-1.54-3.44-3.44v-9.21C6.62,24.04,8.16,22.5,10.06,22.5z"/>
+	<rect x="3.95" y="23" class="st4" width="24.84" height="16.66"/>
+	<rect x="13.53" y="28.49" class="st4" width="24.84" height="16.66"/>
+</g>
+</svg>
