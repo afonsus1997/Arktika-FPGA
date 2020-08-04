@@ -28,6 +28,7 @@ Using the ICE40HX4K-TQ144
 
 * JUSB1 - USB_B_ Micro – USB female connector.  <br>
   Datasheet:
+  [Aliexpress](https://www.aliexpress.com/item/32795649371.html?spm=a2g0o.productlist.0.0.19e1489cNFbMxJ&algo_pvid=f7bdba71-fd59-4bb1-bdb2-7beeddbb4db5&algo_expid=f7bdba71-fd59-4bb1-bdb2-7beeddbb4db5-23&btsid=0ab6fb8315965643999657277e6ff6&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_) <br>
   
 * DUSB1 – SP0503BAHT  - Array of protecting diodes.  <br>
   Datasheet:

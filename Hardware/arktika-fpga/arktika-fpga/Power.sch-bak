@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 5
+Sheet 2 6
 Title "Arktika FPGA"
 Date "2020-07-30"
 Rev ""
@@ -516,9 +516,9 @@ $EndComp
 Wire Wire Line
 	1200 3100 1200 3200
 Wire Wire Line
-	1550 2800 2100 2800
+	1550 2800 1950 2800
 Wire Wire Line
-	1550 2700 2100 2700
+	1550 2700 1800 2700
 $Comp
 L arktika-fpga-rescue:Fuse-Device F?
 U 1 1 5F40A27C
@@ -564,7 +564,7 @@ AR Path="/5F40A28F" Ref="J?"  Part="1"
 AR Path="/5F3E98C5/5F40A28F" Ref="JUSB1"  Part="1" 
 F 0 "JUSB1" H 1307 3167 50  0000 C CNN
 F 1 "USB_B_Micro" H 1307 3076 50  0000 C CNN
-F 2 "Connectors:USB_Micro-B" H 1400 2650 50  0001 C CNN
+F 2 "Connector_USB:USB_Micro-B_GCT_USB3076-30-A" H 1400 2650 50  0001 C CNN
 F 3 "~" H 1400 2650 50  0001 C CNN
 	1    1250 2700
 	1    0    0    -1  
@@ -590,7 +590,7 @@ AR Path="/5F40A29B" Ref="JP?"  Part="1"
 AR Path="/5F3E98C5/5F40A29B" Ref="JP2"  Part="1" 
 F 0 "JP2" V 6500 4168 50  0000 L CNN
 F 1 "SolderJumper_2_Open" V 6545 4168 50  0001 L CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 6500 4100 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 6500 4100 50  0001 C CNN
 F 3 "~" H 6500 4100 50  0001 C CNN
 	1    6500 4100
 	0    1    1    0   
@@ -1225,4 +1225,87 @@ F 3 "" H 9750 2650 50  0001 C CNN
 	1    9750 2650
 	-1   0    0    -1  
 $EndComp
+$Comp
+L Connector:TestPoint TP3
+U 1 1 5F2CE26B
+P 2800 2050
+F 0 "TP3" H 2858 2168 50  0000 L CNN
+F 1 "TestPoint" H 2858 2077 50  0000 L CNN
+F 2 "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork" H 3000 2050 50  0001 C CNN
+F 3 "~" H 3000 2050 50  0001 C CNN
+	1    2800 2050
+	1    0    0    -1  
+$EndComp
+Connection ~ 2800 2050
+$Comp
+L Connector:TestPoint TP4
+U 1 1 5F2D1406
+P 6250 2150
+F 0 "TP4" H 6308 2268 50  0000 L CNN
+F 1 "TestPoint" H 6308 2177 50  0000 L CNN
+F 2 "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork" H 6450 2150 50  0001 C CNN
+F 3 "~" H 6450 2150 50  0001 C CNN
+	1    6250 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6250 2150 6250 2500
+$Comp
+L Connector:TestPoint TP5
+U 1 1 5F2D8484
+P 6250 3200
+F 0 "TP5" H 6308 3318 50  0000 L CNN
+F 1 "TestPoint" H 6308 3227 50  0000 L CNN
+F 2 "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork" H 6450 3200 50  0001 C CNN
+F 3 "~" H 6450 3200 50  0001 C CNN
+	1    6250 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6250 3200 6250 3500
+$Comp
+L Connector:TestPoint TP6
+U 1 1 5F2DEB1D
+P 6250 4400
+F 0 "TP6" H 6308 4518 50  0000 L CNN
+F 1 "TestPoint" H 6308 4427 50  0000 L CNN
+F 2 "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork" H 6450 4400 50  0001 C CNN
+F 3 "~" H 6450 4400 50  0001 C CNN
+	1    6250 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6250 4400 6250 4600
+$Comp
+L Connector:TestPoint TP1
+U 1 1 5F302072
+P 1800 3050
+F 0 "TP1" H 1742 3076 50  0000 R CNN
+F 1 "TestPoint" H 1742 3167 50  0000 R CNN
+F 2 "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork" H 2000 3050 50  0001 C CNN
+F 3 "~" H 2000 3050 50  0001 C CNN
+	1    1800 3050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:TestPoint TP2
+U 1 1 5F3070DB
+P 1950 3250
+F 0 "TP2" H 1892 3276 50  0000 R CNN
+F 1 "TestPoint" H 1892 3367 50  0000 R CNN
+F 2 "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork" H 2150 3250 50  0001 C CNN
+F 3 "~" H 2150 3250 50  0001 C CNN
+	1    1950 3250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1950 3250 1950 2800
+Connection ~ 1950 2800
+Wire Wire Line
+	1950 2800 2100 2800
+Wire Wire Line
+	1800 2700 1800 3050
+Connection ~ 1800 2700
+Wire Wire Line
+	1800 2700 2100 2700
 $EndSCHEMATC

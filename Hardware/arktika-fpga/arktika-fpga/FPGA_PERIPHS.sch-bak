@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 5
+Sheet 5 6
 Title "Arktika FPGA"
 Date "2020-07-30"
 Rev ""
@@ -202,9 +202,9 @@ F 3 "" H 950 2300 50  0001 C CNN
 	1    950  2300
 	1    0    0    -1  
 $EndComp
-Text Label 1500 1900 0    50   ~ 0
+Text Label 1350 1900 0    50   ~ 0
 D-
-Text Label 1500 1800 0    50   ~ 0
+Text Label 1350 1800 0    50   ~ 0
 D+
 Text Label 1950 1600 0    50   ~ 0
 Vbus
@@ -217,15 +217,13 @@ AR Path="/5F3E98C5/5F751CA2" Ref="JUSB?"  Part="1"
 AR Path="/5F72015E/5F751CA2" Ref="JUSB2"  Part="1" 
 F 0 "JUSB2" H 1057 2267 50  0000 C CNN
 F 1 "USB_B_Micro" H 1057 2176 50  0000 C CNN
-F 2 "Connectors:USB_Micro-B" H 1150 1750 50  0001 C CNN
+F 2 "Connector_USB:USB_Micro-B_GCT_USB3076-30-A" H 1150 1750 50  0001 C CNN
 F 3 "~" H 1150 1750 50  0001 C CNN
 	1    1000 1800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1500 1800 1300 1800
-Wire Wire Line
-	1300 1900 1500 1900
+	1300 1900 1450 1900
 Wire Wire Line
 	2750 950  3150 950 
 Connection ~ 3750 950 
@@ -1193,6 +1191,44 @@ Wire Wire Line
 Wire Wire Line
 	7050 4850 7050 4900
 Connection ~ 7550 4850
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5F32DF20
+P 1450 2250
+AR Path="/5F3E98C5/5F32DF20" Ref="TP?"  Part="1" 
+AR Path="/5F72015E/5F32DF20" Ref="TP7"  Part="1" 
+F 0 "TP7" H 1392 2276 50  0000 R CNN
+F 1 "TestPoint" H 1392 2367 50  0000 R CNN
+F 2 "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork" H 1650 2250 50  0001 C CNN
+F 3 "~" H 1650 2250 50  0001 C CNN
+	1    1450 2250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5F33AC74
+P 1600 2450
+AR Path="/5F3E98C5/5F33AC74" Ref="TP?"  Part="1" 
+AR Path="/5F72015E/5F33AC74" Ref="TP8"  Part="1" 
+F 0 "TP8" H 1542 2476 50  0000 R CNN
+F 1 "TestPoint" H 1542 2567 50  0000 R CNN
+F 2 "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork" H 1800 2450 50  0001 C CNN
+F 3 "~" H 1800 2450 50  0001 C CNN
+	1    1600 2450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1450 2250 1450 1900
+Connection ~ 1450 1900
+Wire Wire Line
+	1600 1800 1600 2450
+Wire Wire Line
+	1300 1800 1600 1800
+Wire Wire Line
+	1600 1800 1700 1800
+Connection ~ 1600 1800
+Wire Wire Line
+	1450 1900 1700 1900
 Wire Bus Line
 	650  5150 2000 5150
 Wire Bus Line

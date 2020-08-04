@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 5
+Sheet 1 6
 Title "Arktika FPGA"
 Date "2020-07-30"
 Rev ""
@@ -204,4 +204,10 @@ Wire Bus Line
 	7550 3200 7950 3200
 Wire Bus Line
 	7950 3300 7550 3300
+$Sheet
+S 9600 1300 900  350 
+U 5F28BC74
+F0 "Misc" 50
+F1 "Misc.sch" 50
+$EndSheet
 $EndSCHEMATC
