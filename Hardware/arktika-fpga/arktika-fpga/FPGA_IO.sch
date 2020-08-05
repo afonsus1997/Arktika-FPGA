@@ -417,7 +417,7 @@ U 1 1 5F23DFDD
 P 2500 6550
 F 0 "XUP1" H 2200 6800 50  0000 L CNN
 F 1 "ASCO" H 2650 6800 50  0000 L CNN
-F 2 "Arktica-Specific:Crystal_SMD_7050-4pin_7.0x5.0mm_MOD_3225" H 2600 6200 50  0001 C CNN
+F 2 "Crystals:Crystal_SMD_3225-4pin_3.2x2.5mm_HandSoldering" H 2600 6200 50  0001 C CNN
 F 3 "https://abracon.com/Oscillators/ASCO.pdf" H 2275 6675 50  0001 C CNN
 	1    2500 6550
 	1    0    0    -1  
