@@ -1,12 +1,12 @@
-%TF.GenerationSoftware,KiCad,Pcbnew,5.1.6-c6e7f7d~87~ubuntu18.04.1*%
-%TF.CreationDate,2020-08-06T14:53:50+01:00*%
-%TF.ProjectId,arktika-fpga,61726b74-696b-4612-9d66-7067612e6b69,rev?*%
-%TF.SameCoordinates,Original*%
-%TF.FileFunction,Soldermask,Top*%
-%TF.FilePolarity,Negative*%
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,5.1.6-c6e7f7d~87~ubuntu18.04.1*
+G04 #@! TF.CreationDate,2020-08-07T10:09:02+01:00*
+G04 #@! TF.ProjectId,arktika-fpga,61726b74-696b-4612-9d66-7067612e6b69,rev?*
+G04 #@! TF.SameCoordinates,Original*
+G04 #@! TF.FileFunction,Soldermask,Top*
+G04 #@! TF.FilePolarity,Negative*
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 5.1.6-c6e7f7d~87~ubuntu18.04.1) date 2020-08-06 14:53:50*
+G04 Created by KiCad (PCBNEW 5.1.6-c6e7f7d~87~ubuntu18.04.1) date 2020-08-07 10:09:02*
 %MOMM*%
 %LPD*%
 G01*
