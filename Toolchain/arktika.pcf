@@ -1,0 +1,117 @@
+#Board Dedicated Oscillator
+set_io --warn-no-port CLK 49
+
+#=======Board LEDs========
+set_io --warn-no-port LED0 2
+set_io --warn-no-port LED1 1
+set_io --warn-no-port LED2 142
+set_io --warn-no-port LED3 141
+set_io --warn-no-port LED4 139
+set_io --warn-no-port LED5 138
+set_io --warn-no-port LED6 137
+set_io --warn-no-port LED7 136
+
+set_io --warn-no-port led[0] 2
+set_io --warn-no-port led[1] 1
+set_io --warn-no-port led[2] 142
+set_io --warn-no-port led[3] 141
+set_io --warn-no-port led[4] 139
+set_io --warn-no-port led[5] 138
+set_io --warn-no-port led[6] 137
+set_io --warn-no-port led[7] 136
+
+
+#========Board Switches========
+set_io --warn-no-port SW0 12
+set_io --warn-no-port SW1 11
+set_io --warn-no-port SW2 10
+set_io --warn-no-port SW3 9
+set_io --warn-no-port SW4 8
+set_io --warn-no-port SW5 7
+set_io --warn-no-port SW6 4
+set_io --warn-no-port SW7 3
+
+set_io --warn-no-port sw[0] 12
+set_io --warn-no-port sw[1] 11
+set_io --warn-no-port sw[2] 10
+set_io --warn-no-port sw[3] 9
+set_io --warn-no-port sw[4] 8
+set_io --warn-no-port sw[5] 7
+set_io --warn-no-port sw[6] 4
+set_io --warn-no-port sw[7] 3
+
+
+#========Board Push Buttons========
+set_io --warn-no-port PSH0 31
+set_io --warn-no-port PSH1 32
+set_io --warn-no-port PSH2 33
+set_io --warn-no-port PSH3 34
+
+set_io --warn-no-port psh[0] 31
+set_io --warn-no-port psh[1] 32
+set_io --warn-no-port psh[2] 33
+set_io --warn-no-port psh[3] 34
+
+#========Board EXT Header========
+set_io --warn-no-port EXT1 110
+set_io --warn-no-port EXT2 112
+set_io --warn-no-port EXT3 113
+set_io --warn-no-port EXT4 114
+set_io --warn-no-port EXT5 125
+set_io --warn-no-port EXT6 128
+set_io --warn-no-port EXT7 129
+set_io --warn-no-port EXT8 48
+set_io --warn-no-port EXT9 47
+set_io --warn-no-port EXT10 45
+set_io --warn-no-port EXT11 44
+set_io --warn-no-port EXT12 43
+set_io --warn-no-port EXT13 42
+set_io --warn-no-port EXT14 41
+set_io --warn-no-port EXT15 39
+set_io --warn-no-port EXT16 38
+set_io --warn-no-port EXT17 37
+set_io --warn-no-port EXT18 130
+
+ 
+#========Board Arduino Headers========
+set_io --warn-no-port D0 29
+set_io --warn-no-port D1 28
+set_io --warn-no-port D2 26
+set_io --warn-no-port D3 25
+set_io --warn-no-port D4 24
+set_io --warn-no-port D5 23
+set_io --warn-no-port D6 22
+set_io --warn-no-port D7 21
+set_io --warn-no-port D8 20
+set_io --warn-no-port D9 19
+set_io --warn-no-port D10 18
+set_io --warn-no-port D11 17
+set_io --warn-no-port D12 16
+set_io --warn-no-port D13 15
+
+set_io --warn-no-port ARDUINO_RESET 85 
+set_io --warn-no-port EXTRA1 87
+set_io --warn-no-port EXTRA2 74
+set_io --warn-no-port EXTRA3 75
+
+
+#========Board Buzzer Header======== 
+set_io --warn-no-port BUZZER 124 
+
+
+#========Board ADC Pins========
+set_io --warn-no-port ADC_CLK 61
+set_io --warn-no-port ADC_MISO 62
+set_io --warn-no-port ADC_MOSI 63
+set_io --warn-no-port ADC_CS 64
+
+#========Board USB Pins========
+set_io --warn-no-port USBP 143
+set_io --warn-no-port USBP2 52
+set_io --warn-no-port USBN 144
+set_io --warn-no-port UART_TX 135
+set_io --warn-no-port UART_RX 134
+
+
+#========Board PMOD Headers========
+#TODO
