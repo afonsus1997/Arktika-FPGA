@@ -1,12 +1,49 @@
-# Arktika-FPGA
+![Arktikalogo](https://i.imgur.com/5k2WZ2Z.png)
 
-This will be an attempt to build an open source FPGA dev board based on the ICE40 family (ICE40HX4K-TQ144).
+### Project description
 
-This project is sponsored by pcbway.
+The Arktika FPGA is an open-source FPGA development board based on the ICE40 family (ICE40HX4K-TQ144).
 
 
 
-### Development help links
+### Main Features:
+
+* 78 total user digital IO pins
+  * 18 arduino uno compatible headers
+  * 6 PMOD connectors (40 total pins)
+    * 2x10pin
+    * 2x6pin
+    * 2x4pin
+  * 18pin additional "EXT" connector
+  * Buzzer connector
+* 4 analog input channels
+  * MCP3204 ADC
+* 8 on-board LEDs
+* 8 on-board DIP switches
+* 4 on-board push buttons
+* USB to UART bridge
+* 50Mhz active crystal oscillator
+* FT232hl USB bridge
+  * Used for FPGA or flash programming
+  * Breakout header for external use
+
+
+
+### Development Log
+
+* 27/09/20 (up to)
+  * Finishing PCB design
+  * Tested toolchain with some examples
+
+
+
+### Screenshots and pictures
+
+![RenderFront](https://i.imgur.com/KX3n163.png)
+
+![RanderBack](https://i.imgur.com/AmG7YX3.png)
+
+### Useful development links
 
 [ICE40 Family datasheet](https://static6.arrow.com/aropdfconversion/5a93cb52911751cf0d102889c061f1e82d924150/3ice40lphxfamilydatasheet.pdf)
 
