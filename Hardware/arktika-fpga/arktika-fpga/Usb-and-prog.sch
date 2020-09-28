@@ -727,8 +727,6 @@ Wire Wire Line
 	8700 1950 9050 1950
 Wire Wire Line
 	9050 1850 8700 1850
-Text Label 8150 4550 0    50   ~ 0
-ICE_SS
 $Comp
 L arktika-fpga-rescue:GND-power #PWR?
 U 1 1 5F53F910
@@ -1518,4 +1516,6 @@ Wire Wire Line
 	7850 4950 7250 4950
 Wire Wire Line
 	6150 4950 6750 4950
+Text Label 8150 4550 0    50   ~ 0
+ICE_CS
 $EndSCHEMATC
