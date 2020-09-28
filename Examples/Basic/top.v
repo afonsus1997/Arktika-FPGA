@@ -1,7 +1,8 @@
 module top (
-    input SW0,
-    input SW1,
-    output LED0
+    input CLK,
+    output D13
     );
-  assign LED0 = SW0 & SW1;
+  
+  assign D13 = 1;
+
 endmodule

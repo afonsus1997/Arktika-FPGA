@@ -1,0 +1,27 @@
+# Project setup
+PROJ        = #top module name here
+BUILD       = #build folder name
+DEVICE      = hx8k #device name, for the arktika fpga is hx8k
+PACKAGE     = tq144:4k #device name, for the arktika fpga is tq144:4k
+PCF_FILE    = ../../Toolchain/arktika.pcf #path for the pcf file, located in this folder
+
+# Files
+FILES = #all of the source files
+
+.PHONY: all clean burn
+
+all:
+	# if build folder doesn't exist, create it
+	mkdir -p $(BUILD)
+	# synthesize using Yosys
+	yosys -p "synth_ice40 -top $(PROJ) -json $(BUILD)/$(PROJ).json" $(FILES)
+	# Place and route using nextpnr
+	nextpnr-ice40 --$(DEVICE) --package $(PACKAGE) --pcf $(PCF_FILE) --json $(BUILD)/$(PROJ).json --asc $(BUILD)/$(PROJ).asc
+	# Convert to bitstream using IcePack
+	icepack $(BUILD)/$(PROJ).asc $(BUILD)/$(PROJ).bin
+
+flash:
+	iceprog $(BUILD)/$(PROJ).bin
+
+clean:
+	rm build/*
