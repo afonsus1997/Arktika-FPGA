@@ -27,7 +27,11 @@ The Arktika FPGA is an open-source FPGA development board based on the ICE40 fam
   * Used for FPGA or flash programming
   * Breakout header for external use
 
-
+### Known bugs
+* V1.0
+  * Flash CS line not connected (typo on net name)
+  * Arduino connector mirrores (inteded for a shield and not the arduino footprint)
+  * Wrong usb to uart bridge footprint (the footprint is correct, but it is not for the intended version of the IC)
 
 ### Development Log
 
